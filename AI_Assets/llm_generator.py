@@ -7,10 +7,12 @@ from typing import Optional
 from llama_cpp import Llama
 
 # Pick a coding model from the user's collection
-DEFAULT_MODEL = os.path.expanduser("~/Downloads/models/coding/qwen2.5-coder-3b-instruct-q4_k_m.gguf")
+# Default to smallest/fastest for responsiveness
+DEFAULT_MODEL = os.path.expanduser("~/Downloads/models/coding/qwen2.5-coder-1.5b-instruct-q4_k_m.gguf")
 # Fallbacks in order of preference
 FALLBACK_MODELS = [
-    os.path.expanduser("~/Downloads/models/coding/qwen2.5-coder-1.5b-instruct-q4_k_m.gguf"),
+    os.path.expanduser("~/Downloads/models/coding/qwen2.5-coder-0.5b-instruct-q4_k_m.gguf"),
+    os.path.expanduser("~/Downloads/models/coding/qwen2.5-coder-3b-instruct-q4_k_m.gguf"),
     os.path.expanduser("~/Downloads/models/coding/qwen2.5-coder-7b-instruct-q4_k_m.gguf"),
     os.path.expanduser("~/Downloads/models/hermes/Hermes-3-Llama-3.1-8B.Q4_K_M.gguf"),
     os.path.expanduser("~/Downloads/models/core/Phi-3.5-mini-instruct-Q4_K_M.gguf"),

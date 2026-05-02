@@ -69,3 +69,4 @@ MyWorld/patches/
 *.key
 *.pem
 auth.json
+node_modules/

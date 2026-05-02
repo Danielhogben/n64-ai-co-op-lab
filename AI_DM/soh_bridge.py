@@ -47,8 +47,8 @@ def send_command(cmd: str, delay: float = 0.05) -> bool:
     time.sleep(delay)
 
     # Submit
-    keyboard.press(Key.return)
-    keyboard.release(Key.return)
+    keyboard.press(Key.enter)
+    keyboard.release(Key.enter)
     time.sleep(delay)
 
     # Close console
