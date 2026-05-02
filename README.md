@@ -196,4 +196,12 @@ Download them from [hylianmodding.com/mods](https://hylianmodding.com/mods) and 
 
 ---
 
+## 🔗 Links
+
+- **GitHub Repo:** https://github.com/Danielhogben/n64-ai-co-op-lab
+- **Hylian Modding:** https://hylianmodding.com
+- **Ship of Harkinian:** https://www.shipofharkinian.com
+
+---
+
 *Organized & augmented on 2026-05-02*
