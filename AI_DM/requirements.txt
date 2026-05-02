@@ -1,0 +1,7 @@
+pyttsx3
+mss
+opencv-python
+pillow
+pynput
+numpy
+requests

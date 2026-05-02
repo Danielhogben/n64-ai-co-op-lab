@@ -1,0 +1,71 @@
+# =============================================================================
+# COPYRIGHTED / PROPRIETARY CONTENT — NEVER COMMIT
+# =============================================================================
+
+# Nintendo ROMs and disc images
+*.z64
+*.n64
+*.v64
+*.nds
+*.iso
+*.gcm
+*.otr
+*.o2r
+
+# ROM hacks and patches (copyrighted derivative works)
+*.bps
+*.ips
+*.xdelta
+*.ppf
+
+# Extracted game assets
+*.zobj
+*.zscene
+*.zmap
+*.zobj
+*.bin
+
+# ROM archives
+Base_ROMs/
+ROM_Hacks/
+Archives/
+
+# Downloaded models (copyrighted)
+models/
+*.gguf
+
+# Blender backup files with embedded copyrighted assets
+*.blend1
+*.blend2
+*.blend@
+
+# =============================================================================
+# BUILD / ENVIRONMENT
+# =============================================================================
+
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# =============================================================================
+# OUTPUTS / GENERATED
+# =============================================================================
+
+ScraperBot/outputs/
+MyWorld/builds/
+MyWorld/patches/
+*.json
+*.log
+
+# =============================================================================
+# SECRETS
+# =============================================================================
+
+.env
+*.key
+*.pem
+auth.json
