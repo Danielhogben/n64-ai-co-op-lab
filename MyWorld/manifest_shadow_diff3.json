@@ -1,0 +1,164 @@
+{
+  "theme": "shadow",
+  "difficulty": 3,
+  "palette": {
+    "colors": [
+      "#2E8B57",
+      "#8B4513",
+      "#FFD700",
+      "#4B0082"
+    ],
+    "mood": "epic, magical"
+  },
+  "seed": 674089,
+  "regions": [
+    {
+      "id": "region_0",
+      "name": "Shadow Pass",
+      "type": "village",
+      "connections": [
+        "region_1"
+      ],
+      "enemies": [],
+      "loot_tier": 1,
+      "level_file": "region_0_shadow.json"
+    },
+    {
+      "id": "region_1",
+      "name": "Shadow Vault",
+      "type": "swamp",
+      "connections": [
+        "region_2"
+      ],
+      "enemies": [],
+      "loot_tier": 2,
+      "level_file": "region_1_shadow.json"
+    },
+    {
+      "id": "region_2",
+      "name": "Shadow Hollow",
+      "type": "dungeon",
+      "connections": [
+        "region_3"
+      ],
+      "enemies": [],
+      "loot_tier": 3,
+      "level_file": "region_2_shadow.json"
+    },
+    {
+      "id": "region_3",
+      "name": "Shadow Wilds",
+      "type": "ruins",
+      "connections": [
+        "region_4"
+      ],
+      "enemies": [],
+      "loot_tier": 4,
+      "level_file": "region_3_shadow.json"
+    },
+    {
+      "id": "region_4",
+      "name": "Shadow Spire",
+      "type": "temple",
+      "connections": [
+        "region_5"
+      ],
+      "enemies": [],
+      "loot_tier": 5,
+      "level_file": "region_4_shadow.json"
+    },
+    {
+      "id": "region_5",
+      "name": "Shadow Gate",
+      "type": "forest",
+      "connections": [],
+      "enemies": [],
+      "loot_tier": 6,
+      "level_file": "region_5_shadow.json"
+    }
+  ],
+  "factions": [
+    {
+      "name": "The Collective of Flame",
+      "alignment": "friendly",
+      "resources": [
+        "information",
+        "artifacts"
+      ]
+    },
+    {
+      "name": "The Collective of Storm",
+      "alignment": "neutral",
+      "resources": [
+        "information",
+        "tech"
+      ]
+    },
+    {
+      "name": "The Cult of Shadow",
+      "alignment": "neutral",
+      "resources": [
+        "tech",
+        "gold"
+      ]
+    }
+  ],
+  "key_items": [],
+  "bosses": [
+    {
+      "name": "Harbinger Kael",
+      "region": "region_0",
+      "hp": 125,
+      "weakness": "ice"
+    },
+    {
+      "name": "Tyrant Vexis",
+      "region": "region_1",
+      "hp": 125,
+      "weakness": "shadow"
+    }
+  ],
+  "story": "In the shadow realms, darkness spreads from the domain of Harbinger Kael. The The Collective of Flame seeks aid, while the The Collective of Storm plots in shadow. Only through the 6 forbidden regions can the ancient seal be restored.",
+  "quests": [
+    {
+      "id": "quest_0",
+      "type": "explore",
+      "region": "region_5",
+      "giver": "The Cult of Shadow",
+      "reward": "heart_piece",
+      "description": "Explore in Shadow Gate"
+    },
+    {
+      "id": "quest_1",
+      "type": "explore",
+      "region": "region_0",
+      "giver": "The Cult of Shadow",
+      "reward": "weapon",
+      "description": "Explore in Shadow Pass"
+    },
+    {
+      "id": "quest_2",
+      "type": "escort",
+      "region": "region_4",
+      "giver": "The Collective of Flame",
+      "reward": "heart_piece",
+      "description": "Escort in Shadow Spire"
+    },
+    {
+      "id": "quest_3",
+      "type": "puzzle",
+      "region": "region_0",
+      "giver": "The Collective of Flame",
+      "reward": "magic",
+      "description": "Puzzle in Shadow Pass"
+    },
+    {
+      "id": "quest_4",
+      "type": "escort",
+      "region": "region_5",
+      "giver": "The Cult of Shadow",
+      "reward": "key",
+      "description": "Escort in Shadow Gate"
+    }
+  ]
+}

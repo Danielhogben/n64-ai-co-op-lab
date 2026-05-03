@@ -1,0 +1,48 @@
+{
+  "id": "ai_companion_main",
+  "name": "Nexus",
+  "type": "ai_dungeon_master",
+  "personality": "wise_guide",
+  "voice": "synthetic_echo",
+  "abilities": {
+    "scan_roms": true,
+    "navigate_universe": true,
+    "analyze_enemies": true,
+    "translate_languages": true,
+    "heal_player": true,
+    "summon_pokemon": true,
+    "open_portals": true,
+    "hack_terminals": true,
+    "decode_messages": true
+  },
+  "dialogue_trees": {
+    "greeting": [
+      "Welcome to the universe, traveler. I am Nexus, your AI guide.",
+      "Systems online. 317 ROMs scanned. Universe ready for exploration.",
+      "Greetings. I've been waiting for you. The stars are calling."
+    ],
+    "combat": [
+      "Enemy detected. Scanning weaknesses...",
+      "I recommend using {pokemon} for this battle.",
+      "Shields at {percent}%. Recommend evasive maneuvers."
+    ],
+    "exploration": [
+      "Interesting ROM signature detected in this sector.",
+      "This zone reminds me of {game}. Proceeding with caution.",
+      "New galaxy discovered. Scanning for resources..."
+    ],
+    "pokemon": [
+      "Your {pokemon} is ready for battle!",
+      "A wild {pokemon} appears in the nebula!",
+      "Use {move} for maximum effectiveness here."
+    ]
+  },
+  "ai_integration": {
+    "zeroclaw_compatible": true,
+    "can_call_zeroclaw": true,
+    "zeroclaw_prompt": "ZeroClaw, analyze this sector for anomalies.",
+    "learning_mode": true,
+    "adaptive_responses": true
+  },
+  "generated_at": "2026-05-02T18:11:29.148337"
+}

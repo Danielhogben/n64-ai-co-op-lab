@@ -1,0 +1,105 @@
+{
+  "id": "galaxy_5",
+  "name": "RPG_Galaxy",
+  "type": "rpg",
+  "theme": "ancient_sector",
+  "source_roms": [
+    {
+      "id": "rom_9",
+      "name": "Super Mario Maker for Nintendo 3DS (USA) (En,Fr,Es) (Rev 2).cia",
+      "path": "/home/donn/Downloads/3DS/Super Mario Maker for Nintendo 3DS (USA) (En,Fr,Es) (Rev 2).cia",
+      "category": "mario",
+      "region": "USA",
+      "size_mb": 365.08
+    },
+    {
+      "id": "rom_11",
+      "name": "Mario & Sonic at the London 2012 Olympic Games (USA) (En,Fr,Es).cia",
+      "path": "/home/donn/Downloads/3DS/Mario & Sonic at the London 2012 Olympic Games (USA) (En,Fr,Es).cia",
+      "category": "mario",
+      "region": "USA",
+      "size_mb": 376.25
+    },
+    {
+      "id": "rom_12",
+      "name": "Mario Party - The Top 100 (USA).cia",
+      "path": "/home/donn/Downloads/3DS/Mario Party - The Top 100 (USA).cia",
+      "category": "mario",
+      "region": "USA",
+      "size_mb": 260.47
+    },
+    {
+      "id": "rom_14",
+      "name": "Mario & Luigi - Dream Team (USA) (En,Fr,Es).cia",
+      "path": "/home/donn/Downloads/3DS/Mario & Luigi - Dream Team (USA) (En,Fr,Es).cia",
+      "category": "mario",
+      "region": "USA",
+      "size_mb": 824.03
+    },
+    {
+      "id": "rom_16",
+      "name": "Mario Tennis Open (USA) (En,Fr,Es) (Rev 1).cia",
+      "path": "/home/donn/Downloads/3DS/Mario Tennis Open (USA) (En,Fr,Es) (Rev 1).cia",
+      "category": "mario",
+      "region": "USA",
+      "size_mb": 251.27
+    },
+    {
+      "id": "rom_22",
+      "name": "Mario Party - Island Tour (USA) (En,Fr,Es).cia",
+      "path": "/home/donn/Downloads/3DS/Mario Party - Island Tour (USA) (En,Fr,Es).cia",
+      "category": "mario",
+      "region": "USA",
+      "size_mb": 233.88
+    },
+    {
+      "id": "rom_23",
+      "name": "Mario Sports Superstars (USA).cia",
+      "path": "/home/donn/Downloads/3DS/Mario Sports Superstars (USA).cia",
+      "category": "mario",
+      "region": "USA",
+      "size_mb": 823.2
+    },
+    {
+      "id": "rom_25",
+      "name": "Mario Golf - World Tour (USA) (En,Fr,Es).cia",
+      "path": "/home/donn/Downloads/3DS/Mario Golf - World Tour (USA) (En,Fr,Es).cia",
+      "category": "mario",
+      "region": "USA",
+      "size_mb": 525.37
+    },
+    {
+      "id": "rom_28",
+      "name": "Super Mario 3D Land (USA) (En,Fr,Es) (Rev 1).cia",
+      "path": "/home/donn/Downloads/3DS/Super Mario 3D Land (USA) (En,Fr,Es) (Rev 1).cia",
+      "category": "mario",
+      "region": "USA",
+      "size_mb": 289.41
+    },
+    {
+      "id": "rom_29",
+      "name": "Mario & Sonic at the Rio 2016 Olympic Games (USA) (En,Fr,Es).cia",
+      "path": "/home/donn/Downloads/3DS/Mario & Sonic at the Rio 2016 Olympic Games (USA) (En,Fr,Es).cia",
+      "category": "mario",
+      "region": "USA",
+      "size_mb": 682.19
+    }
+  ],
+  "total_zones": 5,
+  "ai_controlled": true,
+  "pokemon_companions": false,
+  "danger_level": "extreme",
+  "boss_present": false,
+  "ai_companion": {
+    "name": "AI_RPG_Galaxy_Guide",
+    "personality": "wise",
+    "abilities": [
+      "scan",
+      "navigate",
+      "translate",
+      "heal",
+      "analyze"
+    ],
+    "voice": "male"
+  }
+}

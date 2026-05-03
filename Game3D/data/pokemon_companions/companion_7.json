@@ -1,0 +1,16 @@
+{
+  "id": "companion_7",
+  "name": "Pokemon Y (USA) (En,Ja,Fr,De,Es,It,Ko)",
+  "type": "pokemon",
+  "space_ability": "scan",
+  "element": "dragon",
+  "loyalty": 61,
+  "ai_controlled": true,
+  "can_ride": true,
+  "evolution_level": 2,
+  "moves": [
+    "Flamethrower",
+    "Hyper Beam",
+    "Surf"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "game_state": {
+    "player_health": 100,
+    "score": 2154,
+    "level": 1,
+    "enemies_defeated": 19,
+    "current_area": "Zora Nebula",
+    "difficulty": 1,
+    "random_events_active": true,
+    "ai_controlled": true
+  },
+  "last_update": "2026-05-02T15:25:15.470990",
+  "ai_controller": "big-pickle",
+  "dm_active": true
+}

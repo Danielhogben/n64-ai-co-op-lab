@@ -1,0 +1,5306 @@
+[
+  {
+    "id": "galaxy_0_zone_0",
+    "name": "Zelda_Galaxy Zone 0",
+    "galaxy": "Zelda_Galaxy",
+    "type": "adventure",
+    "theme": "mystical_space",
+    "source_roms": [
+      {
+        "id": "rom_7",
+        "name": "MQ DEBUG COMPILED_zelda_ocarina_mq_dbg_ZRET.z64",
+        "path": "/home/donn/Downloads/OOT/MQ DEBUG COMPILED_zelda_ocarina_mq_dbg_ZRET.z64",
+        "category": "zelda",
+        "region": "USA",
+        "size_mb": 54.0
+      },
+      {
+        "id": "rom_8",
+        "name": "USE WITH SoH_Zelda OOT Debug ROM [NOT MQ].z64",
+        "path": "/home/donn/Downloads/OOT/USE WITH SoH_Zelda OOT Debug ROM [NOT MQ].z64",
+        "category": "zelda",
+        "region": "USA",
+        "size_mb": 64.0
+      },
+      {
+        "id": "rom_54",
+        "name": "Legend of Zelda, The - Ocarina of Time (USA) (Rev 2).z64",
+        "path": "/home/donn/N64/roms/Legend of Zelda, The - Ocarina of Time (USA) (Rev 2).z64",
+        "category": "zelda",
+        "region": "USA",
+        "size_mb": 32.0
+      },
+      {
+        "id": "rom_55",
+        "name": "Legend of Zelda, The - Majora's Mask (USA).z64",
+        "path": "/home/donn/N64/roms/Legend of Zelda, The - Majora's Mask (USA).z64",
+        "category": "zelda",
+        "region": "USA",
+        "size_mb": 32.0
+      },
+      {
+        "id": "rom_56",
+        "name": "Legend of Zelda, The - Ocarina of Time (USA) (Rev 2).z64",
+        "path": "/home/donn/N64/emulators/Legend of Zelda, The - Ocarina of Time (USA) (Rev 2).z64",
+        "category": "zelda",
+        "region": "USA",
+        "size_mb": 32.0
+      },
+      {
+        "id": "rom_57",
+        "name": "OoT.z64",
+        "path": "/home/donn/HylianModding/Base_ROMs/OoT.z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 32.0
+      },
+      {
+        "id": "rom_58",
+        "name": "OoT.z64",
+        "path": "/home/donn/HylianModding/ShipOfHarkinian/OoT.z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 32.0
+      },
+      {
+        "id": "rom_59",
+        "name": "OoT.z64",
+        "path": "/home/donn/HylianModding/Base_ROMs/OoT.z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 32.0
+      },
+      {
+        "id": "rom_60",
+        "name": "OoT.z64",
+        "path": "/home/donn/HylianModding/ShipOfHarkinian/OoT.z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 32.0
+      },
+      {
+        "id": "rom_61",
+        "name": "Virtual Pool 64 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Virtual Pool 64 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      }
+    ],
+    "ai_controlled": true,
+    "danger_level": "low",
+    "boss_present": false
+  },
+  {
+    "id": "galaxy_0_zone_1",
+    "name": "Zelda_Galaxy Zone 1",
+    "galaxy": "Zelda_Galaxy",
+    "type": "adventure",
+    "theme": "mystical_space",
+    "source_roms": [
+      {
+        "id": "rom_7",
+        "name": "MQ DEBUG COMPILED_zelda_ocarina_mq_dbg_ZRET.z64",
+        "path": "/home/donn/Downloads/OOT/MQ DEBUG COMPILED_zelda_ocarina_mq_dbg_ZRET.z64",
+        "category": "zelda",
+        "region": "USA",
+        "size_mb": 54.0
+      },
+      {
+        "id": "rom_8",
+        "name": "USE WITH SoH_Zelda OOT Debug ROM [NOT MQ].z64",
+        "path": "/home/donn/Downloads/OOT/USE WITH SoH_Zelda OOT Debug ROM [NOT MQ].z64",
+        "category": "zelda",
+        "region": "USA",
+        "size_mb": 64.0
+      },
+      {
+        "id": "rom_54",
+        "name": "Legend of Zelda, The - Ocarina of Time (USA) (Rev 2).z64",
+        "path": "/home/donn/N64/roms/Legend of Zelda, The - Ocarina of Time (USA) (Rev 2).z64",
+        "category": "zelda",
+        "region": "USA",
+        "size_mb": 32.0
+      },
+      {
+        "id": "rom_55",
+        "name": "Legend of Zelda, The - Majora's Mask (USA).z64",
+        "path": "/home/donn/N64/roms/Legend of Zelda, The - Majora's Mask (USA).z64",
+        "category": "zelda",
+        "region": "USA",
+        "size_mb": 32.0
+      },
+      {
+        "id": "rom_56",
+        "name": "Legend of Zelda, The - Ocarina of Time (USA) (Rev 2).z64",
+        "path": "/home/donn/N64/emulators/Legend of Zelda, The - Ocarina of Time (USA) (Rev 2).z64",
+        "category": "zelda",
+        "region": "USA",
+        "size_mb": 32.0
+      },
+      {
+        "id": "rom_57",
+        "name": "OoT.z64",
+        "path": "/home/donn/HylianModding/Base_ROMs/OoT.z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 32.0
+      },
+      {
+        "id": "rom_58",
+        "name": "OoT.z64",
+        "path": "/home/donn/HylianModding/ShipOfHarkinian/OoT.z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 32.0
+      },
+      {
+        "id": "rom_59",
+        "name": "OoT.z64",
+        "path": "/home/donn/HylianModding/Base_ROMs/OoT.z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 32.0
+      },
+      {
+        "id": "rom_60",
+        "name": "OoT.z64",
+        "path": "/home/donn/HylianModding/ShipOfHarkinian/OoT.z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 32.0
+      },
+      {
+        "id": "rom_61",
+        "name": "Virtual Pool 64 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Virtual Pool 64 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      }
+    ],
+    "ai_controlled": true,
+    "danger_level": "low",
+    "boss_present": false
+  },
+  {
+    "id": "galaxy_0_zone_2",
+    "name": "Zelda_Galaxy Zone 2",
+    "galaxy": "Zelda_Galaxy",
+    "type": "adventure",
+    "theme": "mystical_space",
+    "source_roms": [
+      {
+        "id": "rom_7",
+        "name": "MQ DEBUG COMPILED_zelda_ocarina_mq_dbg_ZRET.z64",
+        "path": "/home/donn/Downloads/OOT/MQ DEBUG COMPILED_zelda_ocarina_mq_dbg_ZRET.z64",
+        "category": "zelda",
+        "region": "USA",
+        "size_mb": 54.0
+      },
+      {
+        "id": "rom_8",
+        "name": "USE WITH SoH_Zelda OOT Debug ROM [NOT MQ].z64",
+        "path": "/home/donn/Downloads/OOT/USE WITH SoH_Zelda OOT Debug ROM [NOT MQ].z64",
+        "category": "zelda",
+        "region": "USA",
+        "size_mb": 64.0
+      },
+      {
+        "id": "rom_54",
+        "name": "Legend of Zelda, The - Ocarina of Time (USA) (Rev 2).z64",
+        "path": "/home/donn/N64/roms/Legend of Zelda, The - Ocarina of Time (USA) (Rev 2).z64",
+        "category": "zelda",
+        "region": "USA",
+        "size_mb": 32.0
+      },
+      {
+        "id": "rom_55",
+        "name": "Legend of Zelda, The - Majora's Mask (USA).z64",
+        "path": "/home/donn/N64/roms/Legend of Zelda, The - Majora's Mask (USA).z64",
+        "category": "zelda",
+        "region": "USA",
+        "size_mb": 32.0
+      },
+      {
+        "id": "rom_56",
+        "name": "Legend of Zelda, The - Ocarina of Time (USA) (Rev 2).z64",
+        "path": "/home/donn/N64/emulators/Legend of Zelda, The - Ocarina of Time (USA) (Rev 2).z64",
+        "category": "zelda",
+        "region": "USA",
+        "size_mb": 32.0
+      },
+      {
+        "id": "rom_57",
+        "name": "OoT.z64",
+        "path": "/home/donn/HylianModding/Base_ROMs/OoT.z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 32.0
+      },
+      {
+        "id": "rom_58",
+        "name": "OoT.z64",
+        "path": "/home/donn/HylianModding/ShipOfHarkinian/OoT.z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 32.0
+      },
+      {
+        "id": "rom_59",
+        "name": "OoT.z64",
+        "path": "/home/donn/HylianModding/Base_ROMs/OoT.z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 32.0
+      },
+      {
+        "id": "rom_60",
+        "name": "OoT.z64",
+        "path": "/home/donn/HylianModding/ShipOfHarkinian/OoT.z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 32.0
+      },
+      {
+        "id": "rom_61",
+        "name": "Virtual Pool 64 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Virtual Pool 64 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      }
+    ],
+    "ai_controlled": true,
+    "danger_level": "low",
+    "boss_present": false
+  },
+  {
+    "id": "galaxy_0_zone_3",
+    "name": "Zelda_Galaxy Zone 3",
+    "galaxy": "Zelda_Galaxy",
+    "type": "adventure",
+    "theme": "mystical_space",
+    "source_roms": [
+      {
+        "id": "rom_7",
+        "name": "MQ DEBUG COMPILED_zelda_ocarina_mq_dbg_ZRET.z64",
+        "path": "/home/donn/Downloads/OOT/MQ DEBUG COMPILED_zelda_ocarina_mq_dbg_ZRET.z64",
+        "category": "zelda",
+        "region": "USA",
+        "size_mb": 54.0
+      },
+      {
+        "id": "rom_8",
+        "name": "USE WITH SoH_Zelda OOT Debug ROM [NOT MQ].z64",
+        "path": "/home/donn/Downloads/OOT/USE WITH SoH_Zelda OOT Debug ROM [NOT MQ].z64",
+        "category": "zelda",
+        "region": "USA",
+        "size_mb": 64.0
+      },
+      {
+        "id": "rom_54",
+        "name": "Legend of Zelda, The - Ocarina of Time (USA) (Rev 2).z64",
+        "path": "/home/donn/N64/roms/Legend of Zelda, The - Ocarina of Time (USA) (Rev 2).z64",
+        "category": "zelda",
+        "region": "USA",
+        "size_mb": 32.0
+      },
+      {
+        "id": "rom_55",
+        "name": "Legend of Zelda, The - Majora's Mask (USA).z64",
+        "path": "/home/donn/N64/roms/Legend of Zelda, The - Majora's Mask (USA).z64",
+        "category": "zelda",
+        "region": "USA",
+        "size_mb": 32.0
+      },
+      {
+        "id": "rom_56",
+        "name": "Legend of Zelda, The - Ocarina of Time (USA) (Rev 2).z64",
+        "path": "/home/donn/N64/emulators/Legend of Zelda, The - Ocarina of Time (USA) (Rev 2).z64",
+        "category": "zelda",
+        "region": "USA",
+        "size_mb": 32.0
+      },
+      {
+        "id": "rom_57",
+        "name": "OoT.z64",
+        "path": "/home/donn/HylianModding/Base_ROMs/OoT.z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 32.0
+      },
+      {
+        "id": "rom_58",
+        "name": "OoT.z64",
+        "path": "/home/donn/HylianModding/ShipOfHarkinian/OoT.z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 32.0
+      },
+      {
+        "id": "rom_59",
+        "name": "OoT.z64",
+        "path": "/home/donn/HylianModding/Base_ROMs/OoT.z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 32.0
+      },
+      {
+        "id": "rom_60",
+        "name": "OoT.z64",
+        "path": "/home/donn/HylianModding/ShipOfHarkinian/OoT.z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 32.0
+      },
+      {
+        "id": "rom_61",
+        "name": "Virtual Pool 64 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Virtual Pool 64 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      }
+    ],
+    "ai_controlled": true,
+    "danger_level": "low",
+    "boss_present": false
+  },
+  {
+    "id": "galaxy_0_zone_4",
+    "name": "Zelda_Galaxy Zone 4",
+    "galaxy": "Zelda_Galaxy",
+    "type": "adventure",
+    "theme": "mystical_space",
+    "source_roms": [
+      {
+        "id": "rom_7",
+        "name": "MQ DEBUG COMPILED_zelda_ocarina_mq_dbg_ZRET.z64",
+        "path": "/home/donn/Downloads/OOT/MQ DEBUG COMPILED_zelda_ocarina_mq_dbg_ZRET.z64",
+        "category": "zelda",
+        "region": "USA",
+        "size_mb": 54.0
+      },
+      {
+        "id": "rom_8",
+        "name": "USE WITH SoH_Zelda OOT Debug ROM [NOT MQ].z64",
+        "path": "/home/donn/Downloads/OOT/USE WITH SoH_Zelda OOT Debug ROM [NOT MQ].z64",
+        "category": "zelda",
+        "region": "USA",
+        "size_mb": 64.0
+      },
+      {
+        "id": "rom_54",
+        "name": "Legend of Zelda, The - Ocarina of Time (USA) (Rev 2).z64",
+        "path": "/home/donn/N64/roms/Legend of Zelda, The - Ocarina of Time (USA) (Rev 2).z64",
+        "category": "zelda",
+        "region": "USA",
+        "size_mb": 32.0
+      },
+      {
+        "id": "rom_55",
+        "name": "Legend of Zelda, The - Majora's Mask (USA).z64",
+        "path": "/home/donn/N64/roms/Legend of Zelda, The - Majora's Mask (USA).z64",
+        "category": "zelda",
+        "region": "USA",
+        "size_mb": 32.0
+      },
+      {
+        "id": "rom_56",
+        "name": "Legend of Zelda, The - Ocarina of Time (USA) (Rev 2).z64",
+        "path": "/home/donn/N64/emulators/Legend of Zelda, The - Ocarina of Time (USA) (Rev 2).z64",
+        "category": "zelda",
+        "region": "USA",
+        "size_mb": 32.0
+      },
+      {
+        "id": "rom_57",
+        "name": "OoT.z64",
+        "path": "/home/donn/HylianModding/Base_ROMs/OoT.z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 32.0
+      },
+      {
+        "id": "rom_58",
+        "name": "OoT.z64",
+        "path": "/home/donn/HylianModding/ShipOfHarkinian/OoT.z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 32.0
+      },
+      {
+        "id": "rom_59",
+        "name": "OoT.z64",
+        "path": "/home/donn/HylianModding/Base_ROMs/OoT.z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 32.0
+      },
+      {
+        "id": "rom_60",
+        "name": "OoT.z64",
+        "path": "/home/donn/HylianModding/ShipOfHarkinian/OoT.z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 32.0
+      },
+      {
+        "id": "rom_61",
+        "name": "Virtual Pool 64 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Virtual Pool 64 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      }
+    ],
+    "ai_controlled": true,
+    "danger_level": "low",
+    "boss_present": false
+  },
+  {
+    "id": "galaxy_1_zone_0",
+    "name": "Mario_Galaxy Zone 0",
+    "galaxy": "Mario_Galaxy",
+    "type": "platforming",
+    "theme": "colorful_nebula",
+    "source_roms": [
+      {
+        "id": "rom_64",
+        "name": "WWF - War Zone (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/WWF - War Zone (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_65",
+        "name": "Transformers - Beast Wars Transmetal (U) [!].v64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Transformers - Beast Wars Transmetal (U) [!].v64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_66",
+        "name": "Xena Warrior Princess - Talisman of Fate (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Xena Warrior Princess - Talisman of Fate (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_67",
+        "name": "Wetrix (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Wetrix (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_68",
+        "name": "Wave Race 64 (U) (V1.1) (!).n64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Wave Race 64 (U) (V1.1) (!).n64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_69",
+        "name": "Twisted Edge Extreme Snowboarding (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Twisted Edge Extreme Snowboarding (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_70",
+        "name": "Turok - Dinosaur Hunter (U) (V1.2) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Turok - Dinosaur Hunter (U) (V1.2) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_71",
+        "name": "Vigilante 8 (U) (!).n64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Vigilante 8 (U) (!).n64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_72",
+        "name": "War Gods (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/War Gods (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_73",
+        "name": "007 - GoldenEye.v64",
+        "path": "/home/donn/HylianModding/Library/ROMs/007 - GoldenEye.v64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      }
+    ],
+    "ai_controlled": true,
+    "danger_level": "low",
+    "boss_present": false
+  },
+  {
+    "id": "galaxy_1_zone_1",
+    "name": "Mario_Galaxy Zone 1",
+    "galaxy": "Mario_Galaxy",
+    "type": "platforming",
+    "theme": "colorful_nebula",
+    "source_roms": [
+      {
+        "id": "rom_64",
+        "name": "WWF - War Zone (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/WWF - War Zone (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_65",
+        "name": "Transformers - Beast Wars Transmetal (U) [!].v64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Transformers - Beast Wars Transmetal (U) [!].v64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_66",
+        "name": "Xena Warrior Princess - Talisman of Fate (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Xena Warrior Princess - Talisman of Fate (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_67",
+        "name": "Wetrix (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Wetrix (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_68",
+        "name": "Wave Race 64 (U) (V1.1) (!).n64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Wave Race 64 (U) (V1.1) (!).n64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_69",
+        "name": "Twisted Edge Extreme Snowboarding (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Twisted Edge Extreme Snowboarding (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_70",
+        "name": "Turok - Dinosaur Hunter (U) (V1.2) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Turok - Dinosaur Hunter (U) (V1.2) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_71",
+        "name": "Vigilante 8 (U) (!).n64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Vigilante 8 (U) (!).n64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_72",
+        "name": "War Gods (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/War Gods (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_73",
+        "name": "007 - GoldenEye.v64",
+        "path": "/home/donn/HylianModding/Library/ROMs/007 - GoldenEye.v64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      }
+    ],
+    "ai_controlled": true,
+    "danger_level": "low",
+    "boss_present": false
+  },
+  {
+    "id": "galaxy_1_zone_2",
+    "name": "Mario_Galaxy Zone 2",
+    "galaxy": "Mario_Galaxy",
+    "type": "platforming",
+    "theme": "colorful_nebula",
+    "source_roms": [
+      {
+        "id": "rom_64",
+        "name": "WWF - War Zone (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/WWF - War Zone (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_65",
+        "name": "Transformers - Beast Wars Transmetal (U) [!].v64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Transformers - Beast Wars Transmetal (U) [!].v64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_66",
+        "name": "Xena Warrior Princess - Talisman of Fate (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Xena Warrior Princess - Talisman of Fate (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_67",
+        "name": "Wetrix (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Wetrix (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_68",
+        "name": "Wave Race 64 (U) (V1.1) (!).n64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Wave Race 64 (U) (V1.1) (!).n64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_69",
+        "name": "Twisted Edge Extreme Snowboarding (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Twisted Edge Extreme Snowboarding (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_70",
+        "name": "Turok - Dinosaur Hunter (U) (V1.2) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Turok - Dinosaur Hunter (U) (V1.2) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_71",
+        "name": "Vigilante 8 (U) (!).n64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Vigilante 8 (U) (!).n64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_72",
+        "name": "War Gods (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/War Gods (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_73",
+        "name": "007 - GoldenEye.v64",
+        "path": "/home/donn/HylianModding/Library/ROMs/007 - GoldenEye.v64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      }
+    ],
+    "ai_controlled": true,
+    "danger_level": "low",
+    "boss_present": false
+  },
+  {
+    "id": "galaxy_1_zone_3",
+    "name": "Mario_Galaxy Zone 3",
+    "galaxy": "Mario_Galaxy",
+    "type": "platforming",
+    "theme": "colorful_nebula",
+    "source_roms": [
+      {
+        "id": "rom_64",
+        "name": "WWF - War Zone (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/WWF - War Zone (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_65",
+        "name": "Transformers - Beast Wars Transmetal (U) [!].v64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Transformers - Beast Wars Transmetal (U) [!].v64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_66",
+        "name": "Xena Warrior Princess - Talisman of Fate (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Xena Warrior Princess - Talisman of Fate (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_67",
+        "name": "Wetrix (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Wetrix (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_68",
+        "name": "Wave Race 64 (U) (V1.1) (!).n64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Wave Race 64 (U) (V1.1) (!).n64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_69",
+        "name": "Twisted Edge Extreme Snowboarding (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Twisted Edge Extreme Snowboarding (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_70",
+        "name": "Turok - Dinosaur Hunter (U) (V1.2) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Turok - Dinosaur Hunter (U) (V1.2) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_71",
+        "name": "Vigilante 8 (U) (!).n64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Vigilante 8 (U) (!).n64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_72",
+        "name": "War Gods (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/War Gods (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_73",
+        "name": "007 - GoldenEye.v64",
+        "path": "/home/donn/HylianModding/Library/ROMs/007 - GoldenEye.v64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      }
+    ],
+    "ai_controlled": true,
+    "danger_level": "low",
+    "boss_present": false
+  },
+  {
+    "id": "galaxy_1_zone_4",
+    "name": "Mario_Galaxy Zone 4",
+    "galaxy": "Mario_Galaxy",
+    "type": "platforming",
+    "theme": "colorful_nebula",
+    "source_roms": [
+      {
+        "id": "rom_64",
+        "name": "WWF - War Zone (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/WWF - War Zone (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_65",
+        "name": "Transformers - Beast Wars Transmetal (U) [!].v64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Transformers - Beast Wars Transmetal (U) [!].v64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_66",
+        "name": "Xena Warrior Princess - Talisman of Fate (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Xena Warrior Princess - Talisman of Fate (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_67",
+        "name": "Wetrix (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Wetrix (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_68",
+        "name": "Wave Race 64 (U) (V1.1) (!).n64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Wave Race 64 (U) (V1.1) (!).n64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_69",
+        "name": "Twisted Edge Extreme Snowboarding (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Twisted Edge Extreme Snowboarding (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_70",
+        "name": "Turok - Dinosaur Hunter (U) (V1.2) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Turok - Dinosaur Hunter (U) (V1.2) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_71",
+        "name": "Vigilante 8 (U) (!).n64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Vigilante 8 (U) (!).n64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_72",
+        "name": "War Gods (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/War Gods (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_73",
+        "name": "007 - GoldenEye.v64",
+        "path": "/home/donn/HylianModding/Library/ROMs/007 - GoldenEye.v64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      }
+    ],
+    "ai_controlled": true,
+    "danger_level": "low",
+    "boss_present": false
+  },
+  {
+    "id": "galaxy_1_zone_5",
+    "name": "Mario_Galaxy Zone 5",
+    "galaxy": "Mario_Galaxy",
+    "type": "platforming",
+    "theme": "colorful_nebula",
+    "source_roms": [
+      {
+        "id": "rom_64",
+        "name": "WWF - War Zone (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/WWF - War Zone (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_65",
+        "name": "Transformers - Beast Wars Transmetal (U) [!].v64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Transformers - Beast Wars Transmetal (U) [!].v64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_66",
+        "name": "Xena Warrior Princess - Talisman of Fate (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Xena Warrior Princess - Talisman of Fate (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_67",
+        "name": "Wetrix (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Wetrix (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_68",
+        "name": "Wave Race 64 (U) (V1.1) (!).n64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Wave Race 64 (U) (V1.1) (!).n64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_69",
+        "name": "Twisted Edge Extreme Snowboarding (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Twisted Edge Extreme Snowboarding (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_70",
+        "name": "Turok - Dinosaur Hunter (U) (V1.2) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Turok - Dinosaur Hunter (U) (V1.2) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_71",
+        "name": "Vigilante 8 (U) (!).n64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Vigilante 8 (U) (!).n64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_72",
+        "name": "War Gods (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/War Gods (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_73",
+        "name": "007 - GoldenEye.v64",
+        "path": "/home/donn/HylianModding/Library/ROMs/007 - GoldenEye.v64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      }
+    ],
+    "ai_controlled": true,
+    "danger_level": "low",
+    "boss_present": false
+  },
+  {
+    "id": "galaxy_1_zone_6",
+    "name": "Mario_Galaxy Zone 6",
+    "galaxy": "Mario_Galaxy",
+    "type": "platforming",
+    "theme": "colorful_nebula",
+    "source_roms": [
+      {
+        "id": "rom_64",
+        "name": "WWF - War Zone (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/WWF - War Zone (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_65",
+        "name": "Transformers - Beast Wars Transmetal (U) [!].v64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Transformers - Beast Wars Transmetal (U) [!].v64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_66",
+        "name": "Xena Warrior Princess - Talisman of Fate (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Xena Warrior Princess - Talisman of Fate (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_67",
+        "name": "Wetrix (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Wetrix (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_68",
+        "name": "Wave Race 64 (U) (V1.1) (!).n64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Wave Race 64 (U) (V1.1) (!).n64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_69",
+        "name": "Twisted Edge Extreme Snowboarding (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Twisted Edge Extreme Snowboarding (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_70",
+        "name": "Turok - Dinosaur Hunter (U) (V1.2) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Turok - Dinosaur Hunter (U) (V1.2) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_71",
+        "name": "Vigilante 8 (U) (!).n64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Vigilante 8 (U) (!).n64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_72",
+        "name": "War Gods (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/War Gods (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_73",
+        "name": "007 - GoldenEye.v64",
+        "path": "/home/donn/HylianModding/Library/ROMs/007 - GoldenEye.v64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      }
+    ],
+    "ai_controlled": true,
+    "danger_level": "low",
+    "boss_present": false
+  },
+  {
+    "id": "galaxy_2_zone_0",
+    "name": "Pokemon_Galaxy Zone 0",
+    "galaxy": "Pokemon_Galaxy",
+    "type": "creature_collection",
+    "theme": "bio_diverse_cloud",
+    "source_roms": [
+      {
+        "id": "rom_0",
+        "name": "Pokemon Ultra Sun (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-007.cia",
+        "path": "/home/donn/Downloads/Pokemon Ultra Sun (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-007.cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 0.0
+      },
+      {
+        "id": "rom_2",
+        "name": "Pokemon Ultra Moon (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-014.cia",
+        "path": "/home/donn/Downloads/Pokemon Ultra Moon (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-014.cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 0.0
+      },
+      {
+        "id": "rom_5",
+        "name": "Pokemon Moon (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-005.cia",
+        "path": "/home/donn/Downloads/Pokemon Moon (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-005.cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 3055.84
+      },
+      {
+        "id": "rom_6",
+        "name": "Pokemon Sun (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-010.cia",
+        "path": "/home/donn/Downloads/Pokemon Sun (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-010.cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 3070.87
+      },
+      {
+        "id": "rom_15",
+        "name": "Pokemon Mystery Dungeon - Gates to Infinity (USA).cia",
+        "path": "/home/donn/Downloads/3DS/Pokemon Mystery Dungeon - Gates to Infinity (USA).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 842.2
+      },
+      {
+        "id": "rom_18",
+        "name": "Pokemon Alpha Sapphire (USA) (En,Ja,Fr,De,Es,It,Ko) (Rev 2).cia",
+        "path": "/home/donn/Downloads/3DS/Pokemon Alpha Sapphire (USA) (En,Ja,Fr,De,Es,It,Ko) (Rev 2).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 1810.74
+      },
+      {
+        "id": "rom_27",
+        "name": "Pokemon X (USA) (En,Ja,Fr,De,Es,It,Ko).cia",
+        "path": "/home/donn/Downloads/3DS/Pokemon X (USA) (En,Ja,Fr,De,Es,It,Ko).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 1723.59
+      },
+      {
+        "id": "rom_36",
+        "name": "Pokemon Y (USA) (En,Ja,Fr,De,Es,It,Ko).cia",
+        "path": "/home/donn/Downloads/3DS/Pokemon Y (USA) (En,Ja,Fr,De,Es,It,Ko).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 1723.59
+      },
+      {
+        "id": "rom_47",
+        "name": "Pokemon Omega Ruby (USA) (En,Ja,Fr,De,Es,It,Ko) (Rev 2).cia",
+        "path": "/home/donn/Downloads/3DS/Pokemon Omega Ruby (USA) (En,Ja,Fr,De,Es,It,Ko) (Rev 2).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 1810.63
+      }
+    ],
+    "ai_controlled": true,
+    "danger_level": "medium",
+    "boss_present": true
+  },
+  {
+    "id": "galaxy_2_zone_1",
+    "name": "Pokemon_Galaxy Zone 1",
+    "galaxy": "Pokemon_Galaxy",
+    "type": "creature_collection",
+    "theme": "bio_diverse_cloud",
+    "source_roms": [
+      {
+        "id": "rom_0",
+        "name": "Pokemon Ultra Sun (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-007.cia",
+        "path": "/home/donn/Downloads/Pokemon Ultra Sun (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-007.cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 0.0
+      },
+      {
+        "id": "rom_2",
+        "name": "Pokemon Ultra Moon (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-014.cia",
+        "path": "/home/donn/Downloads/Pokemon Ultra Moon (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-014.cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 0.0
+      },
+      {
+        "id": "rom_5",
+        "name": "Pokemon Moon (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-005.cia",
+        "path": "/home/donn/Downloads/Pokemon Moon (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-005.cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 3055.84
+      },
+      {
+        "id": "rom_6",
+        "name": "Pokemon Sun (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-010.cia",
+        "path": "/home/donn/Downloads/Pokemon Sun (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-010.cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 3070.87
+      },
+      {
+        "id": "rom_15",
+        "name": "Pokemon Mystery Dungeon - Gates to Infinity (USA).cia",
+        "path": "/home/donn/Downloads/3DS/Pokemon Mystery Dungeon - Gates to Infinity (USA).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 842.2
+      },
+      {
+        "id": "rom_18",
+        "name": "Pokemon Alpha Sapphire (USA) (En,Ja,Fr,De,Es,It,Ko) (Rev 2).cia",
+        "path": "/home/donn/Downloads/3DS/Pokemon Alpha Sapphire (USA) (En,Ja,Fr,De,Es,It,Ko) (Rev 2).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 1810.74
+      },
+      {
+        "id": "rom_27",
+        "name": "Pokemon X (USA) (En,Ja,Fr,De,Es,It,Ko).cia",
+        "path": "/home/donn/Downloads/3DS/Pokemon X (USA) (En,Ja,Fr,De,Es,It,Ko).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 1723.59
+      },
+      {
+        "id": "rom_36",
+        "name": "Pokemon Y (USA) (En,Ja,Fr,De,Es,It,Ko).cia",
+        "path": "/home/donn/Downloads/3DS/Pokemon Y (USA) (En,Ja,Fr,De,Es,It,Ko).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 1723.59
+      },
+      {
+        "id": "rom_47",
+        "name": "Pokemon Omega Ruby (USA) (En,Ja,Fr,De,Es,It,Ko) (Rev 2).cia",
+        "path": "/home/donn/Downloads/3DS/Pokemon Omega Ruby (USA) (En,Ja,Fr,De,Es,It,Ko) (Rev 2).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 1810.63
+      }
+    ],
+    "ai_controlled": true,
+    "danger_level": "medium",
+    "boss_present": true
+  },
+  {
+    "id": "galaxy_2_zone_2",
+    "name": "Pokemon_Galaxy Zone 2",
+    "galaxy": "Pokemon_Galaxy",
+    "type": "creature_collection",
+    "theme": "bio_diverse_cloud",
+    "source_roms": [
+      {
+        "id": "rom_0",
+        "name": "Pokemon Ultra Sun (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-007.cia",
+        "path": "/home/donn/Downloads/Pokemon Ultra Sun (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-007.cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 0.0
+      },
+      {
+        "id": "rom_2",
+        "name": "Pokemon Ultra Moon (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-014.cia",
+        "path": "/home/donn/Downloads/Pokemon Ultra Moon (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-014.cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 0.0
+      },
+      {
+        "id": "rom_5",
+        "name": "Pokemon Moon (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-005.cia",
+        "path": "/home/donn/Downloads/Pokemon Moon (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-005.cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 3055.84
+      },
+      {
+        "id": "rom_6",
+        "name": "Pokemon Sun (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-010.cia",
+        "path": "/home/donn/Downloads/Pokemon Sun (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-010.cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 3070.87
+      },
+      {
+        "id": "rom_15",
+        "name": "Pokemon Mystery Dungeon - Gates to Infinity (USA).cia",
+        "path": "/home/donn/Downloads/3DS/Pokemon Mystery Dungeon - Gates to Infinity (USA).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 842.2
+      },
+      {
+        "id": "rom_18",
+        "name": "Pokemon Alpha Sapphire (USA) (En,Ja,Fr,De,Es,It,Ko) (Rev 2).cia",
+        "path": "/home/donn/Downloads/3DS/Pokemon Alpha Sapphire (USA) (En,Ja,Fr,De,Es,It,Ko) (Rev 2).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 1810.74
+      },
+      {
+        "id": "rom_27",
+        "name": "Pokemon X (USA) (En,Ja,Fr,De,Es,It,Ko).cia",
+        "path": "/home/donn/Downloads/3DS/Pokemon X (USA) (En,Ja,Fr,De,Es,It,Ko).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 1723.59
+      },
+      {
+        "id": "rom_36",
+        "name": "Pokemon Y (USA) (En,Ja,Fr,De,Es,It,Ko).cia",
+        "path": "/home/donn/Downloads/3DS/Pokemon Y (USA) (En,Ja,Fr,De,Es,It,Ko).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 1723.59
+      },
+      {
+        "id": "rom_47",
+        "name": "Pokemon Omega Ruby (USA) (En,Ja,Fr,De,Es,It,Ko) (Rev 2).cia",
+        "path": "/home/donn/Downloads/3DS/Pokemon Omega Ruby (USA) (En,Ja,Fr,De,Es,It,Ko) (Rev 2).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 1810.63
+      }
+    ],
+    "ai_controlled": true,
+    "danger_level": "medium",
+    "boss_present": true
+  },
+  {
+    "id": "galaxy_2_zone_3",
+    "name": "Pokemon_Galaxy Zone 3",
+    "galaxy": "Pokemon_Galaxy",
+    "type": "creature_collection",
+    "theme": "bio_diverse_cloud",
+    "source_roms": [
+      {
+        "id": "rom_0",
+        "name": "Pokemon Ultra Sun (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-007.cia",
+        "path": "/home/donn/Downloads/Pokemon Ultra Sun (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-007.cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 0.0
+      },
+      {
+        "id": "rom_2",
+        "name": "Pokemon Ultra Moon (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-014.cia",
+        "path": "/home/donn/Downloads/Pokemon Ultra Moon (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-014.cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 0.0
+      },
+      {
+        "id": "rom_5",
+        "name": "Pokemon Moon (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-005.cia",
+        "path": "/home/donn/Downloads/Pokemon Moon (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-005.cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 3055.84
+      },
+      {
+        "id": "rom_6",
+        "name": "Pokemon Sun (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-010.cia",
+        "path": "/home/donn/Downloads/Pokemon Sun (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-010.cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 3070.87
+      },
+      {
+        "id": "rom_15",
+        "name": "Pokemon Mystery Dungeon - Gates to Infinity (USA).cia",
+        "path": "/home/donn/Downloads/3DS/Pokemon Mystery Dungeon - Gates to Infinity (USA).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 842.2
+      },
+      {
+        "id": "rom_18",
+        "name": "Pokemon Alpha Sapphire (USA) (En,Ja,Fr,De,Es,It,Ko) (Rev 2).cia",
+        "path": "/home/donn/Downloads/3DS/Pokemon Alpha Sapphire (USA) (En,Ja,Fr,De,Es,It,Ko) (Rev 2).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 1810.74
+      },
+      {
+        "id": "rom_27",
+        "name": "Pokemon X (USA) (En,Ja,Fr,De,Es,It,Ko).cia",
+        "path": "/home/donn/Downloads/3DS/Pokemon X (USA) (En,Ja,Fr,De,Es,It,Ko).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 1723.59
+      },
+      {
+        "id": "rom_36",
+        "name": "Pokemon Y (USA) (En,Ja,Fr,De,Es,It,Ko).cia",
+        "path": "/home/donn/Downloads/3DS/Pokemon Y (USA) (En,Ja,Fr,De,Es,It,Ko).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 1723.59
+      },
+      {
+        "id": "rom_47",
+        "name": "Pokemon Omega Ruby (USA) (En,Ja,Fr,De,Es,It,Ko) (Rev 2).cia",
+        "path": "/home/donn/Downloads/3DS/Pokemon Omega Ruby (USA) (En,Ja,Fr,De,Es,It,Ko) (Rev 2).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 1810.63
+      }
+    ],
+    "ai_controlled": true,
+    "danger_level": "medium",
+    "boss_present": true
+  },
+  {
+    "id": "galaxy_2_zone_4",
+    "name": "Pokemon_Galaxy Zone 4",
+    "galaxy": "Pokemon_Galaxy",
+    "type": "creature_collection",
+    "theme": "bio_diverse_cloud",
+    "source_roms": [
+      {
+        "id": "rom_0",
+        "name": "Pokemon Ultra Sun (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-007.cia",
+        "path": "/home/donn/Downloads/Pokemon Ultra Sun (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-007.cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 0.0
+      },
+      {
+        "id": "rom_2",
+        "name": "Pokemon Ultra Moon (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-014.cia",
+        "path": "/home/donn/Downloads/Pokemon Ultra Moon (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-014.cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 0.0
+      },
+      {
+        "id": "rom_5",
+        "name": "Pokemon Moon (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-005.cia",
+        "path": "/home/donn/Downloads/Pokemon Moon (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-005.cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 3055.84
+      },
+      {
+        "id": "rom_6",
+        "name": "Pokemon Sun (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-010.cia",
+        "path": "/home/donn/Downloads/Pokemon Sun (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-010.cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 3070.87
+      },
+      {
+        "id": "rom_15",
+        "name": "Pokemon Mystery Dungeon - Gates to Infinity (USA).cia",
+        "path": "/home/donn/Downloads/3DS/Pokemon Mystery Dungeon - Gates to Infinity (USA).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 842.2
+      },
+      {
+        "id": "rom_18",
+        "name": "Pokemon Alpha Sapphire (USA) (En,Ja,Fr,De,Es,It,Ko) (Rev 2).cia",
+        "path": "/home/donn/Downloads/3DS/Pokemon Alpha Sapphire (USA) (En,Ja,Fr,De,Es,It,Ko) (Rev 2).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 1810.74
+      },
+      {
+        "id": "rom_27",
+        "name": "Pokemon X (USA) (En,Ja,Fr,De,Es,It,Ko).cia",
+        "path": "/home/donn/Downloads/3DS/Pokemon X (USA) (En,Ja,Fr,De,Es,It,Ko).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 1723.59
+      },
+      {
+        "id": "rom_36",
+        "name": "Pokemon Y (USA) (En,Ja,Fr,De,Es,It,Ko).cia",
+        "path": "/home/donn/Downloads/3DS/Pokemon Y (USA) (En,Ja,Fr,De,Es,It,Ko).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 1723.59
+      },
+      {
+        "id": "rom_47",
+        "name": "Pokemon Omega Ruby (USA) (En,Ja,Fr,De,Es,It,Ko) (Rev 2).cia",
+        "path": "/home/donn/Downloads/3DS/Pokemon Omega Ruby (USA) (En,Ja,Fr,De,Es,It,Ko) (Rev 2).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 1810.63
+      }
+    ],
+    "ai_controlled": true,
+    "danger_level": "medium",
+    "boss_present": true
+  },
+  {
+    "id": "galaxy_2_zone_5",
+    "name": "Pokemon_Galaxy Zone 5",
+    "galaxy": "Pokemon_Galaxy",
+    "type": "creature_collection",
+    "theme": "bio_diverse_cloud",
+    "source_roms": [
+      {
+        "id": "rom_0",
+        "name": "Pokemon Ultra Sun (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-007.cia",
+        "path": "/home/donn/Downloads/Pokemon Ultra Sun (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-007.cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 0.0
+      },
+      {
+        "id": "rom_2",
+        "name": "Pokemon Ultra Moon (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-014.cia",
+        "path": "/home/donn/Downloads/Pokemon Ultra Moon (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-014.cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 0.0
+      },
+      {
+        "id": "rom_5",
+        "name": "Pokemon Moon (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-005.cia",
+        "path": "/home/donn/Downloads/Pokemon Moon (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-005.cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 3055.84
+      },
+      {
+        "id": "rom_6",
+        "name": "Pokemon Sun (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-010.cia",
+        "path": "/home/donn/Downloads/Pokemon Sun (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-010.cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 3070.87
+      },
+      {
+        "id": "rom_15",
+        "name": "Pokemon Mystery Dungeon - Gates to Infinity (USA).cia",
+        "path": "/home/donn/Downloads/3DS/Pokemon Mystery Dungeon - Gates to Infinity (USA).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 842.2
+      },
+      {
+        "id": "rom_18",
+        "name": "Pokemon Alpha Sapphire (USA) (En,Ja,Fr,De,Es,It,Ko) (Rev 2).cia",
+        "path": "/home/donn/Downloads/3DS/Pokemon Alpha Sapphire (USA) (En,Ja,Fr,De,Es,It,Ko) (Rev 2).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 1810.74
+      },
+      {
+        "id": "rom_27",
+        "name": "Pokemon X (USA) (En,Ja,Fr,De,Es,It,Ko).cia",
+        "path": "/home/donn/Downloads/3DS/Pokemon X (USA) (En,Ja,Fr,De,Es,It,Ko).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 1723.59
+      },
+      {
+        "id": "rom_36",
+        "name": "Pokemon Y (USA) (En,Ja,Fr,De,Es,It,Ko).cia",
+        "path": "/home/donn/Downloads/3DS/Pokemon Y (USA) (En,Ja,Fr,De,Es,It,Ko).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 1723.59
+      },
+      {
+        "id": "rom_47",
+        "name": "Pokemon Omega Ruby (USA) (En,Ja,Fr,De,Es,It,Ko) (Rev 2).cia",
+        "path": "/home/donn/Downloads/3DS/Pokemon Omega Ruby (USA) (En,Ja,Fr,De,Es,It,Ko) (Rev 2).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 1810.63
+      }
+    ],
+    "ai_controlled": true,
+    "danger_level": "medium",
+    "boss_present": true
+  },
+  {
+    "id": "galaxy_2_zone_6",
+    "name": "Pokemon_Galaxy Zone 6",
+    "galaxy": "Pokemon_Galaxy",
+    "type": "creature_collection",
+    "theme": "bio_diverse_cloud",
+    "source_roms": [
+      {
+        "id": "rom_0",
+        "name": "Pokemon Ultra Sun (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-007.cia",
+        "path": "/home/donn/Downloads/Pokemon Ultra Sun (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-007.cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 0.0
+      },
+      {
+        "id": "rom_2",
+        "name": "Pokemon Ultra Moon (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-014.cia",
+        "path": "/home/donn/Downloads/Pokemon Ultra Moon (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-014.cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 0.0
+      },
+      {
+        "id": "rom_5",
+        "name": "Pokemon Moon (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-005.cia",
+        "path": "/home/donn/Downloads/Pokemon Moon (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-005.cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 3055.84
+      },
+      {
+        "id": "rom_6",
+        "name": "Pokemon Sun (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-010.cia",
+        "path": "/home/donn/Downloads/Pokemon Sun (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-010.cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 3070.87
+      },
+      {
+        "id": "rom_15",
+        "name": "Pokemon Mystery Dungeon - Gates to Infinity (USA).cia",
+        "path": "/home/donn/Downloads/3DS/Pokemon Mystery Dungeon - Gates to Infinity (USA).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 842.2
+      },
+      {
+        "id": "rom_18",
+        "name": "Pokemon Alpha Sapphire (USA) (En,Ja,Fr,De,Es,It,Ko) (Rev 2).cia",
+        "path": "/home/donn/Downloads/3DS/Pokemon Alpha Sapphire (USA) (En,Ja,Fr,De,Es,It,Ko) (Rev 2).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 1810.74
+      },
+      {
+        "id": "rom_27",
+        "name": "Pokemon X (USA) (En,Ja,Fr,De,Es,It,Ko).cia",
+        "path": "/home/donn/Downloads/3DS/Pokemon X (USA) (En,Ja,Fr,De,Es,It,Ko).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 1723.59
+      },
+      {
+        "id": "rom_36",
+        "name": "Pokemon Y (USA) (En,Ja,Fr,De,Es,It,Ko).cia",
+        "path": "/home/donn/Downloads/3DS/Pokemon Y (USA) (En,Ja,Fr,De,Es,It,Ko).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 1723.59
+      },
+      {
+        "id": "rom_47",
+        "name": "Pokemon Omega Ruby (USA) (En,Ja,Fr,De,Es,It,Ko) (Rev 2).cia",
+        "path": "/home/donn/Downloads/3DS/Pokemon Omega Ruby (USA) (En,Ja,Fr,De,Es,It,Ko) (Rev 2).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 1810.63
+      }
+    ],
+    "ai_controlled": true,
+    "danger_level": "medium",
+    "boss_present": true
+  },
+  {
+    "id": "galaxy_2_zone_7",
+    "name": "Pokemon_Galaxy Zone 7",
+    "galaxy": "Pokemon_Galaxy",
+    "type": "creature_collection",
+    "theme": "bio_diverse_cloud",
+    "source_roms": [
+      {
+        "id": "rom_0",
+        "name": "Pokemon Ultra Sun (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-007.cia",
+        "path": "/home/donn/Downloads/Pokemon Ultra Sun (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-007.cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 0.0
+      },
+      {
+        "id": "rom_2",
+        "name": "Pokemon Ultra Moon (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-014.cia",
+        "path": "/home/donn/Downloads/Pokemon Ultra Moon (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-014.cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 0.0
+      },
+      {
+        "id": "rom_5",
+        "name": "Pokemon Moon (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-005.cia",
+        "path": "/home/donn/Downloads/Pokemon Moon (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-005.cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 3055.84
+      },
+      {
+        "id": "rom_6",
+        "name": "Pokemon Sun (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-010.cia",
+        "path": "/home/donn/Downloads/Pokemon Sun (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-010.cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 3070.87
+      },
+      {
+        "id": "rom_15",
+        "name": "Pokemon Mystery Dungeon - Gates to Infinity (USA).cia",
+        "path": "/home/donn/Downloads/3DS/Pokemon Mystery Dungeon - Gates to Infinity (USA).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 842.2
+      },
+      {
+        "id": "rom_18",
+        "name": "Pokemon Alpha Sapphire (USA) (En,Ja,Fr,De,Es,It,Ko) (Rev 2).cia",
+        "path": "/home/donn/Downloads/3DS/Pokemon Alpha Sapphire (USA) (En,Ja,Fr,De,Es,It,Ko) (Rev 2).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 1810.74
+      },
+      {
+        "id": "rom_27",
+        "name": "Pokemon X (USA) (En,Ja,Fr,De,Es,It,Ko).cia",
+        "path": "/home/donn/Downloads/3DS/Pokemon X (USA) (En,Ja,Fr,De,Es,It,Ko).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 1723.59
+      },
+      {
+        "id": "rom_36",
+        "name": "Pokemon Y (USA) (En,Ja,Fr,De,Es,It,Ko).cia",
+        "path": "/home/donn/Downloads/3DS/Pokemon Y (USA) (En,Ja,Fr,De,Es,It,Ko).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 1723.59
+      },
+      {
+        "id": "rom_47",
+        "name": "Pokemon Omega Ruby (USA) (En,Ja,Fr,De,Es,It,Ko) (Rev 2).cia",
+        "path": "/home/donn/Downloads/3DS/Pokemon Omega Ruby (USA) (En,Ja,Fr,De,Es,It,Ko) (Rev 2).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 1810.63
+      }
+    ],
+    "ai_controlled": true,
+    "danger_level": "medium",
+    "boss_present": true
+  },
+  {
+    "id": "galaxy_2_zone_8",
+    "name": "Pokemon_Galaxy Zone 8",
+    "galaxy": "Pokemon_Galaxy",
+    "type": "creature_collection",
+    "theme": "bio_diverse_cloud",
+    "source_roms": [
+      {
+        "id": "rom_0",
+        "name": "Pokemon Ultra Sun (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-007.cia",
+        "path": "/home/donn/Downloads/Pokemon Ultra Sun (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-007.cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 0.0
+      },
+      {
+        "id": "rom_2",
+        "name": "Pokemon Ultra Moon (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-014.cia",
+        "path": "/home/donn/Downloads/Pokemon Ultra Moon (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-014.cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 0.0
+      },
+      {
+        "id": "rom_5",
+        "name": "Pokemon Moon (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-005.cia",
+        "path": "/home/donn/Downloads/Pokemon Moon (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-005.cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 3055.84
+      },
+      {
+        "id": "rom_6",
+        "name": "Pokemon Sun (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-010.cia",
+        "path": "/home/donn/Downloads/Pokemon Sun (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-010.cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 3070.87
+      },
+      {
+        "id": "rom_15",
+        "name": "Pokemon Mystery Dungeon - Gates to Infinity (USA).cia",
+        "path": "/home/donn/Downloads/3DS/Pokemon Mystery Dungeon - Gates to Infinity (USA).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 842.2
+      },
+      {
+        "id": "rom_18",
+        "name": "Pokemon Alpha Sapphire (USA) (En,Ja,Fr,De,Es,It,Ko) (Rev 2).cia",
+        "path": "/home/donn/Downloads/3DS/Pokemon Alpha Sapphire (USA) (En,Ja,Fr,De,Es,It,Ko) (Rev 2).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 1810.74
+      },
+      {
+        "id": "rom_27",
+        "name": "Pokemon X (USA) (En,Ja,Fr,De,Es,It,Ko).cia",
+        "path": "/home/donn/Downloads/3DS/Pokemon X (USA) (En,Ja,Fr,De,Es,It,Ko).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 1723.59
+      },
+      {
+        "id": "rom_36",
+        "name": "Pokemon Y (USA) (En,Ja,Fr,De,Es,It,Ko).cia",
+        "path": "/home/donn/Downloads/3DS/Pokemon Y (USA) (En,Ja,Fr,De,Es,It,Ko).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 1723.59
+      },
+      {
+        "id": "rom_47",
+        "name": "Pokemon Omega Ruby (USA) (En,Ja,Fr,De,Es,It,Ko) (Rev 2).cia",
+        "path": "/home/donn/Downloads/3DS/Pokemon Omega Ruby (USA) (En,Ja,Fr,De,Es,It,Ko) (Rev 2).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 1810.63
+      }
+    ],
+    "ai_controlled": true,
+    "danger_level": "medium",
+    "boss_present": true
+  },
+  {
+    "id": "galaxy_3_zone_0",
+    "name": "Starfox_Galaxy Zone 0",
+    "galaxy": "Starfox_Galaxy",
+    "type": "space_shooter",
+    "theme": "combat_zone",
+    "source_roms": [
+      {
+        "id": "rom_23",
+        "name": "Mario Sports Superstars (USA).cia",
+        "path": "/home/donn/Downloads/3DS/Mario Sports Superstars (USA).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 823.2
+      },
+      {
+        "id": "rom_39",
+        "name": "Mario Party - Star Rush (USA) (En,Fr,Es).cia",
+        "path": "/home/donn/Downloads/3DS/Mario Party - Star Rush (USA) (En,Fr,Es).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 375.67
+      },
+      {
+        "id": "rom_40",
+        "name": "Star Fox 64 3D (USA) (En,Fr,Es) (Rev 2).cia",
+        "path": "/home/donn/Downloads/3DS/Star Fox 64 3D (USA) (En,Fr,Es) (Rev 2).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 575.69
+      },
+      {
+        "id": "rom_44",
+        "name": "Paper Mario - Sticker Star (USA) (En,Fr,Es).cia",
+        "path": "/home/donn/Downloads/3DS/Paper Mario - Sticker Star (USA) (En,Fr,Es).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 524.48
+      },
+      {
+        "id": "rom_102",
+        "name": "Starshot - Space Circus Fever (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Starshot - Space Circus Fever (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_106",
+        "name": "Star Wars - Rogue Squadron (U) (!).n64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Star Wars - Rogue Squadron (U) (!).n64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_110",
+        "name": "Star Wars - Shadows of the Empire (U) (V1.2) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Star Wars - Shadows of the Empire (U) (V1.2) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_111",
+        "name": "Star Soldier Vanishing Earth (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Star Soldier Vanishing Earth (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_112",
+        "name": "Spacestation Silicon Valley (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Spacestation Silicon Valley (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_114",
+        "name": "Star Fox 64 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Star Fox 64 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      }
+    ],
+    "ai_controlled": true,
+    "danger_level": "low",
+    "boss_present": false
+  },
+  {
+    "id": "galaxy_3_zone_1",
+    "name": "Starfox_Galaxy Zone 1",
+    "galaxy": "Starfox_Galaxy",
+    "type": "space_shooter",
+    "theme": "combat_zone",
+    "source_roms": [
+      {
+        "id": "rom_23",
+        "name": "Mario Sports Superstars (USA).cia",
+        "path": "/home/donn/Downloads/3DS/Mario Sports Superstars (USA).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 823.2
+      },
+      {
+        "id": "rom_39",
+        "name": "Mario Party - Star Rush (USA) (En,Fr,Es).cia",
+        "path": "/home/donn/Downloads/3DS/Mario Party - Star Rush (USA) (En,Fr,Es).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 375.67
+      },
+      {
+        "id": "rom_40",
+        "name": "Star Fox 64 3D (USA) (En,Fr,Es) (Rev 2).cia",
+        "path": "/home/donn/Downloads/3DS/Star Fox 64 3D (USA) (En,Fr,Es) (Rev 2).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 575.69
+      },
+      {
+        "id": "rom_44",
+        "name": "Paper Mario - Sticker Star (USA) (En,Fr,Es).cia",
+        "path": "/home/donn/Downloads/3DS/Paper Mario - Sticker Star (USA) (En,Fr,Es).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 524.48
+      },
+      {
+        "id": "rom_102",
+        "name": "Starshot - Space Circus Fever (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Starshot - Space Circus Fever (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_106",
+        "name": "Star Wars - Rogue Squadron (U) (!).n64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Star Wars - Rogue Squadron (U) (!).n64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_110",
+        "name": "Star Wars - Shadows of the Empire (U) (V1.2) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Star Wars - Shadows of the Empire (U) (V1.2) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_111",
+        "name": "Star Soldier Vanishing Earth (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Star Soldier Vanishing Earth (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_112",
+        "name": "Spacestation Silicon Valley (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Spacestation Silicon Valley (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_114",
+        "name": "Star Fox 64 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Star Fox 64 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      }
+    ],
+    "ai_controlled": true,
+    "danger_level": "low",
+    "boss_present": false
+  },
+  {
+    "id": "galaxy_3_zone_2",
+    "name": "Starfox_Galaxy Zone 2",
+    "galaxy": "Starfox_Galaxy",
+    "type": "space_shooter",
+    "theme": "combat_zone",
+    "source_roms": [
+      {
+        "id": "rom_23",
+        "name": "Mario Sports Superstars (USA).cia",
+        "path": "/home/donn/Downloads/3DS/Mario Sports Superstars (USA).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 823.2
+      },
+      {
+        "id": "rom_39",
+        "name": "Mario Party - Star Rush (USA) (En,Fr,Es).cia",
+        "path": "/home/donn/Downloads/3DS/Mario Party - Star Rush (USA) (En,Fr,Es).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 375.67
+      },
+      {
+        "id": "rom_40",
+        "name": "Star Fox 64 3D (USA) (En,Fr,Es) (Rev 2).cia",
+        "path": "/home/donn/Downloads/3DS/Star Fox 64 3D (USA) (En,Fr,Es) (Rev 2).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 575.69
+      },
+      {
+        "id": "rom_44",
+        "name": "Paper Mario - Sticker Star (USA) (En,Fr,Es).cia",
+        "path": "/home/donn/Downloads/3DS/Paper Mario - Sticker Star (USA) (En,Fr,Es).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 524.48
+      },
+      {
+        "id": "rom_102",
+        "name": "Starshot - Space Circus Fever (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Starshot - Space Circus Fever (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_106",
+        "name": "Star Wars - Rogue Squadron (U) (!).n64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Star Wars - Rogue Squadron (U) (!).n64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_110",
+        "name": "Star Wars - Shadows of the Empire (U) (V1.2) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Star Wars - Shadows of the Empire (U) (V1.2) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_111",
+        "name": "Star Soldier Vanishing Earth (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Star Soldier Vanishing Earth (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_112",
+        "name": "Spacestation Silicon Valley (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Spacestation Silicon Valley (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_114",
+        "name": "Star Fox 64 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Star Fox 64 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      }
+    ],
+    "ai_controlled": true,
+    "danger_level": "low",
+    "boss_present": false
+  },
+  {
+    "id": "galaxy_3_zone_3",
+    "name": "Starfox_Galaxy Zone 3",
+    "galaxy": "Starfox_Galaxy",
+    "type": "space_shooter",
+    "theme": "combat_zone",
+    "source_roms": [
+      {
+        "id": "rom_23",
+        "name": "Mario Sports Superstars (USA).cia",
+        "path": "/home/donn/Downloads/3DS/Mario Sports Superstars (USA).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 823.2
+      },
+      {
+        "id": "rom_39",
+        "name": "Mario Party - Star Rush (USA) (En,Fr,Es).cia",
+        "path": "/home/donn/Downloads/3DS/Mario Party - Star Rush (USA) (En,Fr,Es).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 375.67
+      },
+      {
+        "id": "rom_40",
+        "name": "Star Fox 64 3D (USA) (En,Fr,Es) (Rev 2).cia",
+        "path": "/home/donn/Downloads/3DS/Star Fox 64 3D (USA) (En,Fr,Es) (Rev 2).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 575.69
+      },
+      {
+        "id": "rom_44",
+        "name": "Paper Mario - Sticker Star (USA) (En,Fr,Es).cia",
+        "path": "/home/donn/Downloads/3DS/Paper Mario - Sticker Star (USA) (En,Fr,Es).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 524.48
+      },
+      {
+        "id": "rom_102",
+        "name": "Starshot - Space Circus Fever (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Starshot - Space Circus Fever (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_106",
+        "name": "Star Wars - Rogue Squadron (U) (!).n64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Star Wars - Rogue Squadron (U) (!).n64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_110",
+        "name": "Star Wars - Shadows of the Empire (U) (V1.2) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Star Wars - Shadows of the Empire (U) (V1.2) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_111",
+        "name": "Star Soldier Vanishing Earth (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Star Soldier Vanishing Earth (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_112",
+        "name": "Spacestation Silicon Valley (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Spacestation Silicon Valley (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_114",
+        "name": "Star Fox 64 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Star Fox 64 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      }
+    ],
+    "ai_controlled": true,
+    "danger_level": "low",
+    "boss_present": false
+  },
+  {
+    "id": "galaxy_3_zone_4",
+    "name": "Starfox_Galaxy Zone 4",
+    "galaxy": "Starfox_Galaxy",
+    "type": "space_shooter",
+    "theme": "combat_zone",
+    "source_roms": [
+      {
+        "id": "rom_23",
+        "name": "Mario Sports Superstars (USA).cia",
+        "path": "/home/donn/Downloads/3DS/Mario Sports Superstars (USA).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 823.2
+      },
+      {
+        "id": "rom_39",
+        "name": "Mario Party - Star Rush (USA) (En,Fr,Es).cia",
+        "path": "/home/donn/Downloads/3DS/Mario Party - Star Rush (USA) (En,Fr,Es).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 375.67
+      },
+      {
+        "id": "rom_40",
+        "name": "Star Fox 64 3D (USA) (En,Fr,Es) (Rev 2).cia",
+        "path": "/home/donn/Downloads/3DS/Star Fox 64 3D (USA) (En,Fr,Es) (Rev 2).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 575.69
+      },
+      {
+        "id": "rom_44",
+        "name": "Paper Mario - Sticker Star (USA) (En,Fr,Es).cia",
+        "path": "/home/donn/Downloads/3DS/Paper Mario - Sticker Star (USA) (En,Fr,Es).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 524.48
+      },
+      {
+        "id": "rom_102",
+        "name": "Starshot - Space Circus Fever (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Starshot - Space Circus Fever (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_106",
+        "name": "Star Wars - Rogue Squadron (U) (!).n64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Star Wars - Rogue Squadron (U) (!).n64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_110",
+        "name": "Star Wars - Shadows of the Empire (U) (V1.2) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Star Wars - Shadows of the Empire (U) (V1.2) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_111",
+        "name": "Star Soldier Vanishing Earth (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Star Soldier Vanishing Earth (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_112",
+        "name": "Spacestation Silicon Valley (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Spacestation Silicon Valley (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_114",
+        "name": "Star Fox 64 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Star Fox 64 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      }
+    ],
+    "ai_controlled": true,
+    "danger_level": "low",
+    "boss_present": false
+  },
+  {
+    "id": "galaxy_3_zone_5",
+    "name": "Starfox_Galaxy Zone 5",
+    "galaxy": "Starfox_Galaxy",
+    "type": "space_shooter",
+    "theme": "combat_zone",
+    "source_roms": [
+      {
+        "id": "rom_23",
+        "name": "Mario Sports Superstars (USA).cia",
+        "path": "/home/donn/Downloads/3DS/Mario Sports Superstars (USA).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 823.2
+      },
+      {
+        "id": "rom_39",
+        "name": "Mario Party - Star Rush (USA) (En,Fr,Es).cia",
+        "path": "/home/donn/Downloads/3DS/Mario Party - Star Rush (USA) (En,Fr,Es).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 375.67
+      },
+      {
+        "id": "rom_40",
+        "name": "Star Fox 64 3D (USA) (En,Fr,Es) (Rev 2).cia",
+        "path": "/home/donn/Downloads/3DS/Star Fox 64 3D (USA) (En,Fr,Es) (Rev 2).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 575.69
+      },
+      {
+        "id": "rom_44",
+        "name": "Paper Mario - Sticker Star (USA) (En,Fr,Es).cia",
+        "path": "/home/donn/Downloads/3DS/Paper Mario - Sticker Star (USA) (En,Fr,Es).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 524.48
+      },
+      {
+        "id": "rom_102",
+        "name": "Starshot - Space Circus Fever (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Starshot - Space Circus Fever (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_106",
+        "name": "Star Wars - Rogue Squadron (U) (!).n64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Star Wars - Rogue Squadron (U) (!).n64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_110",
+        "name": "Star Wars - Shadows of the Empire (U) (V1.2) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Star Wars - Shadows of the Empire (U) (V1.2) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_111",
+        "name": "Star Soldier Vanishing Earth (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Star Soldier Vanishing Earth (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_112",
+        "name": "Spacestation Silicon Valley (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Spacestation Silicon Valley (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_114",
+        "name": "Star Fox 64 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Star Fox 64 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      }
+    ],
+    "ai_controlled": true,
+    "danger_level": "low",
+    "boss_present": false
+  },
+  {
+    "id": "galaxy_3_zone_6",
+    "name": "Starfox_Galaxy Zone 6",
+    "galaxy": "Starfox_Galaxy",
+    "type": "space_shooter",
+    "theme": "combat_zone",
+    "source_roms": [
+      {
+        "id": "rom_23",
+        "name": "Mario Sports Superstars (USA).cia",
+        "path": "/home/donn/Downloads/3DS/Mario Sports Superstars (USA).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 823.2
+      },
+      {
+        "id": "rom_39",
+        "name": "Mario Party - Star Rush (USA) (En,Fr,Es).cia",
+        "path": "/home/donn/Downloads/3DS/Mario Party - Star Rush (USA) (En,Fr,Es).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 375.67
+      },
+      {
+        "id": "rom_40",
+        "name": "Star Fox 64 3D (USA) (En,Fr,Es) (Rev 2).cia",
+        "path": "/home/donn/Downloads/3DS/Star Fox 64 3D (USA) (En,Fr,Es) (Rev 2).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 575.69
+      },
+      {
+        "id": "rom_44",
+        "name": "Paper Mario - Sticker Star (USA) (En,Fr,Es).cia",
+        "path": "/home/donn/Downloads/3DS/Paper Mario - Sticker Star (USA) (En,Fr,Es).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 524.48
+      },
+      {
+        "id": "rom_102",
+        "name": "Starshot - Space Circus Fever (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Starshot - Space Circus Fever (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_106",
+        "name": "Star Wars - Rogue Squadron (U) (!).n64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Star Wars - Rogue Squadron (U) (!).n64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_110",
+        "name": "Star Wars - Shadows of the Empire (U) (V1.2) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Star Wars - Shadows of the Empire (U) (V1.2) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_111",
+        "name": "Star Soldier Vanishing Earth (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Star Soldier Vanishing Earth (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_112",
+        "name": "Spacestation Silicon Valley (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Spacestation Silicon Valley (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_114",
+        "name": "Star Fox 64 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Star Fox 64 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      }
+    ],
+    "ai_controlled": true,
+    "danger_level": "low",
+    "boss_present": false
+  },
+  {
+    "id": "galaxy_3_zone_7",
+    "name": "Starfox_Galaxy Zone 7",
+    "galaxy": "Starfox_Galaxy",
+    "type": "space_shooter",
+    "theme": "combat_zone",
+    "source_roms": [
+      {
+        "id": "rom_23",
+        "name": "Mario Sports Superstars (USA).cia",
+        "path": "/home/donn/Downloads/3DS/Mario Sports Superstars (USA).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 823.2
+      },
+      {
+        "id": "rom_39",
+        "name": "Mario Party - Star Rush (USA) (En,Fr,Es).cia",
+        "path": "/home/donn/Downloads/3DS/Mario Party - Star Rush (USA) (En,Fr,Es).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 375.67
+      },
+      {
+        "id": "rom_40",
+        "name": "Star Fox 64 3D (USA) (En,Fr,Es) (Rev 2).cia",
+        "path": "/home/donn/Downloads/3DS/Star Fox 64 3D (USA) (En,Fr,Es) (Rev 2).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 575.69
+      },
+      {
+        "id": "rom_44",
+        "name": "Paper Mario - Sticker Star (USA) (En,Fr,Es).cia",
+        "path": "/home/donn/Downloads/3DS/Paper Mario - Sticker Star (USA) (En,Fr,Es).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 524.48
+      },
+      {
+        "id": "rom_102",
+        "name": "Starshot - Space Circus Fever (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Starshot - Space Circus Fever (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_106",
+        "name": "Star Wars - Rogue Squadron (U) (!).n64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Star Wars - Rogue Squadron (U) (!).n64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_110",
+        "name": "Star Wars - Shadows of the Empire (U) (V1.2) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Star Wars - Shadows of the Empire (U) (V1.2) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_111",
+        "name": "Star Soldier Vanishing Earth (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Star Soldier Vanishing Earth (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_112",
+        "name": "Spacestation Silicon Valley (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Spacestation Silicon Valley (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_114",
+        "name": "Star Fox 64 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Star Fox 64 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      }
+    ],
+    "ai_controlled": true,
+    "danger_level": "low",
+    "boss_present": false
+  },
+  {
+    "id": "galaxy_3_zone_8",
+    "name": "Starfox_Galaxy Zone 8",
+    "galaxy": "Starfox_Galaxy",
+    "type": "space_shooter",
+    "theme": "combat_zone",
+    "source_roms": [
+      {
+        "id": "rom_23",
+        "name": "Mario Sports Superstars (USA).cia",
+        "path": "/home/donn/Downloads/3DS/Mario Sports Superstars (USA).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 823.2
+      },
+      {
+        "id": "rom_39",
+        "name": "Mario Party - Star Rush (USA) (En,Fr,Es).cia",
+        "path": "/home/donn/Downloads/3DS/Mario Party - Star Rush (USA) (En,Fr,Es).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 375.67
+      },
+      {
+        "id": "rom_40",
+        "name": "Star Fox 64 3D (USA) (En,Fr,Es) (Rev 2).cia",
+        "path": "/home/donn/Downloads/3DS/Star Fox 64 3D (USA) (En,Fr,Es) (Rev 2).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 575.69
+      },
+      {
+        "id": "rom_44",
+        "name": "Paper Mario - Sticker Star (USA) (En,Fr,Es).cia",
+        "path": "/home/donn/Downloads/3DS/Paper Mario - Sticker Star (USA) (En,Fr,Es).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 524.48
+      },
+      {
+        "id": "rom_102",
+        "name": "Starshot - Space Circus Fever (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Starshot - Space Circus Fever (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_106",
+        "name": "Star Wars - Rogue Squadron (U) (!).n64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Star Wars - Rogue Squadron (U) (!).n64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_110",
+        "name": "Star Wars - Shadows of the Empire (U) (V1.2) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Star Wars - Shadows of the Empire (U) (V1.2) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_111",
+        "name": "Star Soldier Vanishing Earth (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Star Soldier Vanishing Earth (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_112",
+        "name": "Spacestation Silicon Valley (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Spacestation Silicon Valley (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_114",
+        "name": "Star Fox 64 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Star Fox 64 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      }
+    ],
+    "ai_controlled": true,
+    "danger_level": "low",
+    "boss_present": false
+  },
+  {
+    "id": "galaxy_3_zone_9",
+    "name": "Starfox_Galaxy Zone 9",
+    "galaxy": "Starfox_Galaxy",
+    "type": "space_shooter",
+    "theme": "combat_zone",
+    "source_roms": [
+      {
+        "id": "rom_23",
+        "name": "Mario Sports Superstars (USA).cia",
+        "path": "/home/donn/Downloads/3DS/Mario Sports Superstars (USA).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 823.2
+      },
+      {
+        "id": "rom_39",
+        "name": "Mario Party - Star Rush (USA) (En,Fr,Es).cia",
+        "path": "/home/donn/Downloads/3DS/Mario Party - Star Rush (USA) (En,Fr,Es).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 375.67
+      },
+      {
+        "id": "rom_40",
+        "name": "Star Fox 64 3D (USA) (En,Fr,Es) (Rev 2).cia",
+        "path": "/home/donn/Downloads/3DS/Star Fox 64 3D (USA) (En,Fr,Es) (Rev 2).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 575.69
+      },
+      {
+        "id": "rom_44",
+        "name": "Paper Mario - Sticker Star (USA) (En,Fr,Es).cia",
+        "path": "/home/donn/Downloads/3DS/Paper Mario - Sticker Star (USA) (En,Fr,Es).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 524.48
+      },
+      {
+        "id": "rom_102",
+        "name": "Starshot - Space Circus Fever (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Starshot - Space Circus Fever (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_106",
+        "name": "Star Wars - Rogue Squadron (U) (!).n64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Star Wars - Rogue Squadron (U) (!).n64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_110",
+        "name": "Star Wars - Shadows of the Empire (U) (V1.2) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Star Wars - Shadows of the Empire (U) (V1.2) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_111",
+        "name": "Star Soldier Vanishing Earth (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Star Soldier Vanishing Earth (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_112",
+        "name": "Spacestation Silicon Valley (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Spacestation Silicon Valley (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_114",
+        "name": "Star Fox 64 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Star Fox 64 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      }
+    ],
+    "ai_controlled": true,
+    "danger_level": "low",
+    "boss_present": false
+  },
+  {
+    "id": "galaxy_3_zone_10",
+    "name": "Starfox_Galaxy Zone 10",
+    "galaxy": "Starfox_Galaxy",
+    "type": "space_shooter",
+    "theme": "combat_zone",
+    "source_roms": [
+      {
+        "id": "rom_23",
+        "name": "Mario Sports Superstars (USA).cia",
+        "path": "/home/donn/Downloads/3DS/Mario Sports Superstars (USA).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 823.2
+      },
+      {
+        "id": "rom_39",
+        "name": "Mario Party - Star Rush (USA) (En,Fr,Es).cia",
+        "path": "/home/donn/Downloads/3DS/Mario Party - Star Rush (USA) (En,Fr,Es).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 375.67
+      },
+      {
+        "id": "rom_40",
+        "name": "Star Fox 64 3D (USA) (En,Fr,Es) (Rev 2).cia",
+        "path": "/home/donn/Downloads/3DS/Star Fox 64 3D (USA) (En,Fr,Es) (Rev 2).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 575.69
+      },
+      {
+        "id": "rom_44",
+        "name": "Paper Mario - Sticker Star (USA) (En,Fr,Es).cia",
+        "path": "/home/donn/Downloads/3DS/Paper Mario - Sticker Star (USA) (En,Fr,Es).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 524.48
+      },
+      {
+        "id": "rom_102",
+        "name": "Starshot - Space Circus Fever (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Starshot - Space Circus Fever (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_106",
+        "name": "Star Wars - Rogue Squadron (U) (!).n64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Star Wars - Rogue Squadron (U) (!).n64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_110",
+        "name": "Star Wars - Shadows of the Empire (U) (V1.2) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Star Wars - Shadows of the Empire (U) (V1.2) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_111",
+        "name": "Star Soldier Vanishing Earth (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Star Soldier Vanishing Earth (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_112",
+        "name": "Spacestation Silicon Valley (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Spacestation Silicon Valley (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_114",
+        "name": "Star Fox 64 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Star Fox 64 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      }
+    ],
+    "ai_controlled": true,
+    "danger_level": "low",
+    "boss_present": false
+  },
+  {
+    "id": "galaxy_4_zone_0",
+    "name": "Racing_Galaxy Zone 0",
+    "galaxy": "Racing_Galaxy",
+    "type": "racing",
+    "theme": "speed_tunnel",
+    "source_roms": [
+      {
+        "id": "rom_42",
+        "name": "Mario Kart 7 (USA) (En,Fr,Es) (Rev 1).cia",
+        "path": "/home/donn/Downloads/3DS/Mario Kart 7 (USA) (En,Fr,Es) (Rev 1).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 634.33
+      },
+      {
+        "id": "rom_119",
+        "name": "Rush 2 - Extreme Racing USA (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Rush 2 - Extreme Racing USA (U) [!].z64",
+        "category": "racing",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_216",
+        "name": "MRC - Multi Racing Championship (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/MRC - Multi Racing Championship (U) [!].z64",
+        "category": "racing",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_232",
+        "name": "Mario Kart 64 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Mario Kart 64 (U) [!].z64",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_247",
+        "name": "Indy Racing 2000 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Indy Racing 2000 (U) [!].z64",
+        "category": "racing",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_267",
+        "name": "Hot Wheels Turbo Racing (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Hot Wheels Turbo Racing (U) [!].z64",
+        "category": "racing",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_270",
+        "name": "F-Zero X (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/F-Zero X (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_309",
+        "name": "Diddy Kong Racing (U) (M2) (V1.1) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Diddy Kong Racing (U) (M2) (V1.1) [!].z64",
+        "category": "racing",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_336",
+        "name": "Beetle Adventure Racing! (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Beetle Adventure Racing! (U) [!].z64",
+        "category": "racing",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_357",
+        "name": "Mario Kart 64 (USA).z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Mario Kart 64 (USA).z64",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 12.0
+      }
+    ],
+    "ai_controlled": true,
+    "danger_level": "extreme",
+    "boss_present": true
+  },
+  {
+    "id": "galaxy_4_zone_1",
+    "name": "Racing_Galaxy Zone 1",
+    "galaxy": "Racing_Galaxy",
+    "type": "racing",
+    "theme": "speed_tunnel",
+    "source_roms": [
+      {
+        "id": "rom_42",
+        "name": "Mario Kart 7 (USA) (En,Fr,Es) (Rev 1).cia",
+        "path": "/home/donn/Downloads/3DS/Mario Kart 7 (USA) (En,Fr,Es) (Rev 1).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 634.33
+      },
+      {
+        "id": "rom_119",
+        "name": "Rush 2 - Extreme Racing USA (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Rush 2 - Extreme Racing USA (U) [!].z64",
+        "category": "racing",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_216",
+        "name": "MRC - Multi Racing Championship (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/MRC - Multi Racing Championship (U) [!].z64",
+        "category": "racing",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_232",
+        "name": "Mario Kart 64 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Mario Kart 64 (U) [!].z64",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_247",
+        "name": "Indy Racing 2000 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Indy Racing 2000 (U) [!].z64",
+        "category": "racing",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_267",
+        "name": "Hot Wheels Turbo Racing (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Hot Wheels Turbo Racing (U) [!].z64",
+        "category": "racing",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_270",
+        "name": "F-Zero X (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/F-Zero X (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_309",
+        "name": "Diddy Kong Racing (U) (M2) (V1.1) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Diddy Kong Racing (U) (M2) (V1.1) [!].z64",
+        "category": "racing",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_336",
+        "name": "Beetle Adventure Racing! (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Beetle Adventure Racing! (U) [!].z64",
+        "category": "racing",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_357",
+        "name": "Mario Kart 64 (USA).z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Mario Kart 64 (USA).z64",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 12.0
+      }
+    ],
+    "ai_controlled": true,
+    "danger_level": "extreme",
+    "boss_present": true
+  },
+  {
+    "id": "galaxy_4_zone_2",
+    "name": "Racing_Galaxy Zone 2",
+    "galaxy": "Racing_Galaxy",
+    "type": "racing",
+    "theme": "speed_tunnel",
+    "source_roms": [
+      {
+        "id": "rom_42",
+        "name": "Mario Kart 7 (USA) (En,Fr,Es) (Rev 1).cia",
+        "path": "/home/donn/Downloads/3DS/Mario Kart 7 (USA) (En,Fr,Es) (Rev 1).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 634.33
+      },
+      {
+        "id": "rom_119",
+        "name": "Rush 2 - Extreme Racing USA (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Rush 2 - Extreme Racing USA (U) [!].z64",
+        "category": "racing",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_216",
+        "name": "MRC - Multi Racing Championship (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/MRC - Multi Racing Championship (U) [!].z64",
+        "category": "racing",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_232",
+        "name": "Mario Kart 64 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Mario Kart 64 (U) [!].z64",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_247",
+        "name": "Indy Racing 2000 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Indy Racing 2000 (U) [!].z64",
+        "category": "racing",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_267",
+        "name": "Hot Wheels Turbo Racing (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Hot Wheels Turbo Racing (U) [!].z64",
+        "category": "racing",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_270",
+        "name": "F-Zero X (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/F-Zero X (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_309",
+        "name": "Diddy Kong Racing (U) (M2) (V1.1) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Diddy Kong Racing (U) (M2) (V1.1) [!].z64",
+        "category": "racing",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_336",
+        "name": "Beetle Adventure Racing! (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Beetle Adventure Racing! (U) [!].z64",
+        "category": "racing",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_357",
+        "name": "Mario Kart 64 (USA).z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Mario Kart 64 (USA).z64",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 12.0
+      }
+    ],
+    "ai_controlled": true,
+    "danger_level": "extreme",
+    "boss_present": true
+  },
+  {
+    "id": "galaxy_4_zone_3",
+    "name": "Racing_Galaxy Zone 3",
+    "galaxy": "Racing_Galaxy",
+    "type": "racing",
+    "theme": "speed_tunnel",
+    "source_roms": [
+      {
+        "id": "rom_42",
+        "name": "Mario Kart 7 (USA) (En,Fr,Es) (Rev 1).cia",
+        "path": "/home/donn/Downloads/3DS/Mario Kart 7 (USA) (En,Fr,Es) (Rev 1).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 634.33
+      },
+      {
+        "id": "rom_119",
+        "name": "Rush 2 - Extreme Racing USA (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Rush 2 - Extreme Racing USA (U) [!].z64",
+        "category": "racing",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_216",
+        "name": "MRC - Multi Racing Championship (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/MRC - Multi Racing Championship (U) [!].z64",
+        "category": "racing",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_232",
+        "name": "Mario Kart 64 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Mario Kart 64 (U) [!].z64",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_247",
+        "name": "Indy Racing 2000 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Indy Racing 2000 (U) [!].z64",
+        "category": "racing",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_267",
+        "name": "Hot Wheels Turbo Racing (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Hot Wheels Turbo Racing (U) [!].z64",
+        "category": "racing",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_270",
+        "name": "F-Zero X (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/F-Zero X (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_309",
+        "name": "Diddy Kong Racing (U) (M2) (V1.1) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Diddy Kong Racing (U) (M2) (V1.1) [!].z64",
+        "category": "racing",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_336",
+        "name": "Beetle Adventure Racing! (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Beetle Adventure Racing! (U) [!].z64",
+        "category": "racing",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_357",
+        "name": "Mario Kart 64 (USA).z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Mario Kart 64 (USA).z64",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 12.0
+      }
+    ],
+    "ai_controlled": true,
+    "danger_level": "extreme",
+    "boss_present": true
+  },
+  {
+    "id": "galaxy_4_zone_4",
+    "name": "Racing_Galaxy Zone 4",
+    "galaxy": "Racing_Galaxy",
+    "type": "racing",
+    "theme": "speed_tunnel",
+    "source_roms": [
+      {
+        "id": "rom_42",
+        "name": "Mario Kart 7 (USA) (En,Fr,Es) (Rev 1).cia",
+        "path": "/home/donn/Downloads/3DS/Mario Kart 7 (USA) (En,Fr,Es) (Rev 1).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 634.33
+      },
+      {
+        "id": "rom_119",
+        "name": "Rush 2 - Extreme Racing USA (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Rush 2 - Extreme Racing USA (U) [!].z64",
+        "category": "racing",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_216",
+        "name": "MRC - Multi Racing Championship (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/MRC - Multi Racing Championship (U) [!].z64",
+        "category": "racing",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_232",
+        "name": "Mario Kart 64 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Mario Kart 64 (U) [!].z64",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_247",
+        "name": "Indy Racing 2000 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Indy Racing 2000 (U) [!].z64",
+        "category": "racing",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_267",
+        "name": "Hot Wheels Turbo Racing (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Hot Wheels Turbo Racing (U) [!].z64",
+        "category": "racing",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_270",
+        "name": "F-Zero X (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/F-Zero X (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_309",
+        "name": "Diddy Kong Racing (U) (M2) (V1.1) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Diddy Kong Racing (U) (M2) (V1.1) [!].z64",
+        "category": "racing",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_336",
+        "name": "Beetle Adventure Racing! (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Beetle Adventure Racing! (U) [!].z64",
+        "category": "racing",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_357",
+        "name": "Mario Kart 64 (USA).z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Mario Kart 64 (USA).z64",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 12.0
+      }
+    ],
+    "ai_controlled": true,
+    "danger_level": "extreme",
+    "boss_present": true
+  },
+  {
+    "id": "galaxy_4_zone_5",
+    "name": "Racing_Galaxy Zone 5",
+    "galaxy": "Racing_Galaxy",
+    "type": "racing",
+    "theme": "speed_tunnel",
+    "source_roms": [
+      {
+        "id": "rom_42",
+        "name": "Mario Kart 7 (USA) (En,Fr,Es) (Rev 1).cia",
+        "path": "/home/donn/Downloads/3DS/Mario Kart 7 (USA) (En,Fr,Es) (Rev 1).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 634.33
+      },
+      {
+        "id": "rom_119",
+        "name": "Rush 2 - Extreme Racing USA (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Rush 2 - Extreme Racing USA (U) [!].z64",
+        "category": "racing",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_216",
+        "name": "MRC - Multi Racing Championship (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/MRC - Multi Racing Championship (U) [!].z64",
+        "category": "racing",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_232",
+        "name": "Mario Kart 64 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Mario Kart 64 (U) [!].z64",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_247",
+        "name": "Indy Racing 2000 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Indy Racing 2000 (U) [!].z64",
+        "category": "racing",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_267",
+        "name": "Hot Wheels Turbo Racing (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Hot Wheels Turbo Racing (U) [!].z64",
+        "category": "racing",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_270",
+        "name": "F-Zero X (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/F-Zero X (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_309",
+        "name": "Diddy Kong Racing (U) (M2) (V1.1) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Diddy Kong Racing (U) (M2) (V1.1) [!].z64",
+        "category": "racing",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_336",
+        "name": "Beetle Adventure Racing! (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Beetle Adventure Racing! (U) [!].z64",
+        "category": "racing",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_357",
+        "name": "Mario Kart 64 (USA).z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Mario Kart 64 (USA).z64",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 12.0
+      }
+    ],
+    "ai_controlled": true,
+    "danger_level": "extreme",
+    "boss_present": true
+  },
+  {
+    "id": "galaxy_4_zone_6",
+    "name": "Racing_Galaxy Zone 6",
+    "galaxy": "Racing_Galaxy",
+    "type": "racing",
+    "theme": "speed_tunnel",
+    "source_roms": [
+      {
+        "id": "rom_42",
+        "name": "Mario Kart 7 (USA) (En,Fr,Es) (Rev 1).cia",
+        "path": "/home/donn/Downloads/3DS/Mario Kart 7 (USA) (En,Fr,Es) (Rev 1).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 634.33
+      },
+      {
+        "id": "rom_119",
+        "name": "Rush 2 - Extreme Racing USA (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Rush 2 - Extreme Racing USA (U) [!].z64",
+        "category": "racing",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_216",
+        "name": "MRC - Multi Racing Championship (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/MRC - Multi Racing Championship (U) [!].z64",
+        "category": "racing",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_232",
+        "name": "Mario Kart 64 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Mario Kart 64 (U) [!].z64",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_247",
+        "name": "Indy Racing 2000 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Indy Racing 2000 (U) [!].z64",
+        "category": "racing",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_267",
+        "name": "Hot Wheels Turbo Racing (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Hot Wheels Turbo Racing (U) [!].z64",
+        "category": "racing",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_270",
+        "name": "F-Zero X (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/F-Zero X (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_309",
+        "name": "Diddy Kong Racing (U) (M2) (V1.1) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Diddy Kong Racing (U) (M2) (V1.1) [!].z64",
+        "category": "racing",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_336",
+        "name": "Beetle Adventure Racing! (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Beetle Adventure Racing! (U) [!].z64",
+        "category": "racing",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_357",
+        "name": "Mario Kart 64 (USA).z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Mario Kart 64 (USA).z64",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 12.0
+      }
+    ],
+    "ai_controlled": true,
+    "danger_level": "extreme",
+    "boss_present": true
+  },
+  {
+    "id": "galaxy_5_zone_0",
+    "name": "RPG_Galaxy Zone 0",
+    "galaxy": "RPG_Galaxy",
+    "type": "rpg",
+    "theme": "ancient_sector",
+    "source_roms": [
+      {
+        "id": "rom_9",
+        "name": "Super Mario Maker for Nintendo 3DS (USA) (En,Fr,Es) (Rev 2).cia",
+        "path": "/home/donn/Downloads/3DS/Super Mario Maker for Nintendo 3DS (USA) (En,Fr,Es) (Rev 2).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 365.08
+      },
+      {
+        "id": "rom_11",
+        "name": "Mario & Sonic at the London 2012 Olympic Games (USA) (En,Fr,Es).cia",
+        "path": "/home/donn/Downloads/3DS/Mario & Sonic at the London 2012 Olympic Games (USA) (En,Fr,Es).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 376.25
+      },
+      {
+        "id": "rom_12",
+        "name": "Mario Party - The Top 100 (USA).cia",
+        "path": "/home/donn/Downloads/3DS/Mario Party - The Top 100 (USA).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 260.47
+      },
+      {
+        "id": "rom_14",
+        "name": "Mario & Luigi - Dream Team (USA) (En,Fr,Es).cia",
+        "path": "/home/donn/Downloads/3DS/Mario & Luigi - Dream Team (USA) (En,Fr,Es).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 824.03
+      },
+      {
+        "id": "rom_16",
+        "name": "Mario Tennis Open (USA) (En,Fr,Es) (Rev 1).cia",
+        "path": "/home/donn/Downloads/3DS/Mario Tennis Open (USA) (En,Fr,Es) (Rev 1).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 251.27
+      },
+      {
+        "id": "rom_22",
+        "name": "Mario Party - Island Tour (USA) (En,Fr,Es).cia",
+        "path": "/home/donn/Downloads/3DS/Mario Party - Island Tour (USA) (En,Fr,Es).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 233.88
+      },
+      {
+        "id": "rom_23",
+        "name": "Mario Sports Superstars (USA).cia",
+        "path": "/home/donn/Downloads/3DS/Mario Sports Superstars (USA).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 823.2
+      },
+      {
+        "id": "rom_25",
+        "name": "Mario Golf - World Tour (USA) (En,Fr,Es).cia",
+        "path": "/home/donn/Downloads/3DS/Mario Golf - World Tour (USA) (En,Fr,Es).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 525.37
+      },
+      {
+        "id": "rom_28",
+        "name": "Super Mario 3D Land (USA) (En,Fr,Es) (Rev 1).cia",
+        "path": "/home/donn/Downloads/3DS/Super Mario 3D Land (USA) (En,Fr,Es) (Rev 1).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 289.41
+      },
+      {
+        "id": "rom_29",
+        "name": "Mario & Sonic at the Rio 2016 Olympic Games (USA) (En,Fr,Es).cia",
+        "path": "/home/donn/Downloads/3DS/Mario & Sonic at the Rio 2016 Olympic Games (USA) (En,Fr,Es).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 682.19
+      }
+    ],
+    "ai_controlled": true,
+    "danger_level": "extreme",
+    "boss_present": false
+  },
+  {
+    "id": "galaxy_5_zone_1",
+    "name": "RPG_Galaxy Zone 1",
+    "galaxy": "RPG_Galaxy",
+    "type": "rpg",
+    "theme": "ancient_sector",
+    "source_roms": [
+      {
+        "id": "rom_9",
+        "name": "Super Mario Maker for Nintendo 3DS (USA) (En,Fr,Es) (Rev 2).cia",
+        "path": "/home/donn/Downloads/3DS/Super Mario Maker for Nintendo 3DS (USA) (En,Fr,Es) (Rev 2).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 365.08
+      },
+      {
+        "id": "rom_11",
+        "name": "Mario & Sonic at the London 2012 Olympic Games (USA) (En,Fr,Es).cia",
+        "path": "/home/donn/Downloads/3DS/Mario & Sonic at the London 2012 Olympic Games (USA) (En,Fr,Es).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 376.25
+      },
+      {
+        "id": "rom_12",
+        "name": "Mario Party - The Top 100 (USA).cia",
+        "path": "/home/donn/Downloads/3DS/Mario Party - The Top 100 (USA).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 260.47
+      },
+      {
+        "id": "rom_14",
+        "name": "Mario & Luigi - Dream Team (USA) (En,Fr,Es).cia",
+        "path": "/home/donn/Downloads/3DS/Mario & Luigi - Dream Team (USA) (En,Fr,Es).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 824.03
+      },
+      {
+        "id": "rom_16",
+        "name": "Mario Tennis Open (USA) (En,Fr,Es) (Rev 1).cia",
+        "path": "/home/donn/Downloads/3DS/Mario Tennis Open (USA) (En,Fr,Es) (Rev 1).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 251.27
+      },
+      {
+        "id": "rom_22",
+        "name": "Mario Party - Island Tour (USA) (En,Fr,Es).cia",
+        "path": "/home/donn/Downloads/3DS/Mario Party - Island Tour (USA) (En,Fr,Es).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 233.88
+      },
+      {
+        "id": "rom_23",
+        "name": "Mario Sports Superstars (USA).cia",
+        "path": "/home/donn/Downloads/3DS/Mario Sports Superstars (USA).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 823.2
+      },
+      {
+        "id": "rom_25",
+        "name": "Mario Golf - World Tour (USA) (En,Fr,Es).cia",
+        "path": "/home/donn/Downloads/3DS/Mario Golf - World Tour (USA) (En,Fr,Es).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 525.37
+      },
+      {
+        "id": "rom_28",
+        "name": "Super Mario 3D Land (USA) (En,Fr,Es) (Rev 1).cia",
+        "path": "/home/donn/Downloads/3DS/Super Mario 3D Land (USA) (En,Fr,Es) (Rev 1).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 289.41
+      },
+      {
+        "id": "rom_29",
+        "name": "Mario & Sonic at the Rio 2016 Olympic Games (USA) (En,Fr,Es).cia",
+        "path": "/home/donn/Downloads/3DS/Mario & Sonic at the Rio 2016 Olympic Games (USA) (En,Fr,Es).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 682.19
+      }
+    ],
+    "ai_controlled": true,
+    "danger_level": "extreme",
+    "boss_present": false
+  },
+  {
+    "id": "galaxy_5_zone_2",
+    "name": "RPG_Galaxy Zone 2",
+    "galaxy": "RPG_Galaxy",
+    "type": "rpg",
+    "theme": "ancient_sector",
+    "source_roms": [
+      {
+        "id": "rom_9",
+        "name": "Super Mario Maker for Nintendo 3DS (USA) (En,Fr,Es) (Rev 2).cia",
+        "path": "/home/donn/Downloads/3DS/Super Mario Maker for Nintendo 3DS (USA) (En,Fr,Es) (Rev 2).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 365.08
+      },
+      {
+        "id": "rom_11",
+        "name": "Mario & Sonic at the London 2012 Olympic Games (USA) (En,Fr,Es).cia",
+        "path": "/home/donn/Downloads/3DS/Mario & Sonic at the London 2012 Olympic Games (USA) (En,Fr,Es).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 376.25
+      },
+      {
+        "id": "rom_12",
+        "name": "Mario Party - The Top 100 (USA).cia",
+        "path": "/home/donn/Downloads/3DS/Mario Party - The Top 100 (USA).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 260.47
+      },
+      {
+        "id": "rom_14",
+        "name": "Mario & Luigi - Dream Team (USA) (En,Fr,Es).cia",
+        "path": "/home/donn/Downloads/3DS/Mario & Luigi - Dream Team (USA) (En,Fr,Es).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 824.03
+      },
+      {
+        "id": "rom_16",
+        "name": "Mario Tennis Open (USA) (En,Fr,Es) (Rev 1).cia",
+        "path": "/home/donn/Downloads/3DS/Mario Tennis Open (USA) (En,Fr,Es) (Rev 1).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 251.27
+      },
+      {
+        "id": "rom_22",
+        "name": "Mario Party - Island Tour (USA) (En,Fr,Es).cia",
+        "path": "/home/donn/Downloads/3DS/Mario Party - Island Tour (USA) (En,Fr,Es).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 233.88
+      },
+      {
+        "id": "rom_23",
+        "name": "Mario Sports Superstars (USA).cia",
+        "path": "/home/donn/Downloads/3DS/Mario Sports Superstars (USA).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 823.2
+      },
+      {
+        "id": "rom_25",
+        "name": "Mario Golf - World Tour (USA) (En,Fr,Es).cia",
+        "path": "/home/donn/Downloads/3DS/Mario Golf - World Tour (USA) (En,Fr,Es).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 525.37
+      },
+      {
+        "id": "rom_28",
+        "name": "Super Mario 3D Land (USA) (En,Fr,Es) (Rev 1).cia",
+        "path": "/home/donn/Downloads/3DS/Super Mario 3D Land (USA) (En,Fr,Es) (Rev 1).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 289.41
+      },
+      {
+        "id": "rom_29",
+        "name": "Mario & Sonic at the Rio 2016 Olympic Games (USA) (En,Fr,Es).cia",
+        "path": "/home/donn/Downloads/3DS/Mario & Sonic at the Rio 2016 Olympic Games (USA) (En,Fr,Es).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 682.19
+      }
+    ],
+    "ai_controlled": true,
+    "danger_level": "extreme",
+    "boss_present": false
+  },
+  {
+    "id": "galaxy_5_zone_3",
+    "name": "RPG_Galaxy Zone 3",
+    "galaxy": "RPG_Galaxy",
+    "type": "rpg",
+    "theme": "ancient_sector",
+    "source_roms": [
+      {
+        "id": "rom_9",
+        "name": "Super Mario Maker for Nintendo 3DS (USA) (En,Fr,Es) (Rev 2).cia",
+        "path": "/home/donn/Downloads/3DS/Super Mario Maker for Nintendo 3DS (USA) (En,Fr,Es) (Rev 2).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 365.08
+      },
+      {
+        "id": "rom_11",
+        "name": "Mario & Sonic at the London 2012 Olympic Games (USA) (En,Fr,Es).cia",
+        "path": "/home/donn/Downloads/3DS/Mario & Sonic at the London 2012 Olympic Games (USA) (En,Fr,Es).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 376.25
+      },
+      {
+        "id": "rom_12",
+        "name": "Mario Party - The Top 100 (USA).cia",
+        "path": "/home/donn/Downloads/3DS/Mario Party - The Top 100 (USA).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 260.47
+      },
+      {
+        "id": "rom_14",
+        "name": "Mario & Luigi - Dream Team (USA) (En,Fr,Es).cia",
+        "path": "/home/donn/Downloads/3DS/Mario & Luigi - Dream Team (USA) (En,Fr,Es).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 824.03
+      },
+      {
+        "id": "rom_16",
+        "name": "Mario Tennis Open (USA) (En,Fr,Es) (Rev 1).cia",
+        "path": "/home/donn/Downloads/3DS/Mario Tennis Open (USA) (En,Fr,Es) (Rev 1).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 251.27
+      },
+      {
+        "id": "rom_22",
+        "name": "Mario Party - Island Tour (USA) (En,Fr,Es).cia",
+        "path": "/home/donn/Downloads/3DS/Mario Party - Island Tour (USA) (En,Fr,Es).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 233.88
+      },
+      {
+        "id": "rom_23",
+        "name": "Mario Sports Superstars (USA).cia",
+        "path": "/home/donn/Downloads/3DS/Mario Sports Superstars (USA).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 823.2
+      },
+      {
+        "id": "rom_25",
+        "name": "Mario Golf - World Tour (USA) (En,Fr,Es).cia",
+        "path": "/home/donn/Downloads/3DS/Mario Golf - World Tour (USA) (En,Fr,Es).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 525.37
+      },
+      {
+        "id": "rom_28",
+        "name": "Super Mario 3D Land (USA) (En,Fr,Es) (Rev 1).cia",
+        "path": "/home/donn/Downloads/3DS/Super Mario 3D Land (USA) (En,Fr,Es) (Rev 1).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 289.41
+      },
+      {
+        "id": "rom_29",
+        "name": "Mario & Sonic at the Rio 2016 Olympic Games (USA) (En,Fr,Es).cia",
+        "path": "/home/donn/Downloads/3DS/Mario & Sonic at the Rio 2016 Olympic Games (USA) (En,Fr,Es).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 682.19
+      }
+    ],
+    "ai_controlled": true,
+    "danger_level": "extreme",
+    "boss_present": false
+  },
+  {
+    "id": "galaxy_5_zone_4",
+    "name": "RPG_Galaxy Zone 4",
+    "galaxy": "RPG_Galaxy",
+    "type": "rpg",
+    "theme": "ancient_sector",
+    "source_roms": [
+      {
+        "id": "rom_9",
+        "name": "Super Mario Maker for Nintendo 3DS (USA) (En,Fr,Es) (Rev 2).cia",
+        "path": "/home/donn/Downloads/3DS/Super Mario Maker for Nintendo 3DS (USA) (En,Fr,Es) (Rev 2).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 365.08
+      },
+      {
+        "id": "rom_11",
+        "name": "Mario & Sonic at the London 2012 Olympic Games (USA) (En,Fr,Es).cia",
+        "path": "/home/donn/Downloads/3DS/Mario & Sonic at the London 2012 Olympic Games (USA) (En,Fr,Es).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 376.25
+      },
+      {
+        "id": "rom_12",
+        "name": "Mario Party - The Top 100 (USA).cia",
+        "path": "/home/donn/Downloads/3DS/Mario Party - The Top 100 (USA).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 260.47
+      },
+      {
+        "id": "rom_14",
+        "name": "Mario & Luigi - Dream Team (USA) (En,Fr,Es).cia",
+        "path": "/home/donn/Downloads/3DS/Mario & Luigi - Dream Team (USA) (En,Fr,Es).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 824.03
+      },
+      {
+        "id": "rom_16",
+        "name": "Mario Tennis Open (USA) (En,Fr,Es) (Rev 1).cia",
+        "path": "/home/donn/Downloads/3DS/Mario Tennis Open (USA) (En,Fr,Es) (Rev 1).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 251.27
+      },
+      {
+        "id": "rom_22",
+        "name": "Mario Party - Island Tour (USA) (En,Fr,Es).cia",
+        "path": "/home/donn/Downloads/3DS/Mario Party - Island Tour (USA) (En,Fr,Es).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 233.88
+      },
+      {
+        "id": "rom_23",
+        "name": "Mario Sports Superstars (USA).cia",
+        "path": "/home/donn/Downloads/3DS/Mario Sports Superstars (USA).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 823.2
+      },
+      {
+        "id": "rom_25",
+        "name": "Mario Golf - World Tour (USA) (En,Fr,Es).cia",
+        "path": "/home/donn/Downloads/3DS/Mario Golf - World Tour (USA) (En,Fr,Es).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 525.37
+      },
+      {
+        "id": "rom_28",
+        "name": "Super Mario 3D Land (USA) (En,Fr,Es) (Rev 1).cia",
+        "path": "/home/donn/Downloads/3DS/Super Mario 3D Land (USA) (En,Fr,Es) (Rev 1).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 289.41
+      },
+      {
+        "id": "rom_29",
+        "name": "Mario & Sonic at the Rio 2016 Olympic Games (USA) (En,Fr,Es).cia",
+        "path": "/home/donn/Downloads/3DS/Mario & Sonic at the Rio 2016 Olympic Games (USA) (En,Fr,Es).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 682.19
+      }
+    ],
+    "ai_controlled": true,
+    "danger_level": "extreme",
+    "boss_present": false
+  },
+  {
+    "id": "galaxy_6_zone_0",
+    "name": "Horror_Galaxy Zone 0",
+    "galaxy": "Horror_Galaxy",
+    "type": "survival_horror",
+    "theme": "dark_void",
+    "source_roms": [
+      {
+        "id": "rom_1",
+        "name": "Resident Evil - Revelations (USA) (En,Ja,Fr,De,Es,It)-020.cia",
+        "path": "/home/donn/Downloads/Resident Evil - Revelations (USA) (En,Ja,Fr,De,Es,It)-020.cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 0.0
+      },
+      {
+        "id": "rom_213",
+        "name": "Resident Evil 2 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Resident Evil 2 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 64.0
+      }
+    ],
+    "ai_controlled": true,
+    "danger_level": "low",
+    "boss_present": true
+  },
+  {
+    "id": "galaxy_6_zone_1",
+    "name": "Horror_Galaxy Zone 1",
+    "galaxy": "Horror_Galaxy",
+    "type": "survival_horror",
+    "theme": "dark_void",
+    "source_roms": [
+      {
+        "id": "rom_1",
+        "name": "Resident Evil - Revelations (USA) (En,Ja,Fr,De,Es,It)-020.cia",
+        "path": "/home/donn/Downloads/Resident Evil - Revelations (USA) (En,Ja,Fr,De,Es,It)-020.cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 0.0
+      },
+      {
+        "id": "rom_213",
+        "name": "Resident Evil 2 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Resident Evil 2 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 64.0
+      }
+    ],
+    "ai_controlled": true,
+    "danger_level": "low",
+    "boss_present": true
+  },
+  {
+    "id": "galaxy_6_zone_2",
+    "name": "Horror_Galaxy Zone 2",
+    "galaxy": "Horror_Galaxy",
+    "type": "survival_horror",
+    "theme": "dark_void",
+    "source_roms": [
+      {
+        "id": "rom_1",
+        "name": "Resident Evil - Revelations (USA) (En,Ja,Fr,De,Es,It)-020.cia",
+        "path": "/home/donn/Downloads/Resident Evil - Revelations (USA) (En,Ja,Fr,De,Es,It)-020.cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 0.0
+      },
+      {
+        "id": "rom_213",
+        "name": "Resident Evil 2 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Resident Evil 2 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 64.0
+      }
+    ],
+    "ai_controlled": true,
+    "danger_level": "low",
+    "boss_present": true
+  },
+  {
+    "id": "galaxy_6_zone_3",
+    "name": "Horror_Galaxy Zone 3",
+    "galaxy": "Horror_Galaxy",
+    "type": "survival_horror",
+    "theme": "dark_void",
+    "source_roms": [
+      {
+        "id": "rom_1",
+        "name": "Resident Evil - Revelations (USA) (En,Ja,Fr,De,Es,It)-020.cia",
+        "path": "/home/donn/Downloads/Resident Evil - Revelations (USA) (En,Ja,Fr,De,Es,It)-020.cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 0.0
+      },
+      {
+        "id": "rom_213",
+        "name": "Resident Evil 2 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Resident Evil 2 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 64.0
+      }
+    ],
+    "ai_controlled": true,
+    "danger_level": "low",
+    "boss_present": true
+  },
+  {
+    "id": "galaxy_6_zone_4",
+    "name": "Horror_Galaxy Zone 4",
+    "galaxy": "Horror_Galaxy",
+    "type": "survival_horror",
+    "theme": "dark_void",
+    "source_roms": [
+      {
+        "id": "rom_1",
+        "name": "Resident Evil - Revelations (USA) (En,Ja,Fr,De,Es,It)-020.cia",
+        "path": "/home/donn/Downloads/Resident Evil - Revelations (USA) (En,Ja,Fr,De,Es,It)-020.cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 0.0
+      },
+      {
+        "id": "rom_213",
+        "name": "Resident Evil 2 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Resident Evil 2 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 64.0
+      }
+    ],
+    "ai_controlled": true,
+    "danger_level": "low",
+    "boss_present": true
+  },
+  {
+    "id": "galaxy_6_zone_5",
+    "name": "Horror_Galaxy Zone 5",
+    "galaxy": "Horror_Galaxy",
+    "type": "survival_horror",
+    "theme": "dark_void",
+    "source_roms": [
+      {
+        "id": "rom_1",
+        "name": "Resident Evil - Revelations (USA) (En,Ja,Fr,De,Es,It)-020.cia",
+        "path": "/home/donn/Downloads/Resident Evil - Revelations (USA) (En,Ja,Fr,De,Es,It)-020.cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 0.0
+      },
+      {
+        "id": "rom_213",
+        "name": "Resident Evil 2 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Resident Evil 2 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 64.0
+      }
+    ],
+    "ai_controlled": true,
+    "danger_level": "low",
+    "boss_present": true
+  },
+  {
+    "id": "galaxy_6_zone_6",
+    "name": "Horror_Galaxy Zone 6",
+    "galaxy": "Horror_Galaxy",
+    "type": "survival_horror",
+    "theme": "dark_void",
+    "source_roms": [
+      {
+        "id": "rom_1",
+        "name": "Resident Evil - Revelations (USA) (En,Ja,Fr,De,Es,It)-020.cia",
+        "path": "/home/donn/Downloads/Resident Evil - Revelations (USA) (En,Ja,Fr,De,Es,It)-020.cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 0.0
+      },
+      {
+        "id": "rom_213",
+        "name": "Resident Evil 2 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Resident Evil 2 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 64.0
+      }
+    ],
+    "ai_controlled": true,
+    "danger_level": "low",
+    "boss_present": true
+  },
+  {
+    "id": "galaxy_6_zone_7",
+    "name": "Horror_Galaxy Zone 7",
+    "galaxy": "Horror_Galaxy",
+    "type": "survival_horror",
+    "theme": "dark_void",
+    "source_roms": [
+      {
+        "id": "rom_1",
+        "name": "Resident Evil - Revelations (USA) (En,Ja,Fr,De,Es,It)-020.cia",
+        "path": "/home/donn/Downloads/Resident Evil - Revelations (USA) (En,Ja,Fr,De,Es,It)-020.cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 0.0
+      },
+      {
+        "id": "rom_213",
+        "name": "Resident Evil 2 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Resident Evil 2 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 64.0
+      }
+    ],
+    "ai_controlled": true,
+    "danger_level": "low",
+    "boss_present": true
+  },
+  {
+    "id": "galaxy_7_zone_0",
+    "name": "Fighting_Galaxy Zone 0",
+    "galaxy": "Fighting_Galaxy",
+    "type": "fighting",
+    "theme": "arena_ring",
+    "source_roms": [
+      {
+        "id": "rom_19",
+        "name": "Super Street Fighter IV - 3D Edition (USA) (En,Fr,Es).cia",
+        "path": "/home/donn/Downloads/3DS/Super Street Fighter IV - 3D Edition (USA) (En,Fr,Es).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 1682.38
+      },
+      {
+        "id": "rom_53",
+        "name": "Super Smash Bros. for Nintendo 3DS (USA) (En,Fr,Es) (Rev 7).cia",
+        "path": "/home/donn/Downloads/3DS/Super Smash Bros. for Nintendo 3DS (USA) (En,Fr,Es) (Rev 7).cia",
+        "category": "fighting",
+        "region": "USA",
+        "size_mb": 1421.36
+      },
+      {
+        "id": "rom_107",
+        "name": "Super Smash Bros. (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Super Smash Bros. (U) [!].z64",
+        "category": "fighting",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_211",
+        "name": "Mortal Kombat 4 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Mortal Kombat 4 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_217",
+        "name": "Mortal Kombat Trilogy (U) (V1.2) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Mortal Kombat Trilogy (U) (V1.2) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_263",
+        "name": "Fighter_s Destiny (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Fighter_s Destiny (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_282",
+        "name": "Fighter_s Destiny 2 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Fighter_s Destiny 2 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_305",
+        "name": "Clay Fighter - Sculptor_s Cut (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Clay Fighter - Sculptor_s Cut (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_313",
+        "name": "Clay Fighter 63 1-3 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Clay Fighter 63 1-3 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_348",
+        "name": "Aerofighter_s Assault (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Aerofighter_s Assault (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      }
+    ],
+    "ai_controlled": true,
+    "danger_level": "medium",
+    "boss_present": false
+  },
+  {
+    "id": "galaxy_7_zone_1",
+    "name": "Fighting_Galaxy Zone 1",
+    "galaxy": "Fighting_Galaxy",
+    "type": "fighting",
+    "theme": "arena_ring",
+    "source_roms": [
+      {
+        "id": "rom_19",
+        "name": "Super Street Fighter IV - 3D Edition (USA) (En,Fr,Es).cia",
+        "path": "/home/donn/Downloads/3DS/Super Street Fighter IV - 3D Edition (USA) (En,Fr,Es).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 1682.38
+      },
+      {
+        "id": "rom_53",
+        "name": "Super Smash Bros. for Nintendo 3DS (USA) (En,Fr,Es) (Rev 7).cia",
+        "path": "/home/donn/Downloads/3DS/Super Smash Bros. for Nintendo 3DS (USA) (En,Fr,Es) (Rev 7).cia",
+        "category": "fighting",
+        "region": "USA",
+        "size_mb": 1421.36
+      },
+      {
+        "id": "rom_107",
+        "name": "Super Smash Bros. (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Super Smash Bros. (U) [!].z64",
+        "category": "fighting",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_211",
+        "name": "Mortal Kombat 4 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Mortal Kombat 4 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_217",
+        "name": "Mortal Kombat Trilogy (U) (V1.2) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Mortal Kombat Trilogy (U) (V1.2) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_263",
+        "name": "Fighter_s Destiny (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Fighter_s Destiny (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_282",
+        "name": "Fighter_s Destiny 2 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Fighter_s Destiny 2 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_305",
+        "name": "Clay Fighter - Sculptor_s Cut (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Clay Fighter - Sculptor_s Cut (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_313",
+        "name": "Clay Fighter 63 1-3 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Clay Fighter 63 1-3 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_348",
+        "name": "Aerofighter_s Assault (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Aerofighter_s Assault (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      }
+    ],
+    "ai_controlled": true,
+    "danger_level": "medium",
+    "boss_present": false
+  },
+  {
+    "id": "galaxy_7_zone_2",
+    "name": "Fighting_Galaxy Zone 2",
+    "galaxy": "Fighting_Galaxy",
+    "type": "fighting",
+    "theme": "arena_ring",
+    "source_roms": [
+      {
+        "id": "rom_19",
+        "name": "Super Street Fighter IV - 3D Edition (USA) (En,Fr,Es).cia",
+        "path": "/home/donn/Downloads/3DS/Super Street Fighter IV - 3D Edition (USA) (En,Fr,Es).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 1682.38
+      },
+      {
+        "id": "rom_53",
+        "name": "Super Smash Bros. for Nintendo 3DS (USA) (En,Fr,Es) (Rev 7).cia",
+        "path": "/home/donn/Downloads/3DS/Super Smash Bros. for Nintendo 3DS (USA) (En,Fr,Es) (Rev 7).cia",
+        "category": "fighting",
+        "region": "USA",
+        "size_mb": 1421.36
+      },
+      {
+        "id": "rom_107",
+        "name": "Super Smash Bros. (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Super Smash Bros. (U) [!].z64",
+        "category": "fighting",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_211",
+        "name": "Mortal Kombat 4 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Mortal Kombat 4 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_217",
+        "name": "Mortal Kombat Trilogy (U) (V1.2) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Mortal Kombat Trilogy (U) (V1.2) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_263",
+        "name": "Fighter_s Destiny (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Fighter_s Destiny (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_282",
+        "name": "Fighter_s Destiny 2 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Fighter_s Destiny 2 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_305",
+        "name": "Clay Fighter - Sculptor_s Cut (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Clay Fighter - Sculptor_s Cut (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_313",
+        "name": "Clay Fighter 63 1-3 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Clay Fighter 63 1-3 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_348",
+        "name": "Aerofighter_s Assault (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Aerofighter_s Assault (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      }
+    ],
+    "ai_controlled": true,
+    "danger_level": "medium",
+    "boss_present": false
+  },
+  {
+    "id": "galaxy_7_zone_3",
+    "name": "Fighting_Galaxy Zone 3",
+    "galaxy": "Fighting_Galaxy",
+    "type": "fighting",
+    "theme": "arena_ring",
+    "source_roms": [
+      {
+        "id": "rom_19",
+        "name": "Super Street Fighter IV - 3D Edition (USA) (En,Fr,Es).cia",
+        "path": "/home/donn/Downloads/3DS/Super Street Fighter IV - 3D Edition (USA) (En,Fr,Es).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 1682.38
+      },
+      {
+        "id": "rom_53",
+        "name": "Super Smash Bros. for Nintendo 3DS (USA) (En,Fr,Es) (Rev 7).cia",
+        "path": "/home/donn/Downloads/3DS/Super Smash Bros. for Nintendo 3DS (USA) (En,Fr,Es) (Rev 7).cia",
+        "category": "fighting",
+        "region": "USA",
+        "size_mb": 1421.36
+      },
+      {
+        "id": "rom_107",
+        "name": "Super Smash Bros. (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Super Smash Bros. (U) [!].z64",
+        "category": "fighting",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_211",
+        "name": "Mortal Kombat 4 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Mortal Kombat 4 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_217",
+        "name": "Mortal Kombat Trilogy (U) (V1.2) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Mortal Kombat Trilogy (U) (V1.2) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_263",
+        "name": "Fighter_s Destiny (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Fighter_s Destiny (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_282",
+        "name": "Fighter_s Destiny 2 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Fighter_s Destiny 2 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_305",
+        "name": "Clay Fighter - Sculptor_s Cut (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Clay Fighter - Sculptor_s Cut (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_313",
+        "name": "Clay Fighter 63 1-3 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Clay Fighter 63 1-3 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_348",
+        "name": "Aerofighter_s Assault (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Aerofighter_s Assault (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      }
+    ],
+    "ai_controlled": true,
+    "danger_level": "medium",
+    "boss_present": false
+  },
+  {
+    "id": "galaxy_7_zone_4",
+    "name": "Fighting_Galaxy Zone 4",
+    "galaxy": "Fighting_Galaxy",
+    "type": "fighting",
+    "theme": "arena_ring",
+    "source_roms": [
+      {
+        "id": "rom_19",
+        "name": "Super Street Fighter IV - 3D Edition (USA) (En,Fr,Es).cia",
+        "path": "/home/donn/Downloads/3DS/Super Street Fighter IV - 3D Edition (USA) (En,Fr,Es).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 1682.38
+      },
+      {
+        "id": "rom_53",
+        "name": "Super Smash Bros. for Nintendo 3DS (USA) (En,Fr,Es) (Rev 7).cia",
+        "path": "/home/donn/Downloads/3DS/Super Smash Bros. for Nintendo 3DS (USA) (En,Fr,Es) (Rev 7).cia",
+        "category": "fighting",
+        "region": "USA",
+        "size_mb": 1421.36
+      },
+      {
+        "id": "rom_107",
+        "name": "Super Smash Bros. (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Super Smash Bros. (U) [!].z64",
+        "category": "fighting",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_211",
+        "name": "Mortal Kombat 4 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Mortal Kombat 4 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_217",
+        "name": "Mortal Kombat Trilogy (U) (V1.2) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Mortal Kombat Trilogy (U) (V1.2) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_263",
+        "name": "Fighter_s Destiny (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Fighter_s Destiny (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_282",
+        "name": "Fighter_s Destiny 2 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Fighter_s Destiny 2 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_305",
+        "name": "Clay Fighter - Sculptor_s Cut (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Clay Fighter - Sculptor_s Cut (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_313",
+        "name": "Clay Fighter 63 1-3 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Clay Fighter 63 1-3 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_348",
+        "name": "Aerofighter_s Assault (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Aerofighter_s Assault (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      }
+    ],
+    "ai_controlled": true,
+    "danger_level": "medium",
+    "boss_present": false
+  },
+  {
+    "id": "galaxy_7_zone_5",
+    "name": "Fighting_Galaxy Zone 5",
+    "galaxy": "Fighting_Galaxy",
+    "type": "fighting",
+    "theme": "arena_ring",
+    "source_roms": [
+      {
+        "id": "rom_19",
+        "name": "Super Street Fighter IV - 3D Edition (USA) (En,Fr,Es).cia",
+        "path": "/home/donn/Downloads/3DS/Super Street Fighter IV - 3D Edition (USA) (En,Fr,Es).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 1682.38
+      },
+      {
+        "id": "rom_53",
+        "name": "Super Smash Bros. for Nintendo 3DS (USA) (En,Fr,Es) (Rev 7).cia",
+        "path": "/home/donn/Downloads/3DS/Super Smash Bros. for Nintendo 3DS (USA) (En,Fr,Es) (Rev 7).cia",
+        "category": "fighting",
+        "region": "USA",
+        "size_mb": 1421.36
+      },
+      {
+        "id": "rom_107",
+        "name": "Super Smash Bros. (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Super Smash Bros. (U) [!].z64",
+        "category": "fighting",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_211",
+        "name": "Mortal Kombat 4 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Mortal Kombat 4 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_217",
+        "name": "Mortal Kombat Trilogy (U) (V1.2) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Mortal Kombat Trilogy (U) (V1.2) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_263",
+        "name": "Fighter_s Destiny (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Fighter_s Destiny (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_282",
+        "name": "Fighter_s Destiny 2 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Fighter_s Destiny 2 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_305",
+        "name": "Clay Fighter - Sculptor_s Cut (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Clay Fighter - Sculptor_s Cut (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_313",
+        "name": "Clay Fighter 63 1-3 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Clay Fighter 63 1-3 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_348",
+        "name": "Aerofighter_s Assault (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Aerofighter_s Assault (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      }
+    ],
+    "ai_controlled": true,
+    "danger_level": "medium",
+    "boss_present": false
+  },
+  {
+    "id": "galaxy_7_zone_6",
+    "name": "Fighting_Galaxy Zone 6",
+    "galaxy": "Fighting_Galaxy",
+    "type": "fighting",
+    "theme": "arena_ring",
+    "source_roms": [
+      {
+        "id": "rom_19",
+        "name": "Super Street Fighter IV - 3D Edition (USA) (En,Fr,Es).cia",
+        "path": "/home/donn/Downloads/3DS/Super Street Fighter IV - 3D Edition (USA) (En,Fr,Es).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 1682.38
+      },
+      {
+        "id": "rom_53",
+        "name": "Super Smash Bros. for Nintendo 3DS (USA) (En,Fr,Es) (Rev 7).cia",
+        "path": "/home/donn/Downloads/3DS/Super Smash Bros. for Nintendo 3DS (USA) (En,Fr,Es) (Rev 7).cia",
+        "category": "fighting",
+        "region": "USA",
+        "size_mb": 1421.36
+      },
+      {
+        "id": "rom_107",
+        "name": "Super Smash Bros. (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Super Smash Bros. (U) [!].z64",
+        "category": "fighting",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_211",
+        "name": "Mortal Kombat 4 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Mortal Kombat 4 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_217",
+        "name": "Mortal Kombat Trilogy (U) (V1.2) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Mortal Kombat Trilogy (U) (V1.2) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_263",
+        "name": "Fighter_s Destiny (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Fighter_s Destiny (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_282",
+        "name": "Fighter_s Destiny 2 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Fighter_s Destiny 2 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_305",
+        "name": "Clay Fighter - Sculptor_s Cut (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Clay Fighter - Sculptor_s Cut (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_313",
+        "name": "Clay Fighter 63 1-3 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Clay Fighter 63 1-3 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_348",
+        "name": "Aerofighter_s Assault (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Aerofighter_s Assault (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      }
+    ],
+    "ai_controlled": true,
+    "danger_level": "medium",
+    "boss_present": false
+  },
+  {
+    "id": "galaxy_7_zone_7",
+    "name": "Fighting_Galaxy Zone 7",
+    "galaxy": "Fighting_Galaxy",
+    "type": "fighting",
+    "theme": "arena_ring",
+    "source_roms": [
+      {
+        "id": "rom_19",
+        "name": "Super Street Fighter IV - 3D Edition (USA) (En,Fr,Es).cia",
+        "path": "/home/donn/Downloads/3DS/Super Street Fighter IV - 3D Edition (USA) (En,Fr,Es).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 1682.38
+      },
+      {
+        "id": "rom_53",
+        "name": "Super Smash Bros. for Nintendo 3DS (USA) (En,Fr,Es) (Rev 7).cia",
+        "path": "/home/donn/Downloads/3DS/Super Smash Bros. for Nintendo 3DS (USA) (En,Fr,Es) (Rev 7).cia",
+        "category": "fighting",
+        "region": "USA",
+        "size_mb": 1421.36
+      },
+      {
+        "id": "rom_107",
+        "name": "Super Smash Bros. (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Super Smash Bros. (U) [!].z64",
+        "category": "fighting",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_211",
+        "name": "Mortal Kombat 4 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Mortal Kombat 4 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_217",
+        "name": "Mortal Kombat Trilogy (U) (V1.2) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Mortal Kombat Trilogy (U) (V1.2) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_263",
+        "name": "Fighter_s Destiny (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Fighter_s Destiny (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_282",
+        "name": "Fighter_s Destiny 2 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Fighter_s Destiny 2 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_305",
+        "name": "Clay Fighter - Sculptor_s Cut (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Clay Fighter - Sculptor_s Cut (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_313",
+        "name": "Clay Fighter 63 1-3 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Clay Fighter 63 1-3 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_348",
+        "name": "Aerofighter_s Assault (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Aerofighter_s Assault (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      }
+    ],
+    "ai_controlled": true,
+    "danger_level": "medium",
+    "boss_present": false
+  },
+  {
+    "id": "galaxy_7_zone_8",
+    "name": "Fighting_Galaxy Zone 8",
+    "galaxy": "Fighting_Galaxy",
+    "type": "fighting",
+    "theme": "arena_ring",
+    "source_roms": [
+      {
+        "id": "rom_19",
+        "name": "Super Street Fighter IV - 3D Edition (USA) (En,Fr,Es).cia",
+        "path": "/home/donn/Downloads/3DS/Super Street Fighter IV - 3D Edition (USA) (En,Fr,Es).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 1682.38
+      },
+      {
+        "id": "rom_53",
+        "name": "Super Smash Bros. for Nintendo 3DS (USA) (En,Fr,Es) (Rev 7).cia",
+        "path": "/home/donn/Downloads/3DS/Super Smash Bros. for Nintendo 3DS (USA) (En,Fr,Es) (Rev 7).cia",
+        "category": "fighting",
+        "region": "USA",
+        "size_mb": 1421.36
+      },
+      {
+        "id": "rom_107",
+        "name": "Super Smash Bros. (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Super Smash Bros. (U) [!].z64",
+        "category": "fighting",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_211",
+        "name": "Mortal Kombat 4 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Mortal Kombat 4 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_217",
+        "name": "Mortal Kombat Trilogy (U) (V1.2) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Mortal Kombat Trilogy (U) (V1.2) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_263",
+        "name": "Fighter_s Destiny (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Fighter_s Destiny (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_282",
+        "name": "Fighter_s Destiny 2 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Fighter_s Destiny 2 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_305",
+        "name": "Clay Fighter - Sculptor_s Cut (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Clay Fighter - Sculptor_s Cut (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_313",
+        "name": "Clay Fighter 63 1-3 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Clay Fighter 63 1-3 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_348",
+        "name": "Aerofighter_s Assault (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Aerofighter_s Assault (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      }
+    ],
+    "ai_controlled": true,
+    "danger_level": "medium",
+    "boss_present": false
+  },
+  {
+    "id": "galaxy_7_zone_9",
+    "name": "Fighting_Galaxy Zone 9",
+    "galaxy": "Fighting_Galaxy",
+    "type": "fighting",
+    "theme": "arena_ring",
+    "source_roms": [
+      {
+        "id": "rom_19",
+        "name": "Super Street Fighter IV - 3D Edition (USA) (En,Fr,Es).cia",
+        "path": "/home/donn/Downloads/3DS/Super Street Fighter IV - 3D Edition (USA) (En,Fr,Es).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 1682.38
+      },
+      {
+        "id": "rom_53",
+        "name": "Super Smash Bros. for Nintendo 3DS (USA) (En,Fr,Es) (Rev 7).cia",
+        "path": "/home/donn/Downloads/3DS/Super Smash Bros. for Nintendo 3DS (USA) (En,Fr,Es) (Rev 7).cia",
+        "category": "fighting",
+        "region": "USA",
+        "size_mb": 1421.36
+      },
+      {
+        "id": "rom_107",
+        "name": "Super Smash Bros. (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Super Smash Bros. (U) [!].z64",
+        "category": "fighting",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_211",
+        "name": "Mortal Kombat 4 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Mortal Kombat 4 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_217",
+        "name": "Mortal Kombat Trilogy (U) (V1.2) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Mortal Kombat Trilogy (U) (V1.2) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_263",
+        "name": "Fighter_s Destiny (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Fighter_s Destiny (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_282",
+        "name": "Fighter_s Destiny 2 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Fighter_s Destiny 2 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_305",
+        "name": "Clay Fighter - Sculptor_s Cut (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Clay Fighter - Sculptor_s Cut (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_313",
+        "name": "Clay Fighter 63 1-3 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Clay Fighter 63 1-3 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_348",
+        "name": "Aerofighter_s Assault (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Aerofighter_s Assault (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      }
+    ],
+    "ai_controlled": true,
+    "danger_level": "medium",
+    "boss_present": false
+  },
+  {
+    "id": "galaxy_7_zone_10",
+    "name": "Fighting_Galaxy Zone 10",
+    "galaxy": "Fighting_Galaxy",
+    "type": "fighting",
+    "theme": "arena_ring",
+    "source_roms": [
+      {
+        "id": "rom_19",
+        "name": "Super Street Fighter IV - 3D Edition (USA) (En,Fr,Es).cia",
+        "path": "/home/donn/Downloads/3DS/Super Street Fighter IV - 3D Edition (USA) (En,Fr,Es).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 1682.38
+      },
+      {
+        "id": "rom_53",
+        "name": "Super Smash Bros. for Nintendo 3DS (USA) (En,Fr,Es) (Rev 7).cia",
+        "path": "/home/donn/Downloads/3DS/Super Smash Bros. for Nintendo 3DS (USA) (En,Fr,Es) (Rev 7).cia",
+        "category": "fighting",
+        "region": "USA",
+        "size_mb": 1421.36
+      },
+      {
+        "id": "rom_107",
+        "name": "Super Smash Bros. (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Super Smash Bros. (U) [!].z64",
+        "category": "fighting",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_211",
+        "name": "Mortal Kombat 4 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Mortal Kombat 4 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_217",
+        "name": "Mortal Kombat Trilogy (U) (V1.2) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Mortal Kombat Trilogy (U) (V1.2) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_263",
+        "name": "Fighter_s Destiny (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Fighter_s Destiny (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_282",
+        "name": "Fighter_s Destiny 2 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Fighter_s Destiny 2 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_305",
+        "name": "Clay Fighter - Sculptor_s Cut (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Clay Fighter - Sculptor_s Cut (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_313",
+        "name": "Clay Fighter 63 1-3 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Clay Fighter 63 1-3 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_348",
+        "name": "Aerofighter_s Assault (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Aerofighter_s Assault (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      }
+    ],
+    "ai_controlled": true,
+    "danger_level": "medium",
+    "boss_present": false
+  },
+  {
+    "id": "galaxy_7_zone_11",
+    "name": "Fighting_Galaxy Zone 11",
+    "galaxy": "Fighting_Galaxy",
+    "type": "fighting",
+    "theme": "arena_ring",
+    "source_roms": [
+      {
+        "id": "rom_19",
+        "name": "Super Street Fighter IV - 3D Edition (USA) (En,Fr,Es).cia",
+        "path": "/home/donn/Downloads/3DS/Super Street Fighter IV - 3D Edition (USA) (En,Fr,Es).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 1682.38
+      },
+      {
+        "id": "rom_53",
+        "name": "Super Smash Bros. for Nintendo 3DS (USA) (En,Fr,Es) (Rev 7).cia",
+        "path": "/home/donn/Downloads/3DS/Super Smash Bros. for Nintendo 3DS (USA) (En,Fr,Es) (Rev 7).cia",
+        "category": "fighting",
+        "region": "USA",
+        "size_mb": 1421.36
+      },
+      {
+        "id": "rom_107",
+        "name": "Super Smash Bros. (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Super Smash Bros. (U) [!].z64",
+        "category": "fighting",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_211",
+        "name": "Mortal Kombat 4 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Mortal Kombat 4 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_217",
+        "name": "Mortal Kombat Trilogy (U) (V1.2) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Mortal Kombat Trilogy (U) (V1.2) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_263",
+        "name": "Fighter_s Destiny (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Fighter_s Destiny (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_282",
+        "name": "Fighter_s Destiny 2 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Fighter_s Destiny 2 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_305",
+        "name": "Clay Fighter - Sculptor_s Cut (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Clay Fighter - Sculptor_s Cut (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_313",
+        "name": "Clay Fighter 63 1-3 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Clay Fighter 63 1-3 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_348",
+        "name": "Aerofighter_s Assault (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Aerofighter_s Assault (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      }
+    ],
+    "ai_controlled": true,
+    "danger_level": "medium",
+    "boss_present": false
+  }
+]

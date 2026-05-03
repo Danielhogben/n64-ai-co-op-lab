@@ -22,7 +22,6 @@
 *.zobj
 *.zscene
 *.zmap
-*.zobj
 *.bin
 
 # ROM archives
@@ -30,9 +29,16 @@ Base_ROMs/
 ROM_Hacks/
 Archives/
 
-# Downloaded models (copyrighted)
+# Large external tools and ports
+ShipOfHarkinian/
+ModLoader64/
+Tools/
+Library/
+
+# Downloaded models / copyrighted assets
 models/
 *.gguf
+Assets/
 
 # Blender backup files with embedded copyrighted assets
 *.blend1
@@ -47,9 +53,25 @@ venv/
 __pycache__/
 *.pyc
 *.pyo
+*.pyd
+.Python
+*.so
+*.egg
 *.egg-info/
 dist/
 build/
+*.spec
+.build_venv/
+.venv/
+ENV/
+
+# Game build artifacts
+Game3D/build/
+Game3D/dist/
+Game3D/.build_venv/
+Game3D/ProjectNexus.spec
+Game3D/nexus_3d.py.bak
+Game/venv/
 
 # =============================================================================
 # OUTPUTS / GENERATED
@@ -57,8 +79,32 @@ build/
 
 ScraperBot/outputs/
 MyWorld/builds/
+MyWorld/generated_*/
+MyWorld/blender/*.blend1
+MyWorld/scraped_assets/
+MyWorld/textures/
 MyWorld/patches/
-*.json
+MyWorld/music/
+MyWorld/actors/
+MyWorld/code/
+MyWorld/scenes/
+MyWorld/texture_packs/
+MyWorld/assets_generated/
+NuclearMon/builds/
+NuclearMon/worlds/
+NuclearMon/levels/
+
+# Misc
+Donn/
+Models
+AI_DM/blender_output/
+AI_DM/mods/
+AI_DM/*.log
+*.ini
+AI_DM/imgui.ini
+AI_DM/*_state.json
+AI_DM/current_state.json
+AI_DM/ultimate_config.json
 *.log
 
 # =============================================================================

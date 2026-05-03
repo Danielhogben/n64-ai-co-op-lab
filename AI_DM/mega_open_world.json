@@ -1,0 +1,86 @@
+{
+  "generated_at": "2026-05-02T18:09:59.716014",
+  "total_zones": 11,
+  "zones": [
+    {
+      "id": "zone_0",
+      "name": "Zelda_World_0",
+      "source_rom": "/home/donn/Downloads/OOT/MQ DEBUG COMPILED_zelda_ocarina_mq_dbg_ZRET.z64",
+      "type": "zelda",
+      "ai_combined": true
+    },
+    {
+      "id": "zone_1",
+      "name": "Zelda_World_1",
+      "source_rom": "/home/donn/Downloads/OOT/USE WITH SoH_Zelda OOT Debug ROM [NOT MQ].z64",
+      "type": "zelda",
+      "ai_combined": true
+    },
+    {
+      "id": "zone_2",
+      "name": "Zelda_World_2",
+      "source_rom": "/home/donn/Downloads/3DS/Legend of Zelda, The - A Link Between Worlds (USA) (En,Fr,Es).cia",
+      "type": "zelda",
+      "ai_combined": true
+    },
+    {
+      "id": "zone_3",
+      "name": "Zelda_World_3",
+      "source_rom": "/home/donn/Downloads/3DS/Legend of Zelda, The - Tri Force Heroes (USA) (En,Fr,Es).cia",
+      "type": "zelda",
+      "ai_combined": true
+    },
+    {
+      "id": "zone_4",
+      "name": "Zelda_World_4",
+      "source_rom": "/home/donn/Downloads/3DS/Legend of Zelda, The - Ocarina of Time 3D (USA) (En,Fr,Es) (Rev 1).cia",
+      "type": "zelda",
+      "ai_combined": true
+    },
+    {
+      "id": "zone_5",
+      "name": "Mario_World_5",
+      "source_rom": "/home/donn/Downloads/3DS/Super Mario Maker for Nintendo 3DS (USA) (En,Fr,Es) (Rev 2).cia",
+      "type": "mario",
+      "ai_combined": true
+    },
+    {
+      "id": "zone_6",
+      "name": "Mario_World_6",
+      "source_rom": "/home/donn/Downloads/3DS/Mario & Sonic at the London 2012 Olympic Games (USA) (En,Fr,Es).cia",
+      "type": "mario",
+      "ai_combined": true
+    },
+    {
+      "id": "zone_7",
+      "name": "Mario_World_7",
+      "source_rom": "/home/donn/Downloads/3DS/Mario Party - The Top 100 (USA).cia",
+      "type": "mario",
+      "ai_combined": true
+    },
+    {
+      "id": "zone_8",
+      "name": "Game_World_8",
+      "source_rom": "/home/donn/Downloads/Pokemon Ultra Sun (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-007.cia",
+      "type": "other",
+      "ai_combined": true
+    },
+    {
+      "id": "zone_9",
+      "name": "Game_World_9",
+      "source_rom": "/home/donn/Downloads/Resident Evil - Revelations (USA) (En,Ja,Fr,De,Es,It)-020.cia",
+      "type": "other",
+      "ai_combined": true
+    },
+    {
+      "id": "zone_10",
+      "name": "Game_World_10",
+      "source_rom": "/home/donn/Downloads/Pokemon Ultra Moon (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-014.cia",
+      "type": "other",
+      "ai_combined": true
+    }
+  ],
+  "combined_roms": true,
+  "ai_dungeon_master": true,
+  "all_pc_data_used": true
+}

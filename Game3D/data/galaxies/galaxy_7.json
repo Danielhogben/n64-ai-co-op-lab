@@ -1,0 +1,105 @@
+{
+  "id": "galaxy_7",
+  "name": "Fighting_Galaxy",
+  "type": "fighting",
+  "theme": "arena_ring",
+  "source_roms": [
+    {
+      "id": "rom_19",
+      "name": "Super Street Fighter IV - 3D Edition (USA) (En,Fr,Es).cia",
+      "path": "/home/donn/Downloads/3DS/Super Street Fighter IV - 3D Edition (USA) (En,Fr,Es).cia",
+      "category": "other",
+      "region": "USA",
+      "size_mb": 1682.38
+    },
+    {
+      "id": "rom_53",
+      "name": "Super Smash Bros. for Nintendo 3DS (USA) (En,Fr,Es) (Rev 7).cia",
+      "path": "/home/donn/Downloads/3DS/Super Smash Bros. for Nintendo 3DS (USA) (En,Fr,Es) (Rev 7).cia",
+      "category": "fighting",
+      "region": "USA",
+      "size_mb": 1421.36
+    },
+    {
+      "id": "rom_107",
+      "name": "Super Smash Bros. (U) [!].z64",
+      "path": "/home/donn/HylianModding/Library/ROMs/Super Smash Bros. (U) [!].z64",
+      "category": "fighting",
+      "region": "USA",
+      "size_mb": 16.0
+    },
+    {
+      "id": "rom_211",
+      "name": "Mortal Kombat 4 (U) [!].z64",
+      "path": "/home/donn/HylianModding/Library/ROMs/Mortal Kombat 4 (U) [!].z64",
+      "category": "other",
+      "region": "USA",
+      "size_mb": 16.0
+    },
+    {
+      "id": "rom_217",
+      "name": "Mortal Kombat Trilogy (U) (V1.2) [!].z64",
+      "path": "/home/donn/HylianModding/Library/ROMs/Mortal Kombat Trilogy (U) (V1.2) [!].z64",
+      "category": "other",
+      "region": "USA",
+      "size_mb": 12.0
+    },
+    {
+      "id": "rom_263",
+      "name": "Fighter_s Destiny (U) [!].z64",
+      "path": "/home/donn/HylianModding/Library/ROMs/Fighter_s Destiny (U) [!].z64",
+      "category": "other",
+      "region": "USA",
+      "size_mb": 12.0
+    },
+    {
+      "id": "rom_282",
+      "name": "Fighter_s Destiny 2 (U) [!].z64",
+      "path": "/home/donn/HylianModding/Library/ROMs/Fighter_s Destiny 2 (U) [!].z64",
+      "category": "other",
+      "region": "USA",
+      "size_mb": 16.0
+    },
+    {
+      "id": "rom_305",
+      "name": "Clay Fighter - Sculptor_s Cut (U) [!].z64",
+      "path": "/home/donn/HylianModding/Library/ROMs/Clay Fighter - Sculptor_s Cut (U) [!].z64",
+      "category": "other",
+      "region": "USA",
+      "size_mb": 16.0
+    },
+    {
+      "id": "rom_313",
+      "name": "Clay Fighter 63 1-3 (U) [!].z64",
+      "path": "/home/donn/HylianModding/Library/ROMs/Clay Fighter 63 1-3 (U) [!].z64",
+      "category": "other",
+      "region": "USA",
+      "size_mb": 12.0
+    },
+    {
+      "id": "rom_348",
+      "name": "Aerofighter_s Assault (U) [!].z64",
+      "path": "/home/donn/HylianModding/Library/ROMs/Aerofighter_s Assault (U) [!].z64",
+      "category": "other",
+      "region": "USA",
+      "size_mb": 8.0
+    }
+  ],
+  "total_zones": 12,
+  "ai_controlled": true,
+  "pokemon_companions": false,
+  "danger_level": "medium",
+  "boss_present": false,
+  "ai_companion": {
+    "name": "AI_Fighting_Galaxy_Guide",
+    "personality": "energetic",
+    "abilities": [
+      "scan",
+      "navigate",
+      "translate",
+      "heal",
+      "analyze"
+    ],
+    "voice": "synthetic"
+  }
+}

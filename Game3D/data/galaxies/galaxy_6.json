@@ -1,0 +1,41 @@
+{
+  "id": "galaxy_6",
+  "name": "Horror_Galaxy",
+  "type": "survival_horror",
+  "theme": "dark_void",
+  "source_roms": [
+    {
+      "id": "rom_1",
+      "name": "Resident Evil - Revelations (USA) (En,Ja,Fr,De,Es,It)-020.cia",
+      "path": "/home/donn/Downloads/Resident Evil - Revelations (USA) (En,Ja,Fr,De,Es,It)-020.cia",
+      "category": "other",
+      "region": "USA",
+      "size_mb": 0.0
+    },
+    {
+      "id": "rom_213",
+      "name": "Resident Evil 2 (U) [!].z64",
+      "path": "/home/donn/HylianModding/Library/ROMs/Resident Evil 2 (U) [!].z64",
+      "category": "other",
+      "region": "USA",
+      "size_mb": 64.0
+    }
+  ],
+  "total_zones": 8,
+  "ai_controlled": true,
+  "pokemon_companions": false,
+  "danger_level": "low",
+  "boss_present": true,
+  "ai_companion": {
+    "name": "AI_Horror_Galaxy_Guide",
+    "personality": "energetic",
+    "abilities": [
+      "scan",
+      "navigate",
+      "translate",
+      "heal",
+      "analyze"
+    ],
+    "voice": "echo"
+  }
+}

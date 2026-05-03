@@ -1,0 +1,16 @@
+{
+  "id": "companion_1",
+  "name": "Lunala",
+  "type": "pokemon",
+  "space_ability": "teleport",
+  "element": "dragon",
+  "loyalty": 95,
+  "ai_controlled": true,
+  "can_ride": true,
+  "evolution_level": 5,
+  "moves": [
+    "Hyper Beam",
+    "Meteor Mash",
+    "Psychic"
+  ]
+}

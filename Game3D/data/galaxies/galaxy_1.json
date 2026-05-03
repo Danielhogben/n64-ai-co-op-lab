@@ -1,0 +1,105 @@
+{
+  "id": "galaxy_1",
+  "name": "Mario_Galaxy",
+  "type": "platforming",
+  "theme": "colorful_nebula",
+  "source_roms": [
+    {
+      "id": "rom_64",
+      "name": "WWF - War Zone (U) [!].z64",
+      "path": "/home/donn/HylianModding/Library/ROMs/WWF - War Zone (U) [!].z64",
+      "category": "other",
+      "region": "USA",
+      "size_mb": 12.0
+    },
+    {
+      "id": "rom_65",
+      "name": "Transformers - Beast Wars Transmetal (U) [!].v64",
+      "path": "/home/donn/HylianModding/Library/ROMs/Transformers - Beast Wars Transmetal (U) [!].v64",
+      "category": "other",
+      "region": "USA",
+      "size_mb": 16.0
+    },
+    {
+      "id": "rom_66",
+      "name": "Xena Warrior Princess - Talisman of Fate (U) [!].z64",
+      "path": "/home/donn/HylianModding/Library/ROMs/Xena Warrior Princess - Talisman of Fate (U) [!].z64",
+      "category": "other",
+      "region": "USA",
+      "size_mb": 12.0
+    },
+    {
+      "id": "rom_67",
+      "name": "Wetrix (U) [!].z64",
+      "path": "/home/donn/HylianModding/Library/ROMs/Wetrix (U) [!].z64",
+      "category": "other",
+      "region": "USA",
+      "size_mb": 8.0
+    },
+    {
+      "id": "rom_68",
+      "name": "Wave Race 64 (U) (V1.1) (!).n64",
+      "path": "/home/donn/HylianModding/Library/ROMs/Wave Race 64 (U) (V1.1) (!).n64",
+      "category": "other",
+      "region": "USA",
+      "size_mb": 8.0
+    },
+    {
+      "id": "rom_69",
+      "name": "Twisted Edge Extreme Snowboarding (U) [!].z64",
+      "path": "/home/donn/HylianModding/Library/ROMs/Twisted Edge Extreme Snowboarding (U) [!].z64",
+      "category": "other",
+      "region": "USA",
+      "size_mb": 12.0
+    },
+    {
+      "id": "rom_70",
+      "name": "Turok - Dinosaur Hunter (U) (V1.2) [!].z64",
+      "path": "/home/donn/HylianModding/Library/ROMs/Turok - Dinosaur Hunter (U) (V1.2) [!].z64",
+      "category": "other",
+      "region": "USA",
+      "size_mb": 8.0
+    },
+    {
+      "id": "rom_71",
+      "name": "Vigilante 8 (U) (!).n64",
+      "path": "/home/donn/HylianModding/Library/ROMs/Vigilante 8 (U) (!).n64",
+      "category": "other",
+      "region": "USA",
+      "size_mb": 8.0
+    },
+    {
+      "id": "rom_72",
+      "name": "War Gods (U) [!].z64",
+      "path": "/home/donn/HylianModding/Library/ROMs/War Gods (U) [!].z64",
+      "category": "other",
+      "region": "USA",
+      "size_mb": 12.0
+    },
+    {
+      "id": "rom_73",
+      "name": "007 - GoldenEye.v64",
+      "path": "/home/donn/HylianModding/Library/ROMs/007 - GoldenEye.v64",
+      "category": "other",
+      "region": "USA",
+      "size_mb": 16.0
+    }
+  ],
+  "total_zones": 7,
+  "ai_controlled": true,
+  "pokemon_companions": false,
+  "danger_level": "low",
+  "boss_present": false,
+  "ai_companion": {
+    "name": "AI_Mario_Galaxy_Guide",
+    "personality": "sarcastic",
+    "abilities": [
+      "scan",
+      "navigate",
+      "translate",
+      "heal",
+      "analyze"
+    ],
+    "voice": "female"
+  }
+}

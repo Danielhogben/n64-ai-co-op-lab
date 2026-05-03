@@ -1,108 +1,160 @@
 #!/bin/bash
+# ═══════════════════════════════════════════════════════════════
 # N64 AI Co-op Lab — Unified Launcher
-# Usage: ./n64lab [command]
+# Controls: SoH, AI DM, Asset Gen, Scraper, Blender, ML64,
+#           Swarm Coordinator, and AI World Architect
+# ═══════════════════════════════════════════════════════════════
 
-set -e
+cd ~/HylianModding
+VENV=./venv/bin/python
 
-LAB="$HOME/HylianModding"
-VENV="$LAB/venv/bin/python"
+print_help() {
+    cat << 'EOF'
+Usage: ./n64lab <command> [args]
 
-case "${1:-menu}" in
-    menu|help|-h|--help)
-        cat << 'EOF'
-╔══════════════════════════════════════════════════════════════╗
-║           N64 AI Co-op Lab — Unified Launcher                ║
-╠══════════════════════════════════════════════════════════════╣
-║  play      → Launch Ship of Harkinian (PC port of OoT)      ║
-║  dm        → Start AI Dungeon Master (interactive CLI)       ║
-║  gen       → Generate procedural asset                       ║
-║  scraper   → Run metadata scraper bot                        ║
-║  blender   → Open Blender with project                       ║
-║  ml64      → Launch ModLoader64 (N64 emulator + netplay)     ║
-║  analyze   → Analyze your .zobj model library                ║
-║  status    → System health check                             ║
-║  build     → Show build pipeline                             ║
-╚══════════════════════════════════════════════════════════════╝
+PLAY & MODS:
+  play                Launch Ship of Harkinian
+  install-textures    Install all texture packs to SoH mods/
+  mods                List installed SoH mods
+
+AI SYSTEMS:
+  dm                  AI Dungeon Master (text challenges)
+  gen                 Procedural asset generator
+  world               AI World Architect — build complete worlds
+  campaign            Run multi-round AI campaign
+  catalog             Catalog all ROMs, textures, tools
+  scrape              Scrape web for new N64 assets
+
+SWARM & DISTRIBUTION:
+  swarm-start         Start Swarm Coordinator (port 7373)
+  worker              Start local Swarm Worker
+  swarm-cli           Swarm CLI (status, tasks, campaign)
+
+TOOLS:
+  blender             Launch Blender with Fast64
+  ml64                Launch ModLoader64
+  analyze             Analyze ROM hack themes
+  status              Show system status
+  build               Build .o2r texture pack (basic zip)
+
+EXAMPLES:
+  ./n64lab world --theme shadow --difficulty 5
+  ./n64lab campaign --rounds 3
+  ./n64lab catalog
+  ./n64lab install-textures
 EOF
-        ;;
+}
 
-    play)
-        echo "🎮 Launching Ship of Harkinian..."
-        "$LAB/ShipOfHarkinian/soh.appimage" &
-        ;;
+case "$1" in
+  play)
+    ./launch_soh.sh
+    ;;
+  
+  install-textures)
+    echo "[n64lab] Installing texture packs to SoH..."
+    $VENV AI_World/texture_packager.py --install OoT_Reloaded
+    $VENV AI_World/texture_packager.py --install MM_Reloaded
+    $VENV AI_World/texture_packager.py --install Classic64
+    echo "[n64lab] Done. Launch SoH and press Tab to toggle alternate assets."
+    ;;
+  
+  mods)
+    echo "=== Installed SoH Mods ==="
+    ls -la ~/HylianModding/ShipOfHarkinian/mods/ 2>/dev/null || echo "(no mods yet)"
+    ;;
 
-    dm)
-        echo "🎲 Starting AI Dungeon Master..."
-        cd "$LAB/AI_DM"
-        "$VENV" run_dm.py --cli
-        ;;
+  dm)
+    cd AI_DM && $VENV run_dm.py --cli
+    ;;
 
-    gen)
-        echo "🎨 Procedural Asset Generator"
-        read -p "Type [crystal/tree/terrain/dungeon_room/spike_trap/biome]: " atype
-        read -p "Theme [forest/ice/fire/shadow/crystal_cave/dungeon]: " theme
-        read -p "Seed [1-9999]: " seed
-        cd "$LAB/AI_Assets"
-        "$VENV" asset_generator.py --type "${atype:-crystal}" --theme "${theme:-forest}" --seed "${seed:-42}"
-        echo ""
-        echo "Output: $LAB/MyWorld/blender/"
-        ;;
+  gen)
+    cd AI_Assets && $VENV asset_generator.py
+    ;;
 
-    scraper)
-        echo "🔍 Running metadata scraper..."
-        cd "$LAB/ScraperBot"
-        "$VENV" scraper.py --gb-pages 3 --output "catalog_$(date +%Y%m%d)"
-        echo ""
-        echo "Catalog saved to: $LAB/ScraperBot/outputs/"
-        ;;
+  world)
+    shift
+    $VENV AI_World/world_architect.py --build "$@"
+    ;;
 
-    blender)
-        echo "🖌️ Opening Blender..."
-        blender "$LAB/MyWorld/blender/" &
-        ;;
+  campaign)
+    shift
+    $VENV AI_World/world_architect.py --campaign "$@"
+    ;;
 
-    ml64)
-        echo "🎮 Launching ModLoader64..."
-        cd "$LAB/ModLoader64/ModLoader"
-        ./start.sh
-        ;;
+  catalog)
+    $VENV AI_World/world_architect.py --catalog
+    ;;
 
-    analyze)
-        echo "📊 Analyzing model library..."
-        cd "$LAB/AI_Assets"
-        "$VENV" asset_analyzer.py
-        ;;
+  scrape)
+    $VENV AI_World/world_architect.py --scrape
+    ;;
 
-    status)
-        echo "🏥 System Health Check"
-        echo ""
-        echo "ROM:          $([ -f $LAB/ShipOfHarkinian/OoT.z64 ] && echo '✅' || echo '❌')"
-        echo "SoH:          $([ -x $LAB/ShipOfHarkinian/soh.appimage ] && echo '✅' || echo '❌')"
-        echo "Python venv:  $([ -f $LAB/venv/bin/python ] && echo '✅' || echo '❌')"
-        echo "Blender:      $(which blender > /dev/null && echo '✅' || echo '❌')"
-        echo "Node.js:      $(which node > /dev/null && echo '✅ '$(node --version) || echo '❌')"
-        echo "flips:        $(which flips > /dev/null && echo '✅' || echo '❌')"
-        echo "GGUF models:  $(find ~/Downloads/models -name '*.gguf' | wc -l) found"
-        echo "Blender addons:"
-        blender --background --python-expr "
-import bpy
-for a in ['fast64', 'io_export_so2']:
-    print('  ' + ('✅' if a in bpy.context.preferences.addons else '❌') + ' ' + a)
-" 2>&1 | grep -E "fast64|io_export_so2"
-        echo ""
-        echo "Catalog entries:"
-        for f in $LAB/ScraperBot/outputs/*.json; do
-            [ -f "$f" ] && echo "  $(basename $f): $(python3 -c "import json; print(json.load(open('$f'))['total_entries'])" 2>/dev/null || echo '?') entries"
-        done
-        ;;
+  swarm-start)
+    echo "[n64lab] Starting Swarm Coordinator on port 7373..."
+    $VENV SwarmCoordinator/coordinator.py &
+    echo $! > /tmp/n64lab_coordinator.pid
+    echo "PID saved to /tmp/n64lab_coordinator.pid"
+    ;;
 
-    build)
-        "$LAB/build_world.sh"
-        ;;
+  worker)
+    shift
+    $VENV SwarmCoordinator/worker.py "$@"
+    ;;
 
-    *)
-        echo "Unknown command: $1"
-        echo "Run './n64lab' or './n64lab help' for available commands"
-        exit 1
-        ;;
+  swarm-cli)
+    shift
+    $VENV SwarmCoordinator/swarm_cli.py "$@"
+    ;;
+
+  blender)
+    blender &
+    ;;
+
+  ml64)
+    cd ModLoader64/ModLoader && ./start.sh
+    ;;
+
+  analyze)
+    $VENV -c "
+import json, os
+from pathlib import Path
+cat = json.load(open('Library/Metadata/rom_catalog.json'))
+from collections import Counter
+g = Counter(r.get('genre','unknown') for r in cat)
+print('Genres:', dict(g))
+t = Counter(t for r in cat for t in r.get('themes',[]))
+print('Themes:', dict(t))
+"
+    ;;
+
+  status)
+    echo "═" $(date) "═"
+    echo "ROMs:     $(ls Library/ROMs/ 2>/dev/null | wc -l)"
+    echo "Textures: $(find Assets/Textures -name '*.png' 2>/dev/null | wc -l)"
+    echo "Tools:    $(find Assets/Tools -maxdepth 2 -type d 2>/dev/null | wc -l)"
+    echo "Worlds:   $(ls MyWorld/generated_stories/*.json 2>/dev/null | wc -l)"
+    echo "Levels:   $(ls MyWorld/generated_levels/*.json 2>/dev/null | wc -l)"
+    echo "SoH:      $(test -f ShipOfHarkinian/soh.appimage && echo 'installed' || echo 'missing')"
+    echo "Mods:     $(ls ShipOfHarkinian/mods/ 2>/dev/null | wc -l)"
+    if [ -f /tmp/n64lab_coordinator.pid ]; then
+      pid=$(cat /tmp/n64lab_coordinator.pid)
+      if kill -0 "$pid" 2>/dev/null; then
+        echo "Swarm:    running (pid $pid)"
+      else
+        echo "Swarm:    stopped"
+      fi
+    else
+      echo "Swarm:    not started"
+    fi
+    ;;
+
+  build)
+    echo "[n64lab] Building .o2r texture pack..."
+    shift
+    $VENV AI_World/texture_packager.py --package "$@"
+    ;;
+
+  *)
+    print_help
+    ;;
 esac

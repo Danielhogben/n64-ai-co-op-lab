@@ -1,0 +1,105 @@
+{
+  "id": "galaxy_0",
+  "name": "Zelda_Galaxy",
+  "type": "adventure",
+  "theme": "mystical_space",
+  "source_roms": [
+    {
+      "id": "rom_7",
+      "name": "MQ DEBUG COMPILED_zelda_ocarina_mq_dbg_ZRET.z64",
+      "path": "/home/donn/Downloads/OOT/MQ DEBUG COMPILED_zelda_ocarina_mq_dbg_ZRET.z64",
+      "category": "zelda",
+      "region": "USA",
+      "size_mb": 54.0
+    },
+    {
+      "id": "rom_8",
+      "name": "USE WITH SoH_Zelda OOT Debug ROM [NOT MQ].z64",
+      "path": "/home/donn/Downloads/OOT/USE WITH SoH_Zelda OOT Debug ROM [NOT MQ].z64",
+      "category": "zelda",
+      "region": "USA",
+      "size_mb": 64.0
+    },
+    {
+      "id": "rom_54",
+      "name": "Legend of Zelda, The - Ocarina of Time (USA) (Rev 2).z64",
+      "path": "/home/donn/N64/roms/Legend of Zelda, The - Ocarina of Time (USA) (Rev 2).z64",
+      "category": "zelda",
+      "region": "USA",
+      "size_mb": 32.0
+    },
+    {
+      "id": "rom_55",
+      "name": "Legend of Zelda, The - Majora's Mask (USA).z64",
+      "path": "/home/donn/N64/roms/Legend of Zelda, The - Majora's Mask (USA).z64",
+      "category": "zelda",
+      "region": "USA",
+      "size_mb": 32.0
+    },
+    {
+      "id": "rom_56",
+      "name": "Legend of Zelda, The - Ocarina of Time (USA) (Rev 2).z64",
+      "path": "/home/donn/N64/emulators/Legend of Zelda, The - Ocarina of Time (USA) (Rev 2).z64",
+      "category": "zelda",
+      "region": "USA",
+      "size_mb": 32.0
+    },
+    {
+      "id": "rom_57",
+      "name": "OoT.z64",
+      "path": "/home/donn/HylianModding/Base_ROMs/OoT.z64",
+      "category": "other",
+      "region": "USA",
+      "size_mb": 32.0
+    },
+    {
+      "id": "rom_58",
+      "name": "OoT.z64",
+      "path": "/home/donn/HylianModding/ShipOfHarkinian/OoT.z64",
+      "category": "other",
+      "region": "USA",
+      "size_mb": 32.0
+    },
+    {
+      "id": "rom_59",
+      "name": "OoT.z64",
+      "path": "/home/donn/HylianModding/Base_ROMs/OoT.z64",
+      "category": "other",
+      "region": "USA",
+      "size_mb": 32.0
+    },
+    {
+      "id": "rom_60",
+      "name": "OoT.z64",
+      "path": "/home/donn/HylianModding/ShipOfHarkinian/OoT.z64",
+      "category": "other",
+      "region": "USA",
+      "size_mb": 32.0
+    },
+    {
+      "id": "rom_61",
+      "name": "Virtual Pool 64 (U) [!].z64",
+      "path": "/home/donn/HylianModding/Library/ROMs/Virtual Pool 64 (U) [!].z64",
+      "category": "other",
+      "region": "USA",
+      "size_mb": 8.0
+    }
+  ],
+  "total_zones": 5,
+  "ai_controlled": true,
+  "pokemon_companions": false,
+  "danger_level": "low",
+  "boss_present": false,
+  "ai_companion": {
+    "name": "AI_Zelda_Galaxy_Guide",
+    "personality": "mysterious",
+    "abilities": [
+      "scan",
+      "navigate",
+      "translate",
+      "heal",
+      "analyze"
+    ],
+    "voice": "female"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "companion_2",
+  "name": "Lunala",
+  "type": "pokemon",
+  "space_ability": "shield",
+  "element": "water",
+  "loyalty": 91,
+  "ai_controlled": true,
+  "can_ride": false,
+  "evolution_level": 2,
+  "moves": [
+    "Psychic",
+    "Flamethrower",
+    "Warp"
+  ]
+}

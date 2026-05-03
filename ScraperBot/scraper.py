@@ -23,6 +23,9 @@ from urllib.parse import urlencode, quote
 
 import requests
 
+# GitHub API token (optional, increases rate limit)
+GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
+
 OUTPUT_DIR = os.path.expanduser("~/HylianModding/ScraperBot/outputs")
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
@@ -276,13 +279,315 @@ class SpritersResourceScraper:
 
 
 # =============================================================================
+# GitHub — Search repos, releases, and assets
+# =============================================================================
+
+class GitHubScraper:
+    BASE = "https://api.github.com"
+    HEADERS = {"Authorization": f"token {GITHUB_TOKEN}"} if GITHUB_TOKEN else {}
+
+    def search_repos(self, query: str, limit: int = 100) -> List[CatalogEntry]:
+        """Search GitHub repositories."""
+        entries = []
+        page = 1
+        while len(entries) < limit:
+            params = {"q": query, "sort": "stars", "order": "desc", "per_page": min(30, limit - len(entries)), "page": page}
+            try:
+                resp = SESSION.get(f"{self.BASE}/search/repositories", params=params, headers=self.HEADERS, timeout=30)
+                if resp.status_code == 403:
+                    print("[GitHub] Rate limited. Set GITHUB_TOKEN env var.")
+                    break
+                data = resp.json()
+                items = data.get("items", [])
+                if not items:
+                    break
+                for item in items:
+                    entries.append(CatalogEntry(
+                        source="github",
+                        title=item.get("full_name", ""),
+                        url=item.get("html_url", ""),
+                        description=item.get("description", "")[:300],
+                        author=item.get("owner", {}).get("login", ""),
+                        date=item.get("updated_at", ""),
+                        category="repository",
+                        tags=item.get("topics", []),
+                        extra={"stars": item.get("stargazers_count", 0), "language": item.get("language", "")},
+                    ))
+                page += 1
+                time.sleep(0.5)
+            except Exception as e:
+                print(f"[GitHub] Error: {e}")
+                break
+        print(f"[GitHub] Found {len(entries)} repos for: {query}")
+        return entries
+
+    def get_releases(self, repo: str, limit: int = 20) -> List[CatalogEntry]:
+        """Get releases for a repo."""
+        entries = []
+        try:
+            resp = SESSION.get(f"{self.BASE}/repos/{repo}/releases", headers=self.HEADERS, timeout=30)
+            if resp.status_code != 200:
+                return entries
+            releases = resp.json()[:limit]
+            for rel in releases:
+                entries.append(CatalogEntry(
+                    source="github",
+                    title=f"{repo} - {rel.get('tag_name', '')}",
+                    url=rel.get("html_url", ""),
+                    description=rel.get("body", "")[:500],
+                    author=rel.get("author", {}).get("login", ""),
+                    date=rel.get("published_at", ""),
+                    category="release",
+                    extra={"draft": rel.get("draft", False), "prerelease": rel.get("prerelease", False)},
+                ))
+        except Exception as e:
+            print(f"[GitHub] Release error: {e}")
+        return entries
+
+
+# =============================================================================
+# Models Resource — Web scraping
+# =============================================================================
+
+class ModelsResourceScraper:
+    BASE = "https://models-resource.com"
+
+    def get_n64_models(self) -> List[CatalogEntry]:
+        """Get N64 model listings from Models Resource."""
+        entries = []
+        url = f"{self.BASE}/nintendo/n64/"
+        try:
+            resp = SESSION.get(url, timeout=30)
+            html = resp.text
+            import re
+            games = re.findall(r'<a href="(/nintendo/n64/[^"]+)"[^>]*>\s*<img[^>]*>\s*<span[^>]*>([^<]+)</span>', html)
+            for path, title in games[:100]:
+                entries.append(CatalogEntry(
+                    source="models-resource",
+                    title=title.strip(),
+                    url=f"{self.BASE}{path}",
+                    category="n64_models",
+                ))
+        except Exception as e:
+            print(f"[Models Resource] Error: {e}")
+        print(f"[Models Resource] Found {len(entries)} N64 games")
+        return entries
+
+
+# =============================================================================
+# Textures Resource — Scrape N64 textures
+# =============================================================================
+
+class TexturesResourceScraper:
+    BASE = "https://www.textures-resource.com"
+
+    def get_n64_textures(self) -> List[CatalogEntry]:
+        """Get N64 texture listings."""
+        entries = []
+        url = f"{self.BASE}/nintendo_64/"
+        try:
+            resp = SESSION.get(url, timeout=30)
+            html = resp.text
+            import re
+            # Match texture game links
+            games = re.findall(r'<a href="(/nintendo_64/[^"]+)"[^>]*>\s*<img[^>]*>\s*<span[^>]*>([^<]+)</span>', html)
+            for path, title in games[:100]:
+                entries.append(CatalogEntry(
+                    source="textures-resource",
+                    title=title.strip(),
+                    url=f"{self.BASE}{path}",
+                    category="n64_textures",
+                ))
+        except Exception as e:
+            print(f"[Textures Resource] Error: {e}")
+        print(f"[Textures Resource] Found {len(entries)} N64 texture sets")
+        return entries
+
+
+# =============================================================================
+# N64 Textures (n64textures.com) — Hi-Res Texture Packs
+# =============================================================================
+
+class N64TexturesScraper:
+    BASE = "https://www.n64textures.com"
+
+    def get_texture_packs(self) -> List[CatalogEntry]:
+        """Get Hi-Res texture packs."""
+        entries = []
+        try:
+            resp = SESSION.get(f"{self.BASE}/downloads/", timeout=30)
+            html = resp.text
+            import re
+            # Match pack links
+            packs = re.findall(r'<a href="([^"]*\.zip|[^"]*\.rar|[^"]*\.7z)"[^>]*>([^<]+)</a>', html)
+            for url, title in packs[:50]:
+                entries.append(CatalogEntry(
+                    source="n64textures.com",
+                    title=title.strip(),
+                    url=url if url.startswith("http") else f"{self.BASE}{url}",
+                    category="texture_pack",
+                ))
+        except Exception as e:
+            print(f"[N64Textures.com] Error: {e}")
+        print(f"[N64Textures.com] Found {len(entries)} texture packs")
+        return entries
+
+
+# =============================================================================
+# RomHacking.net — ROM hacks and utilities
+# =============================================================================
+
+class RomHackingDotNetScraper:
+    BASE = "https://www.romhacking.net"
+
+    def get_n64_hacks(self) -> List[CatalogEntry]:
+        """Get N64 ROM hacks."""
+        entries = []
+        url = f"{self.BASE}/?page=hacks&platform=3"  # Platform 3 = N64
+        try:
+            resp = SESSION.get(url, timeout=30)
+            html = resp.text
+            import re
+            hacks = re.findall(r'<a href="(/hacks/\d+/[^"]+)"[^>]*>([^<]+)</a>', html)
+            for path, title in hacks[:100]:
+                entries.append(CatalogEntry(
+                    source="romhacking.net",
+                    title=title.strip(),
+                    url=f"{self.BASE}{path}",
+                    category="rom_hack",
+                ))
+        except Exception as e:
+            print(f"[RomHacking.net] Error: {e}")
+        print(f"[RomHacking.net] Found {len(entries)} N64 ROM hacks")
+        return entries
+
+
+# =============================================================================
+# Nexus Mods — GoldenEye 007 mods
+# =============================================================================
+
+class NexusModsScraper:
+    BASE = "https://www.nexusmods.com"
+
+    def get_goldeneye_mods(self) -> List[CatalogEntry]:
+        """Get GoldenEye 007 mods."""
+        entries = []
+        url = f"{self.BASE}/goldeneye007/mods/"
+        try:
+            resp = SESSION.get(url, timeout=30)
+            html = resp.text
+            import re
+            mods = re.findall(r'<a href="(/goldeneye007/mods/\d+)"[^>]*>([^<]+)</a>', html)
+            for path, title in mods[:50]:
+                entries.append(CatalogEntry(
+                    source="nexusmods",
+                    title=title.strip(),
+                    url=f"{self.BASE}{path}",
+                    category="mod",
+                ))
+        except Exception as e:
+            print(f"[Nexus Mods] Error: {e}")
+        print(f"[Nexus Mods] Found {len(entries)} GoldenEye mods")
+        return entries
+
+
+# =============================================================================
+# n64.dev — Development resources
+# =============================================================================
+
+class N64DevScraper:
+    BASE = "https://n64.dev"
+
+    def get_tools(self) -> List[CatalogEntry]:
+        """Get N64 development tools."""
+        entries = []
+        try:
+            resp = SESSION.get(self.BASE, timeout=30)
+            html = resp.text
+            import re
+            # Find tool/library links
+            links = re.findall(r'<a href="(https?://[^"]*(?:github\.com|n64\.dev|libdragon)[^"]*)"[^>]*>([^<]+)</a>', html)
+            for url, title in links[:50]:
+                entries.append(CatalogEntry(
+                    source="n64.dev",
+                    title=title.strip(),
+                    url=url,
+                    category="dev_tool",
+                ))
+        except Exception as e:
+            print(f"[N64.dev] Error: {e}")
+        print(f"[N64.dev] Found {len(entries)} dev resources")
+        return entries
+
+
+# =============================================================================
+# Emulation64.com — Texture packs
+# =============================================================================
+
+class Emulation64Scraper:
+    BASE = "https://www.emulation64.com"
+
+    def get_texture_packs(self) -> List[CatalogEntry]:
+        """Get N64 texture packs."""
+        entries = []
+        url = f"{self.BASE}/files/category/20/119/nintendo-64-texture-packs.html/"
+        try:
+            resp = SESSION.get(url, timeout=30)
+            html = resp.text
+            import re
+            packs = re.findall(r'<a href="(/files/download/[^"]+)"[^>]*>([^<]+)</a>', html)
+            for path, title in packs[:50]:
+                entries.append(CatalogEntry(
+                    source="emulation64.com",
+                    title=title.strip(),
+                    url=f"{self.BASE}{path}",
+                    category="texture_pack",
+                ))
+        except Exception as e:
+            print(f"[Emulation64] Error: {e}")
+        print(f"[Emulation64] Found {len(entries)} texture packs")
+        return entries
+
+
+# =============================================================================
+# N64 Vault — Modding tools wiki
+# =============================================================================
+
+class N64VaultScraper:
+    BASE = "http://www.n64vault.com"
+
+    def get_tools(self) -> List[CatalogEntry]:
+        """Get N64 modding tools."""
+        entries = []
+        try:
+            resp = SESSION.get(self.BASE, timeout=30)
+            html = resp.text
+            import re
+            tools = re.findall(r'<a href="([^"]*(?:setup-editor|tool|hack)[^"]*)"[^>]*>([^<]+)</a>', html)
+            for path, title in tools[:50]:
+                url = path if path.startswith("http") else f"{self.BASE}{path}"
+                entries.append(CatalogEntry(
+                    source="n64vault.com",
+                    title=title.strip(),
+                    url=url,
+                    category="modding_tool",
+                ))
+        except Exception as e:
+            print(f"[N64 Vault] Error: {e}")
+        print(f"[N64 Vault] Found {len(entries)} tools")
+        return entries
+
+
+# =============================================================================
 # MAIN ORCHESTRATOR
 # =============================================================================
 
 def run_all_scrapers(tcrf_categories: List[str] = None,
                      archive_queries: List[str] = None,
                      gamebanana_pages: int = 1,
-                     output_name: str = "catalog") -> dict:
+                     github_queries: List[str] = None,
+                     output_name: str = "catalog",
+                     include_sources: List[str] = None) -> dict:
     """Run all scrapers and merge results."""
     if tcrf_categories is None:
         tcrf_categories = ["July_2020_Nintendo_Leak"]
@@ -293,40 +598,110 @@ def run_all_scrapers(tcrf_categories: List[str] = None,
             "zelda 64 debug",
             "n64 source code",
         ]
+    if github_queries is None:
+        github_queries = [
+            "n64 modding",
+            "n64 tools",
+            "zelda 64",
+            "ocarina of time decomp",
+            "n64 decompilation",
+        ]
+    if include_sources is None:
+        include_sources = ["all"]
 
     all_entries: List[CatalogEntry] = []
+    run_all = "all" in include_sources
 
     # TCRF
-    tcrf = TCRFScraper()
-    for cat in tcrf_categories:
-        pages = tcrf.get_category_pages(cat, limit=200)
-        # Fetch extracts for first batch
-        if pages:
-            titles = [p.title for p in pages[:50]]
-            extracts = tcrf.get_page_extracts(titles)
-            for p in pages:
-                p.description = extracts.get(p.title, "")
-        all_entries.extend(pages)
-        time.sleep(1)
+    if run_all or "tcrf" in include_sources:
+        tcrf = TCRFScraper()
+        for cat in tcrf_categories:
+            pages = tcrf.get_category_pages(cat, limit=200)
+            if pages:
+                titles = [p.title for p in pages[:50]]
+                extracts = tcrf.get_page_extracts(titles)
+                for p in pages:
+                    p.description = extracts.get(p.title, "")
+            all_entries.extend(pages)
+            time.sleep(1)
 
     # Archive.org
-    archive = ArchiveOrgScraper()
-    for q in archive_queries:
-        items = archive.search(q, rows=100)
-        all_entries.extend(items)
-        time.sleep(1)
+    if run_all or "archive.org" in include_sources:
+        archive = ArchiveOrgScraper()
+        for q in archive_queries:
+            items = archive.search(q, rows=100)
+            all_entries.extend(items)
+            time.sleep(1)
 
     # GameBanana
-    gb = GameBananaScraper()
-    for p in range(1, gamebanana_pages + 1):
-        mods = gb.get_mods(game_id=7060, page=p)
-        all_entries.extend(mods)
-        time.sleep(1)
+    if run_all or "gamebanana" in include_sources:
+        gb = GameBananaScraper()
+        for p in range(1, gamebanana_pages + 1):
+            mods = gb.get_mods(game_id=7060, page=p)
+            all_entries.extend(mods)
+            time.sleep(1)
 
     # Spriters Resource
-    sr = SpritersResourceScraper()
-    games = sr.get_n64_models()
-    all_entries.extend(games)
+    if run_all or "spriters-resource" in include_sources:
+        sr = SpritersResourceScraper()
+        games = sr.get_n64_models()
+        all_entries.extend(games)
+
+    # GitHub
+    if run_all or "github" in include_sources:
+        gh = GitHubScraper()
+        for q in github_queries:
+            repos = gh.search_repos(q, limit=50)
+            all_entries.extend(repos)
+            time.sleep(1)
+
+    # Models Resource
+    if run_all or "models-resource" in include_sources:
+        mr = ModelsResourceScraper()
+        models = mr.get_n64_models()
+        all_entries.extend(models)
+
+    # Textures Resource
+    if run_all or "textures-resource" in include_sources:
+        tr = TexturesResourceScraper()
+        textures = tr.get_n64_textures()
+        all_entries.extend(textures)
+
+    # N64Textures.com
+    if run_all or "n64textures.com" in include_sources:
+        nt = N64TexturesScraper()
+        packs = nt.get_texture_packs()
+        all_entries.extend(packs)
+
+    # RomHacking.net
+    if run_all or "romhacking.net" in include_sources:
+        rh = RomHackingDotNetScraper()
+        hacks = rh.get_n64_hacks()
+        all_entries.extend(hacks)
+
+    # Nexus Mods
+    if run_all or "nexusmods" in include_sources:
+        nx = NexusModsScraper()
+        mods = nx.get_goldeneye_mods()
+        all_entries.extend(mods)
+
+    # N64.dev
+    if run_all or "n64.dev" in include_sources:
+        nd = N64DevScraper()
+        tools = nd.get_tools()
+        all_entries.extend(tools)
+
+    # Emulation64.com
+    if run_all or "emulation64.com" in include_sources:
+        em = Emulation64Scraper()
+        packs = em.get_texture_packs()
+        all_entries.extend(packs)
+
+    # N64 Vault
+    if run_all or "n64vault.com" in include_sources:
+        nv = N64VaultScraper()
+        tools = nv.get_tools()
+        all_entries.extend(tools)
 
     # Save
     result = {
@@ -350,18 +725,24 @@ def run_all_scrapers(tcrf_categories: List[str] = None,
 
 
 def main():
+    global CATALOG_PATH, DOWNLOAD_BASE
     parser = argparse.ArgumentParser(description="N64 Modding Metadata Scraper")
     parser.add_argument("--tcrf", nargs="+", default=["July_2020_Nintendo_Leak"], help="TCRF categories")
     parser.add_argument("--archive", nargs="+", default=["nintendo 64 prototype", "ocarina of time beta"], help="Archive.org queries")
+    parser.add_argument("--github", nargs="+", default=["n64 modding", "n64 tools", "zelda 64"], help="GitHub queries")
     parser.add_argument("--gb-pages", type=int, default=1, help="GameBanana pages to scrape")
     parser.add_argument("--output", default="catalog", help="Output filename")
+    parser.add_argument("--sources", nargs="+", default=["all"], 
+                        help="Sources to scrape: all, tcrf, archive.org, gamebanana, github, spriters-resource, models-resource, textures-resource, n64textures.com, romhacking.net, nexusmods, n64.dev, emulation64.com, n64vault.com")
     args = parser.parse_args()
 
     run_all_scrapers(
         tcrf_categories=args.tcrf,
         archive_queries=args.archive,
+        github_queries=args.github,
         gamebanana_pages=args.gb_pages,
         output_name=args.output,
+        include_sources=args.sources,
     )
 
 

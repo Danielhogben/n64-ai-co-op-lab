@@ -1,0 +1,105 @@
+{
+  "id": "galaxy_3",
+  "name": "Starfox_Galaxy",
+  "type": "space_shooter",
+  "theme": "combat_zone",
+  "source_roms": [
+    {
+      "id": "rom_23",
+      "name": "Mario Sports Superstars (USA).cia",
+      "path": "/home/donn/Downloads/3DS/Mario Sports Superstars (USA).cia",
+      "category": "mario",
+      "region": "USA",
+      "size_mb": 823.2
+    },
+    {
+      "id": "rom_39",
+      "name": "Mario Party - Star Rush (USA) (En,Fr,Es).cia",
+      "path": "/home/donn/Downloads/3DS/Mario Party - Star Rush (USA) (En,Fr,Es).cia",
+      "category": "mario",
+      "region": "USA",
+      "size_mb": 375.67
+    },
+    {
+      "id": "rom_40",
+      "name": "Star Fox 64 3D (USA) (En,Fr,Es) (Rev 2).cia",
+      "path": "/home/donn/Downloads/3DS/Star Fox 64 3D (USA) (En,Fr,Es) (Rev 2).cia",
+      "category": "other",
+      "region": "USA",
+      "size_mb": 575.69
+    },
+    {
+      "id": "rom_44",
+      "name": "Paper Mario - Sticker Star (USA) (En,Fr,Es).cia",
+      "path": "/home/donn/Downloads/3DS/Paper Mario - Sticker Star (USA) (En,Fr,Es).cia",
+      "category": "mario",
+      "region": "USA",
+      "size_mb": 524.48
+    },
+    {
+      "id": "rom_102",
+      "name": "Starshot - Space Circus Fever (U) [!].z64",
+      "path": "/home/donn/HylianModding/Library/ROMs/Starshot - Space Circus Fever (U) [!].z64",
+      "category": "other",
+      "region": "USA",
+      "size_mb": 12.0
+    },
+    {
+      "id": "rom_106",
+      "name": "Star Wars - Rogue Squadron (U) (!).n64",
+      "path": "/home/donn/HylianModding/Library/ROMs/Star Wars - Rogue Squadron (U) (!).n64",
+      "category": "other",
+      "region": "USA",
+      "size_mb": 16.0
+    },
+    {
+      "id": "rom_110",
+      "name": "Star Wars - Shadows of the Empire (U) (V1.2) [!].z64",
+      "path": "/home/donn/HylianModding/Library/ROMs/Star Wars - Shadows of the Empire (U) (V1.2) [!].z64",
+      "category": "other",
+      "region": "USA",
+      "size_mb": 12.0
+    },
+    {
+      "id": "rom_111",
+      "name": "Star Soldier Vanishing Earth (U) [!].z64",
+      "path": "/home/donn/HylianModding/Library/ROMs/Star Soldier Vanishing Earth (U) [!].z64",
+      "category": "other",
+      "region": "USA",
+      "size_mb": 12.0
+    },
+    {
+      "id": "rom_112",
+      "name": "Spacestation Silicon Valley (U) [!].z64",
+      "path": "/home/donn/HylianModding/Library/ROMs/Spacestation Silicon Valley (U) [!].z64",
+      "category": "other",
+      "region": "USA",
+      "size_mb": 8.0
+    },
+    {
+      "id": "rom_114",
+      "name": "Star Fox 64 (U) [!].z64",
+      "path": "/home/donn/HylianModding/Library/ROMs/Star Fox 64 (U) [!].z64",
+      "category": "other",
+      "region": "USA",
+      "size_mb": 12.0
+    }
+  ],
+  "total_zones": 11,
+  "ai_controlled": true,
+  "pokemon_companions": false,
+  "danger_level": "low",
+  "boss_present": false,
+  "ai_companion": {
+    "name": "AI_Starfox_Galaxy_Guide",
+    "personality": "sarcastic",
+    "abilities": [
+      "scan",
+      "navigate",
+      "translate",
+      "heal",
+      "analyze"
+    ],
+    "voice": "echo"
+  }
+}

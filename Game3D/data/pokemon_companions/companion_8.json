@@ -1,0 +1,16 @@
+{
+  "id": "companion_8",
+  "name": "Pokemon Omega Ruby (USA) (En,Ja,Fr,De,Es,It,Ko) (Rev 2)",
+  "type": "pokemon",
+  "space_ability": "scan",
+  "element": "electric",
+  "loyalty": 87,
+  "ai_controlled": true,
+  "can_ride": true,
+  "evolution_level": 1,
+  "moves": [
+    "Surf",
+    "Thunderbolt",
+    "Hyper Beam"
+  ]
+}

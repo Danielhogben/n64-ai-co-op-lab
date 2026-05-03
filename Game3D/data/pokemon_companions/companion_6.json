@@ -1,0 +1,16 @@
+{
+  "id": "companion_6",
+  "name": "Pokemon X (USA) (En,Ja,Fr,De,Es,It,Ko)",
+  "type": "pokemon",
+  "space_ability": "teleport",
+  "element": "dragon",
+  "loyalty": 80,
+  "ai_controlled": true,
+  "can_ride": true,
+  "evolution_level": 2,
+  "moves": [
+    "Hyper Beam",
+    "Surf",
+    "Solar Beam"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "companion_0",
+  "name": "Solgaleo",
+  "type": "pokemon",
+  "space_ability": "teleport",
+  "element": "water",
+  "loyalty": 55,
+  "ai_controlled": true,
+  "can_ride": true,
+  "evolution_level": 5,
+  "moves": [
+    "Psychic",
+    "Thunderbolt",
+    "Solar Beam"
+  ]
+}

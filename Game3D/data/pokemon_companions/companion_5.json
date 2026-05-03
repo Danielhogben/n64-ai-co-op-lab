@@ -1,0 +1,16 @@
+{
+  "id": "companion_5",
+  "name": "Pokemon Alpha Sapphire (USA) (En,Ja,Fr,De,Es,It,Ko) (Rev 2)",
+  "type": "pokemon",
+  "space_ability": "shield",
+  "element": "space",
+  "loyalty": 93,
+  "ai_controlled": true,
+  "can_ride": false,
+  "evolution_level": 4,
+  "moves": [
+    "Solar Beam",
+    "Flamethrower",
+    "Hyper Beam"
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "game_title": "Space Ocarina: Starfall Strike",
+  "base_game": "Ocarina of Time",
+  "mod_type": "space_shooter",
+  "ai_designer": "big-pickle",
+  "concept": "Transform Hyrule into a sci-fi space battleground where Link pilots the 'Star Ocarina' ship",
+  
+  "gameplay_mechanics": {
+    "player": {
+      "ship_name": "Star Ocarina",
+      "movement": "8-directional in space",
+      "primary_weapon": "Laser Z-targeting system",
+      "secondary_weapon": "Ocarina Pulse (homing missiles)",
+      "special_ability": "Time Slow (Zelda's Song) - bullet time for 5 seconds",
+      "health": 100,
+      "lives": 3
+    },
+    "enemies": [
+      {
+        "name": "Skulltula Fighter",
+        "type": "fast_swarm",
+        "health": 15,
+        "damage": 10,
+        "speed": "fast",
+        "attack_pattern": "circling_swarm"
+      },
+      {
+        "name": "Gohma Carrier",
+        "type": "boss",
+        "health": 200,
+        "damage": 25,
+        "speed": "slow",
+        "attack_pattern": "spawns_Skulltula_Fighters"
+      },
+      {
+        "name": "Dark Link Interceptor",
+        "type": "elite",
+        "health": 80,
+        "damage": 20,
+        "speed": "very_fast",
+        "attack_pattern": "mirrors_player_movement"
+      }
+    ],
+    "levels": [
+      {
+        "name": "Hyrule Space Station",
+        "theme": "industrial_space",
+        "enemy_types": ["Skulltula Fighter"],
+        "boss": null,
+        "replaces": "Kokiri Forest"
+      },
+      {
+        "name": "Zora Nebula",
+        "theme": "ocean_space",
+        "enemy_types": ["Skulltula Fighter", "Dark Link Interceptor"],
+        "boss": "Gohma Carrier",
+        "replaces": "Zora's Domain"
+      },
+      {
+        "name": "Ganon's Death Star",
+        "theme": "dark_fortress",
+        "enemy_types": ["all"],
+        "boss": "Ganon Dreadnought",
+        "replaces": "Ganon's Castle"
+      }
+    ]
+  },
+  
+  "asset_requirements": {
+    "sprites": ["player_ship", "enemy_skulltula", "enemy_gohma", "enemy_darklink", "bullet_laser", "bullet_missile", "explosion"],
+    "textures": ["space_bg_hyrule", "nebula_zora", "fortress_ganon", "starfield_generic"],
+    "sounds": ["laser_fire", "explosion_enemy", "boss_music", "game_over", "victory"]
+  }
+}

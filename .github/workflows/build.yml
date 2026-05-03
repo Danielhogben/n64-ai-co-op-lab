@@ -1,0 +1,64 @@
+name: Build Standalone Executables
+
+on:
+  push:
+    branches: [main, master]
+    tags: ['v*']
+  pull_request:
+    branches: [main, master]
+  workflow_dispatch:
+
+jobs:
+  build:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+        include:
+          - os: ubuntu-latest
+            artifact_name: ProjectNexus-Linux
+            exe_name: ProjectNexus
+          - os: windows-latest
+            artifact_name: ProjectNexus-Windows
+            exe_name: ProjectNexus.exe
+
+    runs-on: ${{ matrix.os }}
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Build executable
+        working-directory: Game3D
+        run: python build.py
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ matrix.artifact_name }}
+          path: Game3D/dist/ProjectNexus/
+          if-no-files-found: error
+
+      - name: Zip for release
+        if: startsWith(github.ref, 'refs/tags/')
+        shell: bash
+        run: |
+          cd Game3D/dist
+          if [[ "${{ matrix.os }}" == "windows-latest" ]]; then
+            7z a ../../${{ matrix.artifact_name }}.zip ProjectNexus/
+          else
+            zip -r ../../${{ matrix.artifact_name }}.zip ProjectNexus/
+          fi
+
+      - name: Upload release asset
+        if: startsWith(github.ref, 'refs/tags/')
+        uses: softprops/action-gh-release@v2
+        with:
+          files: ${{ matrix.artifact_name }}.zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

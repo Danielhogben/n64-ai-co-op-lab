@@ -1,0 +1,97 @@
+{
+  "id": "galaxy_2",
+  "name": "Pokemon_Galaxy",
+  "type": "creature_collection",
+  "theme": "bio_diverse_cloud",
+  "source_roms": [
+    {
+      "id": "rom_0",
+      "name": "Pokemon Ultra Sun (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-007.cia",
+      "path": "/home/donn/Downloads/Pokemon Ultra Sun (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-007.cia",
+      "category": "other",
+      "region": "USA",
+      "size_mb": 0.0
+    },
+    {
+      "id": "rom_2",
+      "name": "Pokemon Ultra Moon (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-014.cia",
+      "path": "/home/donn/Downloads/Pokemon Ultra Moon (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-014.cia",
+      "category": "other",
+      "region": "USA",
+      "size_mb": 0.0
+    },
+    {
+      "id": "rom_5",
+      "name": "Pokemon Moon (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-005.cia",
+      "path": "/home/donn/Downloads/Pokemon Moon (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-005.cia",
+      "category": "other",
+      "region": "USA",
+      "size_mb": 3055.84
+    },
+    {
+      "id": "rom_6",
+      "name": "Pokemon Sun (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-010.cia",
+      "path": "/home/donn/Downloads/Pokemon Sun (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-010.cia",
+      "category": "other",
+      "region": "USA",
+      "size_mb": 3070.87
+    },
+    {
+      "id": "rom_15",
+      "name": "Pokemon Mystery Dungeon - Gates to Infinity (USA).cia",
+      "path": "/home/donn/Downloads/3DS/Pokemon Mystery Dungeon - Gates to Infinity (USA).cia",
+      "category": "other",
+      "region": "USA",
+      "size_mb": 842.2
+    },
+    {
+      "id": "rom_18",
+      "name": "Pokemon Alpha Sapphire (USA) (En,Ja,Fr,De,Es,It,Ko) (Rev 2).cia",
+      "path": "/home/donn/Downloads/3DS/Pokemon Alpha Sapphire (USA) (En,Ja,Fr,De,Es,It,Ko) (Rev 2).cia",
+      "category": "other",
+      "region": "USA",
+      "size_mb": 1810.74
+    },
+    {
+      "id": "rom_27",
+      "name": "Pokemon X (USA) (En,Ja,Fr,De,Es,It,Ko).cia",
+      "path": "/home/donn/Downloads/3DS/Pokemon X (USA) (En,Ja,Fr,De,Es,It,Ko).cia",
+      "category": "other",
+      "region": "USA",
+      "size_mb": 1723.59
+    },
+    {
+      "id": "rom_36",
+      "name": "Pokemon Y (USA) (En,Ja,Fr,De,Es,It,Ko).cia",
+      "path": "/home/donn/Downloads/3DS/Pokemon Y (USA) (En,Ja,Fr,De,Es,It,Ko).cia",
+      "category": "other",
+      "region": "USA",
+      "size_mb": 1723.59
+    },
+    {
+      "id": "rom_47",
+      "name": "Pokemon Omega Ruby (USA) (En,Ja,Fr,De,Es,It,Ko) (Rev 2).cia",
+      "path": "/home/donn/Downloads/3DS/Pokemon Omega Ruby (USA) (En,Ja,Fr,De,Es,It,Ko) (Rev 2).cia",
+      "category": "other",
+      "region": "USA",
+      "size_mb": 1810.63
+    }
+  ],
+  "total_zones": 9,
+  "ai_controlled": true,
+  "pokemon_companions": true,
+  "danger_level": "medium",
+  "boss_present": true,
+  "ai_companion": {
+    "name": "AI_Pokemon_Galaxy_Guide",
+    "personality": "energetic",
+    "abilities": [
+      "scan",
+      "navigate",
+      "translate",
+      "heal",
+      "analyze"
+    ],
+    "voice": "echo"
+  }
+}

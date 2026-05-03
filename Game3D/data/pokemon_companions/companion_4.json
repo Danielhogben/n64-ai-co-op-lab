@@ -1,0 +1,16 @@
+{
+  "id": "companion_4",
+  "name": "Pokemon Mystery Dungeon - Gates to Infinity (USA)",
+  "type": "pokemon",
+  "space_ability": "shield",
+  "element": "space",
+  "loyalty": 76,
+  "ai_controlled": true,
+  "can_ride": true,
+  "evolution_level": 4,
+  "moves": [
+    "Warp",
+    "Hyper Beam",
+    "Solar Beam"
+  ]
+}
