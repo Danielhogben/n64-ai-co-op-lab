@@ -86,6 +86,17 @@ PLATFORMS = {
         "aesthetic": "Configurable: N64 fog, PS1 wobble, scanlines, bezel",
         "controls": "Keyboard + Mouse or any gamepad",
     },
+    "3ds": {
+        "name": "Nintendo 3DS",
+        "poly_budget": 4000,
+        "texture_size": "256x256",
+        "color_depth": "24-bit color",
+        "audio": "DSP ADPCM",
+        "engine": "Citra / Luma3DS / Unity",
+        "file_format": ".3ds / .cia / .cxi",
+        "aesthetic": "Stereoscopic 3D, dual screen UI, clean low-poly",
+        "controls": "Circle Pad + D-Pad + A/B/X/Y + L/R + Touch Screen",
+    },
 }
 
 # ═══════════════════════════════════════════════════════════════════════════════
@@ -122,31 +133,67 @@ FRANCHISES = {
 }
 
 # ═══════════════════════════════════════════════════════════════════════════════
-# LLM INTEGRATION
+# MULTI-MODEL LLM INTEGRATION
 # ═══════════════════════════════════════════════════════════════════════════════
 
-def get_llm():
+_llm_cache = {}
+
+def find_all_models():
+    models = []
+    for base_dir in [os.path.expanduser("~/Downloads/models"), os.path.expanduser("~/models")]:
+        if os.path.exists(base_dir):
+            for root, _, files in os.walk(base_dir):
+                for f in files:
+                    if f.endswith(".gguf"):
+                        models.append(os.path.join(root, f))
+    return models
+
+def get_llm(task_type="default"):
+    global _llm_cache
     try:
         from llama_cpp import Llama
     except ImportError:
         print("[GameForge] llama-cpp-python not available")
         return None
-    candidates = [f for f in os.listdir(MODELS_DIR) if f.endswith(".gguf")]
+        
+    candidates = find_all_models()
     if not candidates:
         return None
-    # Prefer larger models for creative writing
-    candidates.sort(key=lambda x: os.path.getsize(os.path.join(MODELS_DIR, x)), reverse=True)
-    model_path = os.path.join(MODELS_DIR, candidates[0])
-    print(f"[GameForge] Loading LLM: {candidates[0]}")
-    return Llama(model_path=model_path, n_ctx=4096, verbose=False)
-
-
-def llm_generate(prompt, max_tokens=800):
-    llm = get_llm()
-    if not llm:
-        return "[LLM unavailable - install a .gguf model in ~/Downloads/models]"
+        
+    # Group models by type to "use all the models" effectively
+    categorized = {
+        "creative": [m for m in candidates if "core" in m.lower() or "abliterated" in m.lower()],
+        "coding": [m for m in candidates if "coding" in m.lower()],
+        "fast": [m for m in candidates if "small" in m.lower() or "0.5b" in m.lower() or "1.5b" in m.lower()],
+        "default": candidates
+    }
+    
+    pool = categorized.get(task_type)
+    if not pool:
+        pool = categorized["default"]
+        
+    # Prefer larger models within the pool for better quality
+    pool.sort(key=lambda x: os.path.getsize(x), reverse=True)
+    selected_model_path = pool[0] if pool else candidates[0]
+    
+    if task_type in _llm_cache and _llm_cache[task_type]["path"] == selected_model_path:
+        return _llm_cache[task_type]["instance"]
+        
+    print(f"\n[GameForge] 🧠 Spinning up AI ({task_type} focus): {os.path.basename(selected_model_path)}")
     try:
-        output = llm(prompt, max_tokens=max_tokens, stop=["</s>", "User:", "###"])
+        llm_instance = Llama(model_path=selected_model_path, n_ctx=2048, verbose=False)
+        _llm_cache[task_type] = {"path": selected_model_path, "instance": llm_instance}
+        return llm_instance
+    except Exception as e:
+        print(f"[GameForge] Error loading model {selected_model_path}: {e}")
+        return None
+
+def llm_generate(prompt, max_tokens=800, task_type="default"):
+    llm = get_llm(task_type)
+    if not llm:
+        return "[LLM unavailable - install a .gguf model]"
+    try:
+        output = llm(prompt, max_tokens=max_tokens, stop=["</s>", "User:", "###", "<|im_end|>"])
         return output["choices"][0]["text"].strip()
     except Exception as e:
         return f"[LLM error: {e}]"
@@ -370,7 +417,7 @@ def generate_crossover_event(games, use_llm=True):
             "The event is called THE BIG BANG. A legendary Pokémon named Big Bang Arceus threatens both timelines. "
             "Make it cinematic, mysterious, and hype-building. End with a tagline."
         )
-        event["narrative"] = llm_generate(prompt, max_tokens=600)
+        event["narrative"] = llm_generate(prompt, max_tokens=600, task_type="creative")
     else:
         event["narrative"] = event["premise"]
 

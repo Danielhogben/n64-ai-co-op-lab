@@ -2915,5 +2915,2913 @@
     "blender_files": 0,
     "scripts": 1440
   },
-  "ai_controlled": true
+  "ai_controlled": [],
+  "categorized_lists": {
+    "other": [
+      {
+        "id": "rom_0",
+        "name": "Pokemon Ultra Sun (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-007.cia",
+        "path": "/home/donn/Downloads/Pokemon Ultra Sun (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-007.cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 0.0
+      },
+      {
+        "id": "rom_1",
+        "name": "Resident Evil - Revelations (USA) (En,Ja,Fr,De,Es,It)-020.cia",
+        "path": "/home/donn/Downloads/Resident Evil - Revelations (USA) (En,Ja,Fr,De,Es,It)-020.cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 0.0
+      },
+      {
+        "id": "rom_2",
+        "name": "Pokemon Ultra Moon (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-014.cia",
+        "path": "/home/donn/Downloads/Pokemon Ultra Moon (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-014.cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 0.0
+      },
+      {
+        "id": "rom_3",
+        "name": "Donkey Kong Country Returns 3D (USA) (En,Fr,Es)-021.cia",
+        "path": "/home/donn/Downloads/Donkey Kong Country Returns 3D (USA) (En,Fr,Es)-021.cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 2207.78
+      },
+      {
+        "id": "rom_4",
+        "name": "Monster Hunter 4 Ultimate (USA)-004.cia",
+        "path": "/home/donn/Downloads/Monster Hunter 4 Ultimate (USA)-004.cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 2599.99
+      },
+      {
+        "id": "rom_5",
+        "name": "Pokemon Moon (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-005.cia",
+        "path": "/home/donn/Downloads/Pokemon Moon (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-005.cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 3055.84
+      },
+      {
+        "id": "rom_6",
+        "name": "Pokemon Sun (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-010.cia",
+        "path": "/home/donn/Downloads/Pokemon Sun (USA) (En,Ja,Fr,De,Es,It,Zh,Ko)-010.cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 3070.87
+      },
+      {
+        "id": "rom_10",
+        "name": "Kirby Battle Royale (USA).cia",
+        "path": "/home/donn/Downloads/3DS/Kirby Battle Royale (USA).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 210.22
+      },
+      {
+        "id": "rom_13",
+        "name": "Animal Crossing - New Leaf (USA) (En,Fr,Es).cia",
+        "path": "/home/donn/Downloads/3DS/Animal Crossing - New Leaf (USA) (En,Fr,Es).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 739.74
+      },
+      {
+        "id": "rom_15",
+        "name": "Pokemon Mystery Dungeon - Gates to Infinity (USA).cia",
+        "path": "/home/donn/Downloads/3DS/Pokemon Mystery Dungeon - Gates to Infinity (USA).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 842.2
+      },
+      {
+        "id": "rom_17",
+        "name": "Kingdom Hearts 3D - Dream Drop Distance (USA) (En,Fr).cia",
+        "path": "/home/donn/Downloads/3DS/Kingdom Hearts 3D - Dream Drop Distance (USA) (En,Fr).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 1797.94
+      },
+      {
+        "id": "rom_18",
+        "name": "Pokemon Alpha Sapphire (USA) (En,Ja,Fr,De,Es,It,Ko) (Rev 2).cia",
+        "path": "/home/donn/Downloads/3DS/Pokemon Alpha Sapphire (USA) (En,Ja,Fr,De,Es,It,Ko) (Rev 2).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 1810.74
+      },
+      {
+        "id": "rom_19",
+        "name": "Super Street Fighter IV - 3D Edition (USA) (En,Fr,Es).cia",
+        "path": "/home/donn/Downloads/3DS/Super Street Fighter IV - 3D Edition (USA) (En,Fr,Es).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 1682.38
+      },
+      {
+        "id": "rom_20",
+        "name": "Harvest Moon 3D - A New Beginning (USA).cia",
+        "path": "/home/donn/Downloads/3DS/Harvest Moon 3D - A New Beginning (USA).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 341.29
+      },
+      {
+        "id": "rom_21",
+        "name": "Monster Hunter 3 Ultimate (USA) (En,Fr,De,Es,It).cia",
+        "path": "/home/donn/Downloads/3DS/Monster Hunter 3 Ultimate (USA) (En,Fr,De,Es,It).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 1783.39
+      },
+      {
+        "id": "rom_24",
+        "name": "Kirby - Triple Deluxe (USA) (En,Fr,Es).cia",
+        "path": "/home/donn/Downloads/3DS/Kirby - Triple Deluxe (USA) (En,Fr,Es).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 595.08
+      },
+      {
+        "id": "rom_26",
+        "name": "Hyrule Warriors Legends (USA).cia",
+        "path": "/home/donn/Downloads/3DS/Hyrule Warriors Legends (USA).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 2016.52
+      },
+      {
+        "id": "rom_27",
+        "name": "Pokemon X (USA) (En,Ja,Fr,De,Es,It,Ko).cia",
+        "path": "/home/donn/Downloads/3DS/Pokemon X (USA) (En,Ja,Fr,De,Es,It,Ko).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 1723.59
+      },
+      {
+        "id": "rom_32",
+        "name": "Tetris Ultimate (USA) (En,Fr,Es,Pt).cia",
+        "path": "/home/donn/Downloads/3DS/Tetris Ultimate (USA) (En,Fr,Es,Pt).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 49.68
+      },
+      {
+        "id": "rom_33",
+        "name": "Pilotwings Resort (USA) (En,Fr,Es).cia",
+        "path": "/home/donn/Downloads/3DS/Pilotwings Resort (USA) (En,Fr,Es).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 92.03
+      },
+      {
+        "id": "rom_34",
+        "name": "Monster Hunter Generations (USA).cia",
+        "path": "/home/donn/Downloads/3DS/Monster Hunter Generations (USA).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 1558.76
+      },
+      {
+        "id": "rom_36",
+        "name": "Pokemon Y (USA) (En,Ja,Fr,De,Es,It,Ko).cia",
+        "path": "/home/donn/Downloads/3DS/Pokemon Y (USA) (En,Ja,Fr,De,Es,It,Ko).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 1723.59
+      },
+      {
+        "id": "rom_37",
+        "name": "Harvest Moon 3D - The Tale of Two Towns (USA) (Rev 2).cia",
+        "path": "/home/donn/Downloads/3DS/Harvest Moon 3D - The Tale of Two Towns (USA) (Rev 2).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 240.39
+      },
+      {
+        "id": "rom_38",
+        "name": "Sonic Generations (USA) (En,Fr,Es) (Rev 1).cia",
+        "path": "/home/donn/Downloads/3DS/Sonic Generations (USA) (En,Fr,Es) (Rev 1).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 608.42
+      },
+      {
+        "id": "rom_40",
+        "name": "Star Fox 64 3D (USA) (En,Fr,Es) (Rev 2).cia",
+        "path": "/home/donn/Downloads/3DS/Star Fox 64 3D (USA) (En,Fr,Es) (Rev 2).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 575.69
+      },
+      {
+        "id": "rom_43",
+        "name": "Hey! Pikmin (USA).cia",
+        "path": "/home/donn/Downloads/3DS/Hey! Pikmin (USA).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 403.11
+      },
+      {
+        "id": "rom_46",
+        "name": "Ultimate NES Remix (USA) (En,Fr,Es).cia",
+        "path": "/home/donn/Downloads/3DS/Ultimate NES Remix (USA) (En,Fr,Es).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 113.0
+      },
+      {
+        "id": "rom_47",
+        "name": "Pokemon Omega Ruby (USA) (En,Ja,Fr,De,Es,It,Ko) (Rev 2).cia",
+        "path": "/home/donn/Downloads/3DS/Pokemon Omega Ruby (USA) (En,Ja,Fr,De,Es,It,Ko) (Rev 2).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 1810.63
+      },
+      {
+        "id": "rom_48",
+        "name": "Nintendogs + Cats - Golden Retriever & New Friends (USA) (En,Fr,Es).cia",
+        "path": "/home/donn/Downloads/3DS/Nintendogs + Cats - Golden Retriever & New Friends (USA) (En,Fr,Es).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 450.39
+      },
+      {
+        "id": "rom_49",
+        "name": "Captain Toad - Treasure Tracker (USA) (En,Fr,Es).cia",
+        "path": "/home/donn/Downloads/3DS/Captain Toad - Treasure Tracker (USA) (En,Fr,Es).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 427.07
+      },
+      {
+        "id": "rom_50",
+        "name": "Fire Emblem - Awakening (USA).cia",
+        "path": "/home/donn/Downloads/3DS/Fire Emblem - Awakening (USA).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 1071.34
+      },
+      {
+        "id": "rom_51",
+        "name": "Metroid - Samus Returns (USA).cia",
+        "path": "/home/donn/Downloads/3DS/Metroid - Samus Returns (USA).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 681.47
+      },
+      {
+        "id": "rom_52",
+        "name": "Kirby - Planet Robobot (USA).cia",
+        "path": "/home/donn/Downloads/3DS/Kirby - Planet Robobot (USA).cia",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 664.17
+      },
+      {
+        "id": "rom_57",
+        "name": "OoT.z64",
+        "path": "/home/donn/HylianModding/Base_ROMs/OoT.z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 32.0
+      },
+      {
+        "id": "rom_58",
+        "name": "OoT.z64",
+        "path": "/home/donn/HylianModding/ShipOfHarkinian/OoT.z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 32.0
+      },
+      {
+        "id": "rom_59",
+        "name": "OoT.z64",
+        "path": "/home/donn/HylianModding/Base_ROMs/OoT.z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 32.0
+      },
+      {
+        "id": "rom_60",
+        "name": "OoT.z64",
+        "path": "/home/donn/HylianModding/ShipOfHarkinian/OoT.z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 32.0
+      },
+      {
+        "id": "rom_61",
+        "name": "Virtual Pool 64 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Virtual Pool 64 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_62",
+        "name": "Wheel of Fortune (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Wheel of Fortune (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 4.0
+      },
+      {
+        "id": "rom_63",
+        "name": "V-Rally Edition 99 (U) (!).n64",
+        "path": "/home/donn/HylianModding/Library/ROMs/V-Rally Edition 99 (U) (!).n64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_64",
+        "name": "WWF - War Zone (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/WWF - War Zone (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_65",
+        "name": "Transformers - Beast Wars Transmetal (U) [!].v64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Transformers - Beast Wars Transmetal (U) [!].v64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_66",
+        "name": "Xena Warrior Princess - Talisman of Fate (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Xena Warrior Princess - Talisman of Fate (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_67",
+        "name": "Wetrix (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Wetrix (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_68",
+        "name": "Wave Race 64 (U) (V1.1) (!).n64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Wave Race 64 (U) (V1.1) (!).n64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_69",
+        "name": "Twisted Edge Extreme Snowboarding (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Twisted Edge Extreme Snowboarding (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_70",
+        "name": "Turok - Dinosaur Hunter (U) (V1.2) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Turok - Dinosaur Hunter (U) (V1.2) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_71",
+        "name": "Vigilante 8 (U) (!).n64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Vigilante 8 (U) (!).n64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_72",
+        "name": "War Gods (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/War Gods (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_73",
+        "name": "007 - GoldenEye.v64",
+        "path": "/home/donn/HylianModding/Library/ROMs/007 - GoldenEye.v64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_74",
+        "name": "World Cup 98 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/World Cup 98 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_75",
+        "name": "World Driver Championship (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/World Driver Championship (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_76",
+        "name": "Triple Play 2000 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Triple Play 2000 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_77",
+        "name": "WinBack - Covert Operations (U) (!).n64",
+        "path": "/home/donn/HylianModding/Library/ROMs/WinBack - Covert Operations (U) (!).n64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_78",
+        "name": "Wipeout 64 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Wipeout 64 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_79",
+        "name": "Vigilante 8 - 2nd Offense (U) [!].v64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Vigilante 8 - 2nd Offense (U) [!].v64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_80",
+        "name": "Worms - Armageddon (U) (!).n64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Worms - Armageddon (U) (!).n64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_81",
+        "name": "Wayne Gretzky_s 3D Hockey _98 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Wayne Gretzky_s 3D Hockey _98 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_82",
+        "name": "WCW-nWo Revenge (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/WCW-nWo Revenge (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_83",
+        "name": "Waialae Country Club-True Golf Classics (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Waialae Country Club-True Golf Classics (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_84",
+        "name": "WCW vs. nWo - World Tour (U) (V1.1) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/WCW vs. nWo - World Tour (U) (V1.1) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_85",
+        "name": "WWF WrestleMania 2000 (U) (!).n64",
+        "path": "/home/donn/HylianModding/Library/ROMs/WWF WrestleMania 2000 (U) (!).n64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 28.0
+      },
+      {
+        "id": "rom_86",
+        "name": "WCW Mayhem (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/WCW Mayhem (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_87",
+        "name": "The New Tetris (U) (!).n64",
+        "path": "/home/donn/HylianModding/Library/ROMs/The New Tetris (U) (!).n64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_88",
+        "name": "Tetrisphere (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Tetrisphere (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_89",
+        "name": "Top Gear Rally (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Top Gear Rally (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_90",
+        "name": "Tom and Jerry in Fists of Furry (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Tom and Jerry in Fists of Furry (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_91",
+        "name": "Superman (U) (M3) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Superman (U) (M3) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_92",
+        "name": "Tony Hawk_s Pro Skater 3 (U).z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Tony Hawk_s Pro Skater 3 (U).z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_93",
+        "name": "Tony Hawk_s Pro Skater 2 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Tony Hawk_s Pro Skater 2 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_94",
+        "name": "Tigger_s Honey Hunt (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Tigger_s Honey Hunt (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_95",
+        "name": "Supercross 2000 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Supercross 2000 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_96",
+        "name": "Tom Clancy_s Rainbow Six (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Tom Clancy_s Rainbow Six (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_97",
+        "name": "Toy Story 2 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Toy Story 2 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_98",
+        "name": "Tonic Trouble (U) (V1.1) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Tonic Trouble (U) (V1.1) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_99",
+        "name": "Turok 3 - Shadow of Oblivion (U) [!].n64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Turok 3 - Shadow of Oblivion (U) [!].n64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 32.0
+      },
+      {
+        "id": "rom_100",
+        "name": "WCW Backstage Assault (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/WCW Backstage Assault (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 32.0
+      },
+      {
+        "id": "rom_101",
+        "name": "Super Bowling 64 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Super Bowling 64 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_102",
+        "name": "Starshot - Space Circus Fever (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Starshot - Space Circus Fever (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_103",
+        "name": "Top Gear Hyper-Bike (U) (!).n64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Top Gear Hyper-Bike (U) (!).n64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_104",
+        "name": "Top Gear Overdrive (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Top Gear Overdrive (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_105",
+        "name": "Top Gear Rally 2 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Top Gear Rally 2 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_106",
+        "name": "Star Wars - Rogue Squadron (U) (!).n64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Star Wars - Rogue Squadron (U) (!).n64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_108",
+        "name": "Turok 2 - Seeds of Evil (U) (!).n64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Turok 2 - Seeds of Evil (U) (!).n64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 32.0
+      },
+      {
+        "id": "rom_109",
+        "name": "World is Not Enough, The (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/World is Not Enough, The (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 32.0
+      },
+      {
+        "id": "rom_110",
+        "name": "Star Wars - Shadows of the Empire (U) (V1.2) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Star Wars - Shadows of the Empire (U) (V1.2) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_111",
+        "name": "Star Soldier Vanishing Earth (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Star Soldier Vanishing Earth (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_112",
+        "name": "Spacestation Silicon Valley (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Spacestation Silicon Valley (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_113",
+        "name": "Snowboard Kids (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Snowboard Kids (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_114",
+        "name": "Star Fox 64 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Star Fox 64 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_115",
+        "name": "Space Invaders (U) (!).n64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Space Invaders (U) (!).n64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_116",
+        "name": "Sim City 2000 (J) [!].v64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Sim City 2000 (J) [!].v64",
+        "category": "other",
+        "region": "JPN",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_117",
+        "name": "WWF Attitude (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/WWF Attitude (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 32.0
+      },
+      {
+        "id": "rom_118",
+        "name": "WWF No Mercy (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/WWF No Mercy (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 32.0
+      },
+      {
+        "id": "rom_120",
+        "name": "Shadowgate 64 - Trials of the Four Towers (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Shadowgate 64 - Trials of the Four Towers (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_121",
+        "name": "S.C.A.R.S. (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/S.C.A.R.S. (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_122",
+        "name": "Snowboard Kids 2 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Snowboard Kids 2 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_123",
+        "name": "South Park - Chef_s Luv Shack (U) (!).n64",
+        "path": "/home/donn/HylianModding/Library/ROMs/South Park - Chef_s Luv Shack (U) (!).n64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_124",
+        "name": "San Francisco Rush 2049 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/San Francisco Rush 2049 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_125",
+        "name": "Rocket - Robot on Wheels (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Rocket - Robot on Wheels (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_126",
+        "name": "Robotron 64 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Robotron 64 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_127",
+        "name": "Scooby-Doo - Classic Creep Capers (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Scooby-Doo - Classic Creep Capers (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_128",
+        "name": "South Park Rally (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/South Park Rally (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_130",
+        "name": "Re-Volt (U) (!).n64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Re-Volt (U) (!).n64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_131",
+        "name": "Star Wars - Episode 1 - Racer (U) (!).n64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Star Wars - Episode 1 - Racer (U) (!).n64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 32.0
+      },
+      {
+        "id": "rom_132",
+        "name": "Rugrats - Scavenger Hunt (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Rugrats - Scavenger Hunt (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_133",
+        "name": "South Park (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/South Park (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_134",
+        "name": "Roadsters (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Roadsters (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_135",
+        "name": "Quake II (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Quake II (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_136",
+        "name": "Rampage 2 - Universal Tour (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Rampage 2 - Universal Tour (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_137",
+        "name": "Star Wars Episode I - Battle for Naboo (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Star Wars Episode I - Battle for Naboo (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 32.0
+      },
+      {
+        "id": "rom_138",
+        "name": "Rat Attack (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Rat Attack (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_139",
+        "name": "Powerpuff Girls, The - Chemical X-traction (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Powerpuff Girls, The - Chemical X-traction (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_140",
+        "name": "Quake 2 (U) (!).n64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Quake 2 (U) (!).n64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_141",
+        "name": "Razor Freestyle Scooter (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Razor Freestyle Scooter (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_142",
+        "name": "Road Rash 64 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Road Rash 64 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 32.0
+      },
+      {
+        "id": "rom_143",
+        "name": "Rally Challenge 2000 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Rally Challenge 2000 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_144",
+        "name": "Star Wars Episode I - Racer (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Star Wars Episode I - Racer (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 32.0
+      },
+      {
+        "id": "rom_145",
+        "name": "Quest 64 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Quest 64 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_146",
+        "name": "StarCraft 64 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/StarCraft 64 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 32.0
+      },
+      {
+        "id": "rom_147",
+        "name": "Rampage - World Tour (U) (!).n64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Rampage - World Tour (U) (!).n64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_148",
+        "name": "Rugrats in Paris - The Movie (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Rugrats in Paris - The Movie (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_149",
+        "name": "PGA European Tour (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/PGA European Tour (U) [!].z64",
+        "category": "other",
+        "region": "EUR",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_150",
+        "name": "Pilotwings 64 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Pilotwings 64 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_151",
+        "name": "Power Rangers - Lightspeed Rescue (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Power Rangers - Lightspeed Rescue (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_152",
+        "name": "Polaris Sno Cross (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Polaris Sno Cross (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_153",
+        "name": "Penny Racers (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Penny Racers (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_154",
+        "name": "Pokemon Snap (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Pokemon Snap (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_155",
+        "name": "NHL Breakaway 99 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/NHL Breakaway 99 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_156",
+        "name": "Quake 64 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Quake 64 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_157",
+        "name": "Paperboy (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Paperboy (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_158",
+        "name": "Ready 2 Rumble Boxing (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Ready 2 Rumble Boxing (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 32.0
+      },
+      {
+        "id": "rom_159",
+        "name": "Ready 2 Rumble Boxing Round 2 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Ready 2 Rumble Boxing Round 2 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 32.0
+      },
+      {
+        "id": "rom_160",
+        "name": "Spider-Man (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Spider-Man (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 32.0
+      },
+      {
+        "id": "rom_161",
+        "name": "NFL Quarterback Club 2001 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/NFL Quarterback Club 2001 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_162",
+        "name": "NHL Blades of Steel _99 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/NHL Blades of Steel _99 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_163",
+        "name": "NHL Breakaway 98 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/NHL Breakaway 98 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_164",
+        "name": "NFL Quarterback Club 2000 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/NFL Quarterback Club 2000 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_165",
+        "name": "NFL Quarterback Club 98 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/NFL Quarterback Club 98 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_166",
+        "name": "New Tetris, The (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/New Tetris, The (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_167",
+        "name": "Olympic Hockey Nagano _98 (U) [!].v64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Olympic Hockey Nagano _98 (U) [!].v64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_168",
+        "name": "Shadow Man (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Shadow Man (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 32.0
+      },
+      {
+        "id": "rom_169",
+        "name": "Nightmare Creatures (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Nightmare Creatures (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_170",
+        "name": "Off Road Challenge (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Off Road Challenge (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_171",
+        "name": "NFL Blitz 2000 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/NFL Blitz 2000 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_172",
+        "name": "NFL Blitz 2001 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/NFL Blitz 2001 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_173",
+        "name": "NFL Blitz (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/NFL Blitz (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_174",
+        "name": "Rayman 2 - The Great Escape (U) (!).n64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Rayman 2 - The Great Escape (U) (!).n64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 32.0
+      },
+      {
+        "id": "rom_175",
+        "name": "RR64 - Ridge Racer 64 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/RR64 - Ridge Racer 64 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 32.0
+      },
+      {
+        "id": "rom_176",
+        "name": "NHL 99 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/NHL 99 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_177",
+        "name": "NBA Jam 99 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/NBA Jam 99 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_178",
+        "name": "NFL Quarterback Club 99 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/NFL Quarterback Club 99 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_179",
+        "name": "NBA Live 99 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/NBA Live 99 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_180",
+        "name": "NBA Showtime - NBA on NBC (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/NBA Showtime - NBA on NBC (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_181",
+        "name": "Pokemon Puzzle League (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Pokemon Puzzle League (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 32.0
+      },
+      {
+        "id": "rom_182",
+        "name": "NBA Hangtime (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/NBA Hangtime (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_183",
+        "name": "NFL Blitz - Special Edition (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/NFL Blitz - Special Edition (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_184",
+        "name": "Namco Museum 64 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Namco Museum 64 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 4.0
+      },
+      {
+        "id": "rom_185",
+        "name": "Nuclear Strike 64 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Nuclear Strike 64 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 32.0
+      },
+      {
+        "id": "rom_186",
+        "name": "NBA In the Zone _98 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/NBA In the Zone _98 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_187",
+        "name": "NASCAR 99 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/NASCAR 99 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_188",
+        "name": "NBA Live 2000 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/NBA Live 2000 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_189",
+        "name": "Nagano Olympic Hockey _98 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Nagano Olympic Hockey _98 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_190",
+        "name": "N64 1080 Snowboarding (JU).z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/N64 1080 Snowboarding (JU).z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_191",
+        "name": "Pokemon Stadium (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Pokemon Stadium (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 32.0
+      },
+      {
+        "id": "rom_192",
+        "name": "Jeopardy! (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Jeopardy! (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 4.0
+      },
+      {
+        "id": "rom_194",
+        "name": "Automobili Lamborghini (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Automobili Lamborghini (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 4.0
+      },
+      {
+        "id": "rom_195",
+        "name": "NBA Courtside 2 - Featuring Kobe Bryant (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/NBA Courtside 2 - Featuring Kobe Bryant (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_196",
+        "name": "NASCAR 2000 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/NASCAR 2000 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_197",
+        "name": "Nagano Winter Olympics _98 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Nagano Winter Olympics _98 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_198",
+        "name": "Perfect Dark (U) (V1.1) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Perfect Dark (U) (V1.1) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 32.0
+      },
+      {
+        "id": "rom_199",
+        "name": "NBA In the Zone _99 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/NBA In the Zone _99 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_200",
+        "name": "Monopoly (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Monopoly (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_201",
+        "name": "Mischief Makers (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Mischief Makers (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_202",
+        "name": "NBA In the Zone 2000 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/NBA In the Zone 2000 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_203",
+        "name": "Monster Truck Madness 64 (U) (!).n64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Monster Truck Madness 64 (U) (!).n64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_204",
+        "name": "Midway_s Greatest Arcade Hits Volume 1 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Midway_s Greatest Arcade Hits Volume 1 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 4.0
+      },
+      {
+        "id": "rom_205",
+        "name": "Ogre Battle 64 - Person of Lordly Caliber (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Ogre Battle 64 - Person of Lordly Caliber (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 40.0
+      },
+      {
+        "id": "rom_206",
+        "name": "Ms. Pac-Man Maze Madness (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Ms. Pac-Man Maze Madness (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_207",
+        "name": "Mystical Ninja - Starring Goemon (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Mystical Ninja - Starring Goemon (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_208",
+        "name": "Monaco Grand Prix (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Monaco Grand Prix (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_209",
+        "name": "Micro Machines 64 Turbo (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Micro Machines 64 Turbo (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_211",
+        "name": "Mortal Kombat 4 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Mortal Kombat 4 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_212",
+        "name": "Mia Hamm Soccer 64 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Mia Hamm Soccer 64 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_213",
+        "name": "Resident Evil 2 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Resident Evil 2 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 64.0
+      },
+      {
+        "id": "rom_214",
+        "name": "Mission Impossible (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Mission Impossible (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_215",
+        "name": "Mike Piazza_s Strike Zone (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Mike Piazza_s Strike Zone (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_217",
+        "name": "Mortal Kombat Trilogy (U) (V1.2) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Mortal Kombat Trilogy (U) (V1.2) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_218",
+        "name": "Pokemon Stadium 2 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Pokemon Stadium 2 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 64.0
+      },
+      {
+        "id": "rom_219",
+        "name": "Milo_s Astro Lanes (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Milo_s Astro Lanes (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_220",
+        "name": "Madden NFL 2002 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Madden NFL 2002 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_221",
+        "name": "Major League Baseball Featuring Ken Griffey Jr. (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Major League Baseball Featuring Ken Griffey Jr. (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_222",
+        "name": "Madden Football 64 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Madden Football 64 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_223",
+        "name": "Lode Runner 3-D (U) (!).n64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Lode Runner 3-D (U) (!).n64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_224",
+        "name": "Madden NFL 99 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Madden NFL 99 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_225",
+        "name": "Madden NFL 2001 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Madden NFL 2001 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_228",
+        "name": "Mace - The Dark Age (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Mace - The Dark Age (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_229",
+        "name": "Magical Tetris Challenge (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Magical Tetris Challenge (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_230",
+        "name": "Knockout Kings 2000 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Knockout Kings 2000 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_231",
+        "name": "Knife Edge - Nose Gunner (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Knife Edge - Nose Gunner (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_233",
+        "name": "Kobe Bryant_s NBA Courtside (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Kobe Bryant_s NBA Courtside (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_234",
+        "name": "King Hill 64 - Extreme Snowboarding (J) [!].v64",
+        "path": "/home/donn/HylianModding/Library/ROMs/King Hill 64 - Extreme Snowboarding (J) [!].v64",
+        "category": "other",
+        "region": "JPN",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_235",
+        "name": "Madden 2000 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Madden 2000 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_236",
+        "name": "Jeremy McGrath Supercross 2000 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Jeremy McGrath Supercross 2000 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_237",
+        "name": "Mega Man 64 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Mega Man 64 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 32.0
+      },
+      {
+        "id": "rom_238",
+        "name": "Killer Instinct Gold (U) (V1.2) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Killer Instinct Gold (U) (V1.2) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_239",
+        "name": "John Romero_s Daikatana (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/John Romero_s Daikatana (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_240",
+        "name": "LEGO Racers (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/LEGO Racers (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_241",
+        "name": "International Track and Field 2000 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/International Track and Field 2000 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_242",
+        "name": "Ken Griffey Jr._s Slugfest (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Ken Griffey Jr._s Slugfest (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_243",
+        "name": "International Superstar Soccer 2000 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/International Superstar Soccer 2000 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_244",
+        "name": "In-Fisherman Bass Hunter 64 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/In-Fisherman Bass Hunter 64 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_249",
+        "name": "Hybrid Heaven (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Hybrid Heaven (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_250",
+        "name": "Hercules - The Legendary Journeys (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Hercules - The Legendary Journeys (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_252",
+        "name": "International Superstar Soccer _98 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/International Superstar Soccer _98 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_253",
+        "name": "Hexen (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Hexen (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_254",
+        "name": "Golden Nugget 64 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Golden Nugget 64 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_255",
+        "name": "Forsaken 64 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Forsaken 64 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_256",
+        "name": "International Superstar Soccer 64 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/International Superstar Soccer 64 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_257",
+        "name": "Fox Sports College Hoops _99 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Fox Sports College Hoops _99 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_258",
+        "name": "Glover (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Glover (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_259",
+        "name": "Harvest Moon 64 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Harvest Moon 64 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_260",
+        "name": "Flying Dragon (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Flying Dragon (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_261",
+        "name": "GT 64 Championship Edition (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/GT 64 Championship Edition (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_262",
+        "name": "GoldenEye 007 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/GoldenEye 007 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_263",
+        "name": "Fighter_s Destiny (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Fighter_s Destiny (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_264",
+        "name": "Hey You, Pikachu! (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Hey You, Pikachu! (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_265",
+        "name": "Michael Owens WLS 2000 (E).v64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Michael Owens WLS 2000 (E).v64",
+        "category": "other",
+        "region": "EUR",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_266",
+        "name": "Kirby 64 - The Crystal Shards (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Kirby 64 - The Crystal Shards (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 32.0
+      },
+      {
+        "id": "rom_268",
+        "name": "Indiana Jones and the Infernal Machine (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Indiana Jones and the Infernal Machine (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 32.0
+      },
+      {
+        "id": "rom_269",
+        "name": "FIFA Soccer 64 (U) (M3) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/FIFA Soccer 64 (U) (M3) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_270",
+        "name": "F-Zero X (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/F-Zero X (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_271",
+        "name": "Elmo_s Number Journey (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Elmo_s Number Journey (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_273",
+        "name": "Mickey_s Speedway USA (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Mickey_s Speedway USA (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 32.0
+      },
+      {
+        "id": "rom_274",
+        "name": "Goemon_s Great Adventure (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Goemon_s Great Adventure (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_275",
+        "name": "F1_World_Grand_Prix2(E).v64",
+        "path": "/home/donn/HylianModding/Library/ROMs/F1_World_Grand_Prix2(E).v64",
+        "category": "other",
+        "region": "EUR",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_276",
+        "name": "Jet Force Gemini (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Jet Force Gemini (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 32.0
+      },
+      {
+        "id": "rom_277",
+        "name": "Hydro Thunder (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Hydro Thunder (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 28.0
+      },
+      {
+        "id": "rom_278",
+        "name": "F-1 Pole Position 64 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/F-1 Pole Position 64 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_279",
+        "name": "FIFA - Road to World Cup 98 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/FIFA - Road to World Cup 98 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_280",
+        "name": "Gex 64 - Enter the Gecko (U) (!).n64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Gex 64 - Enter the Gecko (U) (!).n64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_281",
+        "name": "Extreme-G XG2 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Extreme-G XG2 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_282",
+        "name": "Fighter_s Destiny 2 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Fighter_s Destiny 2 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_283",
+        "name": "Gauntlet Legends (U) (!).n64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Gauntlet Legends (U) (!).n64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_285",
+        "name": "Duke Nukem 64 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Duke Nukem 64 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_286",
+        "name": "Doom 64 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Doom 64 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_287",
+        "name": "Extreme-G (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Extreme-G (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_288",
+        "name": "FIFA 99 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/FIFA 99 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_289",
+        "name": "F-1 World Grand Prix (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/F-1 World Grand Prix (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_290",
+        "name": "Excitebike 64 (U) (!).n64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Excitebike 64 (U) (!).n64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_291",
+        "name": "Gex 3 - Deep Cover Gecko (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Gex 3 - Deep Cover Gecko (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 32.0
+      },
+      {
+        "id": "rom_292",
+        "name": "Dual Heroes (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Dual Heroes (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_293",
+        "name": "Earthworm Jim 3D (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Earthworm Jim 3D (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_294",
+        "name": "Elmo_s Letter Adventure (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Elmo_s Letter Adventure (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_295",
+        "name": "Duck Dodgers Starring Daffy Duck (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Duck Dodgers Starring Daffy Duck (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_296",
+        "name": "Cruis_n USA (U) (V1.2) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Cruis_n USA (U) (V1.2) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_297",
+        "name": "Chopper Attack (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Chopper Attack (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_298",
+        "name": "Disney_s Tarzan (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Disney_s Tarzan (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_299",
+        "name": "Donkey Kong 64 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Donkey Kong 64 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 32.0
+      },
+      {
+        "id": "rom_300",
+        "name": "Dark Rift (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Dark Rift (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_301",
+        "name": "Cruis_n World (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Cruis_n World (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_302",
+        "name": "Cruis_n Exotica (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Cruis_n Exotica (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_303",
+        "name": "Charlie Blast_s Territory (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Charlie Blast_s Territory (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 4.0
+      },
+      {
+        "id": "rom_304",
+        "name": "CyberTiger (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/CyberTiger (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_305",
+        "name": "Clay Fighter - Sculptor_s Cut (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Clay Fighter - Sculptor_s Cut (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_306",
+        "name": "Destruction Derby 64 (U) (!).n64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Destruction Derby 64 (U) (!).n64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_307",
+        "name": "Deadly Arts (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Deadly Arts (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_308",
+        "name": "Chameleon Twist 2 (U) (!).n64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Chameleon Twist 2 (U) (!).n64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_310",
+        "name": "Castlevania - Legacy of Darkness (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Castlevania - Legacy of Darkness (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_311",
+        "name": "ECW Hardcore Revolution (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/ECW Hardcore Revolution (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 32.0
+      },
+      {
+        "id": "rom_312",
+        "name": "Bust-A-Move _99 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Bust-A-Move _99 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_313",
+        "name": "Clay Fighter 63 1-3 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Clay Fighter 63 1-3 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_314",
+        "name": "California Speed (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/California Speed (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_315",
+        "name": "Bottom of the 9th (U) (!).n64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Bottom of the 9th (U) (!).n64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_316",
+        "name": "Chameleon Twist (U) (!).n64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Chameleon Twist (U) (!).n64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_317",
+        "name": "Bomberman Hero (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Bomberman Hero (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_318",
+        "name": "Buck Bumble (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Buck Bumble (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_319",
+        "name": "Disney_s Donald Duck - Goin_ Quackers (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Disney_s Donald Duck - Goin_ Quackers (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 20.0
+      },
+      {
+        "id": "rom_320",
+        "name": "Bomberman 64 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Bomberman 64 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_321",
+        "name": "Bust-A-Move 2 - Arcade Edition (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Bust-A-Move 2 - Arcade Edition (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_322",
+        "name": "BattleTanx (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/BattleTanx (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_323",
+        "name": "BattleTanx - Global Assault (U) (!).n64",
+        "path": "/home/donn/HylianModding/Library/ROMs/BattleTanx - Global Assault (U) (!).n64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_324",
+        "name": "Brunswick Circuit Pro Bowling (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Brunswick Circuit Pro Bowling (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_325",
+        "name": "Bomberman 64 - The Second Attack! (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Bomberman 64 - The Second Attack! (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_326",
+        "name": "Blast Corps (U) (V1.1) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Blast Corps (U) (V1.1) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_327",
+        "name": "Carmageddon 64 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Carmageddon 64 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_328",
+        "name": "Command & Conquer (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Command & Conquer (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 32.0
+      },
+      {
+        "id": "rom_329",
+        "name": "Bassmasters 2000 (U) (!).n64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Bassmasters 2000 (U) (!).n64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_330",
+        "name": "Asteroids Hyper 64 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Asteroids Hyper 64 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_331",
+        "name": "Army Men - Air Combat (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Army Men - Air Combat (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_332",
+        "name": "Army Men - Sarge_s Heroes (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Army Men - Sarge_s Heroes (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_333",
+        "name": "Big Mountain 2000 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Big Mountain 2000 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_334",
+        "name": "Body Harvest (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Body Harvest (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_335",
+        "name": "All Star Tennis 99 (U) (!).n64",
+        "path": "/home/donn/HylianModding/Library/ROMs/All Star Tennis 99 (U) (!).n64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_337",
+        "name": "Batman Beyond - Return of the Joker (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Batman Beyond - Return of the Joker (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_338",
+        "name": "Army Men - Sarge_s Heroes 2 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Army Men - Sarge_s Heroes 2 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_339",
+        "name": "Banjo-Kazooie (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Banjo-Kazooie (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_340",
+        "name": "All-Star Baseball 99 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/All-Star Baseball 99 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_341",
+        "name": "Armorines - Project S.W.A.R.M. (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Armorines - Project S.W.A.R.M. (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_342",
+        "name": "All-Star Baseball 2001 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/All-Star Baseball 2001 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_343",
+        "name": "Blues Brothers 2000 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Blues Brothers 2000 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_344",
+        "name": "Bio F.R.E.A.K.S. (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Bio F.R.E.A.K.S. (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_345",
+        "name": "Battlezone - Rise of the Black Dogs (U) (!).n64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Battlezone - Rise of the Black Dogs (U) (!).n64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_346",
+        "name": "Command and Conquer 3D (U) (!).n64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Command and Conquer 3D (U) (!).n64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 32.0
+      },
+      {
+        "id": "rom_347",
+        "name": "Yoshi_s Story (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Yoshi_s Story (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_348",
+        "name": "Aerofighter_s Assault (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Aerofighter_s Assault (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_349",
+        "name": "All-Star Baseball 2000 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/All-Star Baseball 2000 (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_350",
+        "name": "AeroGauge (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/AeroGauge (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 8.0
+      },
+      {
+        "id": "rom_351",
+        "name": "A Bug_s Life (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/A Bug_s Life (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_352",
+        "name": "Conker_s Bad Fur Day (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Conker_s Bad Fur Day (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 64.0
+      },
+      {
+        "id": "rom_353",
+        "name": "Aidyn Chronicles - The First Mage (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Aidyn Chronicles - The First Mage (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 32.0
+      },
+      {
+        "id": "rom_354",
+        "name": "Banjo-Tooie (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Banjo-Tooie (U) [!].z64",
+        "category": "other",
+        "region": "USA",
+        "size_mb": 32.0
+      }
+    ],
+    "zelda": [
+      {
+        "id": "rom_7",
+        "name": "MQ DEBUG COMPILED_zelda_ocarina_mq_dbg_ZRET.z64",
+        "path": "/home/donn/Downloads/OOT/MQ DEBUG COMPILED_zelda_ocarina_mq_dbg_ZRET.z64",
+        "category": "zelda",
+        "region": "USA",
+        "size_mb": 54.0
+      },
+      {
+        "id": "rom_8",
+        "name": "USE WITH SoH_Zelda OOT Debug ROM [NOT MQ].z64",
+        "path": "/home/donn/Downloads/OOT/USE WITH SoH_Zelda OOT Debug ROM [NOT MQ].z64",
+        "category": "zelda",
+        "region": "USA",
+        "size_mb": 64.0
+      },
+      {
+        "id": "rom_30",
+        "name": "Legend of Zelda, The - A Link Between Worlds (USA) (En,Fr,Es).cia",
+        "path": "/home/donn/Downloads/3DS/Legend of Zelda, The - A Link Between Worlds (USA) (En,Fr,Es).cia",
+        "category": "zelda",
+        "region": "USA",
+        "size_mb": 679.29
+      },
+      {
+        "id": "rom_31",
+        "name": "Legend of Zelda, The - Tri Force Heroes (USA) (En,Fr,Es).cia",
+        "path": "/home/donn/Downloads/3DS/Legend of Zelda, The - Tri Force Heroes (USA) (En,Fr,Es).cia",
+        "category": "zelda",
+        "region": "USA",
+        "size_mb": 523.91
+      },
+      {
+        "id": "rom_41",
+        "name": "Legend of Zelda, The - Ocarina of Time 3D (USA) (En,Fr,Es) (Rev 1).cia",
+        "path": "/home/donn/Downloads/3DS/Legend of Zelda, The - Ocarina of Time 3D (USA) (En,Fr,Es) (Rev 1).cia",
+        "category": "zelda",
+        "region": "USA",
+        "size_mb": 455.1
+      },
+      {
+        "id": "rom_54",
+        "name": "Legend of Zelda, The - Ocarina of Time (USA) (Rev 2).z64",
+        "path": "/home/donn/N64/roms/Legend of Zelda, The - Ocarina of Time (USA) (Rev 2).z64",
+        "category": "zelda",
+        "region": "USA",
+        "size_mb": 32.0
+      },
+      {
+        "id": "rom_55",
+        "name": "Legend of Zelda, The - Majora's Mask (USA).z64",
+        "path": "/home/donn/N64/roms/Legend of Zelda, The - Majora's Mask (USA).z64",
+        "category": "zelda",
+        "region": "USA",
+        "size_mb": 32.0
+      },
+      {
+        "id": "rom_56",
+        "name": "Legend of Zelda, The - Ocarina of Time (USA) (Rev 2).z64",
+        "path": "/home/donn/N64/emulators/Legend of Zelda, The - Ocarina of Time (USA) (Rev 2).z64",
+        "category": "zelda",
+        "region": "USA",
+        "size_mb": 32.0
+      },
+      {
+        "id": "rom_129",
+        "name": "The Legend of Zelda Ocarina of Time Master Quest.v64",
+        "path": "/home/donn/HylianModding/Library/ROMs/The Legend of Zelda Ocarina of Time Master Quest.v64",
+        "category": "zelda",
+        "region": "USA",
+        "size_mb": 32.0
+      },
+      {
+        "id": "rom_284",
+        "name": "Legend of Zelda, The - Ocarina of Time (U) (V1.2) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Legend of Zelda, The - Ocarina of Time (U) (V1.2) [!].z64",
+        "category": "zelda",
+        "region": "USA",
+        "size_mb": 32.0
+      },
+      {
+        "id": "rom_355",
+        "name": "Legend of Zelda, The - Ocarina of Time (USA) (Rev 2).z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Legend of Zelda, The - Ocarina of Time (USA) (Rev 2).z64",
+        "category": "zelda",
+        "region": "USA",
+        "size_mb": 32.0
+      },
+      {
+        "id": "rom_356",
+        "name": "Legend of Zelda, The - Majora's Mask (USA).z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Legend of Zelda, The - Majora's Mask (USA).z64",
+        "category": "zelda",
+        "region": "USA",
+        "size_mb": 32.0
+      },
+      {
+        "id": "rom_359",
+        "name": "Legend of Zelda, The - Ocarina of Time (USA) (Rev 2).z64",
+        "path": "/home/donn/N64/roms/Legend of Zelda, The - Ocarina of Time (USA) (Rev 2).z64",
+        "category": "zelda",
+        "region": "USA",
+        "size_mb": 32.0
+      },
+      {
+        "id": "rom_360",
+        "name": "Legend of Zelda, The - Majora's Mask (USA).z64",
+        "path": "/home/donn/N64/roms/Legend of Zelda, The - Majora's Mask (USA).z64",
+        "category": "zelda",
+        "region": "USA",
+        "size_mb": 32.0
+      },
+      {
+        "id": "rom_361",
+        "name": "Legend of Zelda, The - Ocarina of Time (USA) (Rev 2).z64",
+        "path": "/home/donn/N64/emulators/Legend of Zelda, The - Ocarina of Time (USA) (Rev 2).z64",
+        "category": "zelda",
+        "region": "USA",
+        "size_mb": 32.0
+      }
+    ],
+    "mario": [
+      {
+        "id": "rom_9",
+        "name": "Super Mario Maker for Nintendo 3DS (USA) (En,Fr,Es) (Rev 2).cia",
+        "path": "/home/donn/Downloads/3DS/Super Mario Maker for Nintendo 3DS (USA) (En,Fr,Es) (Rev 2).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 365.08
+      },
+      {
+        "id": "rom_11",
+        "name": "Mario & Sonic at the London 2012 Olympic Games (USA) (En,Fr,Es).cia",
+        "path": "/home/donn/Downloads/3DS/Mario & Sonic at the London 2012 Olympic Games (USA) (En,Fr,Es).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 376.25
+      },
+      {
+        "id": "rom_12",
+        "name": "Mario Party - The Top 100 (USA).cia",
+        "path": "/home/donn/Downloads/3DS/Mario Party - The Top 100 (USA).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 260.47
+      },
+      {
+        "id": "rom_14",
+        "name": "Mario & Luigi - Dream Team (USA) (En,Fr,Es).cia",
+        "path": "/home/donn/Downloads/3DS/Mario & Luigi - Dream Team (USA) (En,Fr,Es).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 824.03
+      },
+      {
+        "id": "rom_16",
+        "name": "Mario Tennis Open (USA) (En,Fr,Es) (Rev 1).cia",
+        "path": "/home/donn/Downloads/3DS/Mario Tennis Open (USA) (En,Fr,Es) (Rev 1).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 251.27
+      },
+      {
+        "id": "rom_22",
+        "name": "Mario Party - Island Tour (USA) (En,Fr,Es).cia",
+        "path": "/home/donn/Downloads/3DS/Mario Party - Island Tour (USA) (En,Fr,Es).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 233.88
+      },
+      {
+        "id": "rom_23",
+        "name": "Mario Sports Superstars (USA).cia",
+        "path": "/home/donn/Downloads/3DS/Mario Sports Superstars (USA).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 823.2
+      },
+      {
+        "id": "rom_25",
+        "name": "Mario Golf - World Tour (USA) (En,Fr,Es).cia",
+        "path": "/home/donn/Downloads/3DS/Mario Golf - World Tour (USA) (En,Fr,Es).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 525.37
+      },
+      {
+        "id": "rom_28",
+        "name": "Super Mario 3D Land (USA) (En,Fr,Es) (Rev 1).cia",
+        "path": "/home/donn/Downloads/3DS/Super Mario 3D Land (USA) (En,Fr,Es) (Rev 1).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 289.41
+      },
+      {
+        "id": "rom_29",
+        "name": "Mario & Sonic at the Rio 2016 Olympic Games (USA) (En,Fr,Es).cia",
+        "path": "/home/donn/Downloads/3DS/Mario & Sonic at the Rio 2016 Olympic Games (USA) (En,Fr,Es).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 682.19
+      },
+      {
+        "id": "rom_35",
+        "name": "Mario & Luigi - Paper Jam (USA).cia",
+        "path": "/home/donn/Downloads/3DS/Mario & Luigi - Paper Jam (USA).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 429.41
+      },
+      {
+        "id": "rom_39",
+        "name": "Mario Party - Star Rush (USA) (En,Fr,Es).cia",
+        "path": "/home/donn/Downloads/3DS/Mario Party - Star Rush (USA) (En,Fr,Es).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 375.67
+      },
+      {
+        "id": "rom_42",
+        "name": "Mario Kart 7 (USA) (En,Fr,Es) (Rev 1).cia",
+        "path": "/home/donn/Downloads/3DS/Mario Kart 7 (USA) (En,Fr,Es) (Rev 1).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 634.33
+      },
+      {
+        "id": "rom_44",
+        "name": "Paper Mario - Sticker Star (USA) (En,Fr,Es).cia",
+        "path": "/home/donn/Downloads/3DS/Paper Mario - Sticker Star (USA) (En,Fr,Es).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 524.48
+      },
+      {
+        "id": "rom_45",
+        "name": "New Super Mario Bros. 2 (USA) (En,Fr,Es).cia",
+        "path": "/home/donn/Downloads/3DS/New Super Mario Bros. 2 (USA) (En,Fr,Es).cia",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 340.23
+      },
+      {
+        "id": "rom_193",
+        "name": "Dr. Mario 64 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Dr. Mario 64 (U) [!].z64",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 4.0
+      },
+      {
+        "id": "rom_210",
+        "name": "Paper Mario (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Paper Mario (U) [!].z64",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 40.0
+      },
+      {
+        "id": "rom_226",
+        "name": "Mario Party 3 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Mario Party 3 (U) [!].z64",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 32.0
+      },
+      {
+        "id": "rom_227",
+        "name": "Mario Tennis (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Mario Tennis (U) [!].z64",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_232",
+        "name": "Mario Kart 64 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Mario Kart 64 (U) [!].z64",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_245",
+        "name": "Mario Golf 64 (English).v64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Mario Golf 64 (English).v64",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 24.0
+      },
+      {
+        "id": "rom_246",
+        "name": "Mario Party (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Mario Party (U) [!].z64",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 32.0
+      },
+      {
+        "id": "rom_248",
+        "name": "Mario Party 2 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Mario Party 2 (U) [!].z64",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 32.0
+      },
+      {
+        "id": "rom_251",
+        "name": "Mario Golf (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Mario Golf (U) [!].z64",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 24.0
+      },
+      {
+        "id": "rom_357",
+        "name": "Mario Kart 64 (USA).z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Mario Kart 64 (USA).z64",
+        "category": "mario",
+        "region": "USA",
+        "size_mb": 12.0
+      }
+    ],
+    "fighting": [
+      {
+        "id": "rom_53",
+        "name": "Super Smash Bros. for Nintendo 3DS (USA) (En,Fr,Es) (Rev 7).cia",
+        "path": "/home/donn/Downloads/3DS/Super Smash Bros. for Nintendo 3DS (USA) (En,Fr,Es) (Rev 7).cia",
+        "category": "fighting",
+        "region": "USA",
+        "size_mb": 1421.36
+      },
+      {
+        "id": "rom_107",
+        "name": "Super Smash Bros. (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Super Smash Bros. (U) [!].z64",
+        "category": "fighting",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_272",
+        "name": "Fighting Force 64 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Fighting Force 64 (U) [!].z64",
+        "category": "fighting",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_358",
+        "name": "Super Smash Bros. (USA).z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Super Smash Bros. (USA).z64",
+        "category": "fighting",
+        "region": "USA",
+        "size_mb": 16.0
+      }
+    ],
+    "racing": [
+      {
+        "id": "rom_119",
+        "name": "Rush 2 - Extreme Racing USA (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Rush 2 - Extreme Racing USA (U) [!].z64",
+        "category": "racing",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_216",
+        "name": "MRC - Multi Racing Championship (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/MRC - Multi Racing Championship (U) [!].z64",
+        "category": "racing",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_247",
+        "name": "Indy Racing 2000 (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Indy Racing 2000 (U) [!].z64",
+        "category": "racing",
+        "region": "USA",
+        "size_mb": 16.0
+      },
+      {
+        "id": "rom_267",
+        "name": "Hot Wheels Turbo Racing (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Hot Wheels Turbo Racing (U) [!].z64",
+        "category": "racing",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_309",
+        "name": "Diddy Kong Racing (U) (M2) (V1.1) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Diddy Kong Racing (U) (M2) (V1.1) [!].z64",
+        "category": "racing",
+        "region": "USA",
+        "size_mb": 12.0
+      },
+      {
+        "id": "rom_336",
+        "name": "Beetle Adventure Racing! (U) [!].z64",
+        "path": "/home/donn/HylianModding/Library/ROMs/Beetle Adventure Racing! (U) [!].z64",
+        "category": "racing",
+        "region": "USA",
+        "size_mb": 16.0
+      }
+    ]
+  }
 }

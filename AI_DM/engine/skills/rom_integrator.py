@@ -105,9 +105,13 @@ class ROMIntegrator:
 
         # Initial: also add any paths found in existing zones (in case state missing)
         for z in reg.zones:
-            self.integrated_paths.add(z.get("source_rom", ""))
+            sr = z.get("source_rom")
+            if sr:
+                self.integrated_paths.add(sr)
             for p in z.get("source_roms", []):
-                self.integrated_paths.add(p)
+                path = p.get("path", "") if isinstance(p, dict) else p
+                if path:
+                    self.integrated_paths.add(path)
         # Clean None
         self.integrated_paths.discard(None)
         self.state["integrated_paths"] = self.integrated_paths
@@ -141,8 +145,9 @@ class ROMIntegrator:
                 integrated_rom_paths.add(src)
             # Also include all ROMs from this zone's source_roms list
             for sp in z.get("source_roms", []):
-                if sp:
-                    integrated_rom_paths.add(sp)
+                path = sp.get("path", "") if isinstance(sp, dict) else sp
+                if path:
+                    integrated_rom_paths.add(path)
 
         # Phase 2: Group into galaxies (by category)
         galaxies = all_roms_by_category
@@ -191,24 +196,65 @@ class ROMIntegrator:
             with open(self.zones_path, 'w') as f:
                 json.dump(reg.zones, f, indent=2)
 
-        # Phase 4: Enemies count (actual file generation not yet implemented)
-        for zone in new_zones:
-            report["enemies_generated"] += len(zone["enemy_roster"])
+            # Phase 4: Write enemy files
+            os.makedirs(self.enemies_path, exist_ok=True)
+            for zone in new_zones:
+                for enemy_name in zone["enemy_roster"]:
+                    enemy_data = {
+                        "id": f"enemy_{zone['id']}_{enemy_name}",
+                        "name": enemy_name,
+                        "zone_id": zone["id"],
+                        "difficulty": zone.get("danger_level", random.choice(["low", "medium", "high"])),
+                        "type": random.choice(["melee", "ranged", "magic", "boss"]),
+                    }
+                    enemy_file = os.path.join(self.enemies_path, f"enemy_{zone['id']}_{enemy_name}.json")
+                    with open(enemy_file, 'w') as f:
+                        json.dump(enemy_data, f, indent=2)
+                    report["enemies_generated"] += 1
 
-        # Phase 5: Items (estimate)
-        report["items_generated"] = len(all_roms) * 3
+            # Phase 5: Write item files (3 per ROM processed)
+            os.makedirs(self.items_path, exist_ok=True)
+            item_categories = ["weapon", "armor", "consumable", "material", "key"]
+            for rom in all_roms:
+                rom_id = rom.get("id", "unknown")
+                for idx in range(3):
+                    item_data = {
+                        "id": f"item_{rom_id}_{idx}",
+                        "name": f"Item {rom_id}_{idx}",
+                        "category": random.choice(item_categories),
+                        "value": random.randint(10, 500),
+                    }
+                    item_file = os.path.join(self.items_path, f"item_{rom_id}_{idx}.json")
+                    with open(item_file, 'w') as f:
+                        json.dump(item_data, f, indent=2)
+                    report["items_generated"] += 1
 
-        # Phase 6: Quests (one per galaxy)
-        report["quests_created"] = len(galaxies)
+            # Phase 6: Write quest files (1 per galaxy)
+            os.makedirs(self.quests_path, exist_ok=True)
+            for galaxy_name in galaxies:
+                quest_data = {
+                    "id": f"quest_{galaxy_name}",
+                    "name": f"{galaxy_name.capitalize()} Conquest",
+                    "description": f"Explore the {galaxy_name} galaxy and conquer its challenges.",
+                    "galaxy": galaxy_name,
+                    "objectives": [f"Discover all zones in {galaxy_name}", f"Defeat the boss of {galaxy_name}", f"Collect 10 {galaxy_name} artifacts"],
+                }
+                quest_file = os.path.join(self.quests_path, f"quest_{galaxy_name}.json")
+                with open(quest_file, 'w') as f:
+                    json.dump(quest_data, f, indent=2)
+                report["quests_created"] += 1
 
         print(f"[Integrator] Done. Created {report['zones_created']} zones, {report['enemies_generated']} enemies, {report['items_generated']} items.")
 
         # Update integrated_paths: add all ROM paths from newly created zones
         for z in new_zones:
-            self.integrated_paths.add(z.get("source_rom", ""))
+            sr = z.get("source_rom")
+            if sr:
+                self.integrated_paths.add(sr)
             for p in z.get("source_roms", []):
-                if p:
-                    self.integrated_paths.add(p)
+                path = p.get("path", "") if isinstance(p, dict) else p
+                if path:
+                    self.integrated_paths.add(path)
         # Persist integrated set
         try:
             with open(self.state_file, 'w') as f:
@@ -385,10 +431,10 @@ class ROMIntegrator:
         for zone in zones:
             src = zone.get("source_rom")
             if src:
-                integrated_rom_paths.add(src)
+                integrated_rom_paths.add(src if isinstance(src, str) else src.get("path"))
             for sp in zone.get("source_roms", []):
                 if sp:
-                    integrated_rom_paths.add(sp)
+                    integrated_rom_paths.add(sp if isinstance(sp, str) else sp.get("path"))
 
         all_rom_paths = {rom.get("path") for rom in roms if rom.get("path")}
         pending_roms_count = len(all_rom_paths - integrated_rom_paths)

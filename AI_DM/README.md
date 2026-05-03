@@ -1,17 +1,14 @@
-# 🤖 AI Dungeon Master for N64
+# 🤖 AI Dungeon Master for N64 & 3DS
 
-An AI-driven Dungeon Master that plays **Ship of Harkinian** (OoT PC port) with you, issuing D&D-style challenges, spawning enemies, and manipulating the world in real-time.
+An AI-driven Dungeon Master that plays **Ship of Harkinian** (OoT) and **2Ship2Harkinian** (MM) with you, and supports 3DS world integration.
 
 ## What It Does
 
-- **Speaks to you** via text-to-speech (or just text if TTS is unavailable)
-- **Monitors the game** and launches timed challenges from a database inspired by your ROM hack collection
-- **Controls the world** by sending console commands to Ship of Harkinian:
-  - Spawn enemies, change time/weather
-  - Give/take items and rupees
-  - Teleport, heal, hurt, speed up/slow down
+- **Speaks to you** via text-to-speech
+- **Monitors the game** and launches timed challenges from an N64/3DS focused database
+- **Controls the world** by sending console commands to Harkinian engines
 - **Scales difficulty** based on your successes and failures
-- **Acts as a co-op partner** via Ivan the Fairy, or as a DM tormenting a single player
+- **Cross-World Travel** between N64 and 3DS game contexts
 
 ## Quick Start
 

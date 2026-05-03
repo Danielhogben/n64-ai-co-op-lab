@@ -39,14 +39,19 @@ def main():
 
     if cmd == "--encounter":
         dm.spawn_random_encounter()
+        dm.wait_for_tts()
     elif cmd == "--boon":
         dm.grant_boon()
+        dm.wait_for_tts()
     elif cmd == "--curse":
         dm.curse_player()
+        dm.wait_for_tts()
     elif cmd == "--success":
         dm.report_success()
+        dm.wait_for_tts()
     elif cmd == "--fail":
         dm.report_fail()
+        dm.wait_for_tts()
     elif cmd == "--status":
         info = dm.get_active_challenge_info()
         if info:
@@ -56,6 +61,7 @@ def main():
         else:
             print("No active challenge.")
         print(f"Current world difficulty: {dm.difficulty}")
+        dm.wait_for_tts()
     elif cmd == "--challenge":
         if len(args) < 2:
             print("Usage: python run_dm.py --challenge 'Challenge Name'")

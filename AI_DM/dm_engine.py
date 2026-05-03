@@ -3,19 +3,33 @@
 import time
 import random
 import threading
-import queue
 from typing import Optional
 
+# Advanced TTS
+try:
+    from kitten_tts_provider import KittenTTSProvider
+    KITTEN_AVAILABLE = True
+except ImportError:
+    KITTEN_AVAILABLE = False
+
+# Legacy TTS as fallback
 try:
     import pyttsx3
-    TTS_AVAILABLE = True
+    LEGACY_TTS_AVAILABLE = True
 except Exception:
-    TTS_AVAILABLE = False
+    LEGACY_TTS_AVAILABLE = False
 
-from config import TTS_ENABLED, TTS_VOICE, TTS_RATE, CHALLENGE_INTERVAL_MIN, CHALLENGE_INTERVAL_MAX, DIFFICULTY_START, DIFFICULTY_MAX
+# Advanced Bridge
+try:
+    from sail_bridge import SailBridge
+    SAIL_AVAILABLE = True
+except ImportError:
+    SAIL_AVAILABLE = False
+
+from config import TTS_ENABLED, TTS_VOICE, TTS_RATE, CHALLENGE_INTERVAL_MIN, CHALLENGE_INTERVAL_MAX, DIFFICULTY_START, DIFFICULTY_MAX, CURRENT_GAME
 from challenges import Challenge, pick_challenge
-from soh_bridge import send_command, send_commands
-
+import soh_bridge
+from storyteller import Storyteller
 
 class AIDungeonMaster:
     """The DM that watches, speaks, and torments the player with challenges."""
@@ -26,39 +40,68 @@ class AIDungeonMaster:
         self.challenge_start_time: float = 0.0
         self.running = False
         self.tts = None
-        self._speech_queue: queue.Queue[str] = queue.Queue()
-        self._speech_thread: Optional[threading.Thread] = None
-        self._challenge_thread: Optional[threading.Thread] = None
+        self.bridge = None
+        self.game = CURRENT_GAME
+        self.storyteller = Storyteller()
         self._setup_tts()
+        self._setup_bridge()
 
     def _setup_tts(self):
-        if not TTS_ENABLED or not TTS_AVAILABLE:
+        if not TTS_ENABLED:
             return
-        try:
-            self.tts = pyttsx3.init()
-            self.tts.setProperty('rate', TTS_RATE)
-            if TTS_VOICE:
-                self.tts.setProperty('voice', TTS_VOICE)
-            self._speech_thread = threading.Thread(target=self._speech_loop, daemon=True)
-            self._speech_thread.start()
-        except Exception as e:
-            print(f"[DM] TTS init failed: {e}")
-            self.tts = None
+        
+        if KITTEN_AVAILABLE:
+            try:
+                print("[DM] Initializing KittenTTS...")
+                self.tts = KittenTTSProvider()
+                return
+            except Exception as e:
+                print(f"[DM] KittenTTS init failed: {e}")
 
-    def _speech_loop(self):
-        while True:
-            text = self._speech_queue.get()
-            if text is None:
-                break
-            if self.tts:
-                self.tts.say(text)
-                self.tts.runAndWait()
+        if LEGACY_TTS_AVAILABLE:
+            try:
+                print("[DM] Falling back to Legacy TTS...")
+                self.tts = pyttsx3.init()
+                self.tts.setProperty('rate', TTS_RATE)
+                if TTS_VOICE:
+                    self.tts.setProperty('voice', TTS_VOICE)
+            except Exception as e:
+                print(f"[DM] Legacy TTS init failed: {e}")
 
-    def speak(self, text: str):
-        """Queue text for TTS and print it."""
+    def _setup_bridge(self):
+        if SAIL_AVAILABLE:
+            print("[DM] Initializing SailBridge...")
+            self.bridge = SailBridge()
+            if not self.bridge.connect():
+                print("[DM] Sail server not reachable. Falling back to keypress bridge.")
+                self.bridge = None
+
+    def _send_command(self, cmd: str):
+        if self.bridge:
+            self.bridge.send_command(cmd)
+        else:
+            soh_bridge.send_command(cmd, game=self.game)
+
+    def _send_commands(self, commands: list[str]):
+        if self.bridge:
+            self.bridge.send_commands(commands)
+        else:
+            soh_bridge.send_commands(commands, game=self.game)
+
+    def speak(self, text: str, event_type: Optional[str] = None, context: str = ""):
+        """Queue text for TTS and print it. If event_type is provided, use Storyteller."""
+        if event_type:
+            text = self.storyteller.generate_dialogue(event_type, context)
+            
         print(f"\n[DM] 🎲 {text}\n")
         if self.tts:
-            self._speech_queue.put(text)
+            if hasattr(self.tts, 'speak'):  # KittenTTSProvider
+                self.tts.speak(text)
+            else:  # Legacy pyttsx3
+                def _legacy_speak():
+                    self.tts.say(text)
+                    self.tts.runAndWait()
+                threading.Thread(target=_legacy_speak, daemon=True).start()
 
     def say_intro(self):
         self.speak(
@@ -66,6 +109,13 @@ class AIDungeonMaster:
             "I have seen the Chaos of Time, the Sands that shift, and the Shadows of Eldoria. "
             "Together we shall forge a legend... or a tragedy. Let us begin."
         )
+
+    def wait_for_tts(self):
+        """Wait until all TTS speech has finished playing."""
+        if self.tts and hasattr(self.tts, 'wait'):
+            self.tts.wait()
+        else:
+            time.sleep(0.5)
 
     def say_status(self):
         self.speak(
@@ -83,8 +133,8 @@ class AIDungeonMaster:
     def stop_campaign(self):
         self.running = False
         self.speak("The campaign pauses. Rest, hero. The world will wait... but not forever.")
-        if self._speech_thread:
-            self._speech_queue.put(None)
+        if hasattr(self.tts, 'stop'):
+            self.tts.stop()
 
     def _campaign_loop(self):
         while self.running:
@@ -104,9 +154,9 @@ class AIDungeonMaster:
         print(f"[DM] Description: {challenge.description}")
         print(f"[DM] Duration: {challenge.duration_sec}s")
 
-        # Execute SoH commands
+        # Execute commands
         if challenge.soh_commands:
-            send_commands(challenge.soh_commands)
+            self._send_commands(challenge.soh_commands)
 
         # Start challenge timer thread
         timer = threading.Thread(target=self._challenge_timer, args=(challenge,), daemon=True)
@@ -146,35 +196,45 @@ class AIDungeonMaster:
 
     def spawn_random_encounter(self):
         """Instant random combat event."""
-        enemies = ["2", "4", "14", "16", "20", "24", "28", "32"]
+        from config import ENEMIES
+        game_enemies = list(ENEMIES.get(self.game, {}).values())
+        if not game_enemies:
+            game_enemies = ["1", "2", "4"]
+            
         count = random.randint(1, min(self.difficulty, 5))
-        cmds = [f"spawn {random.choice(enemies)}" for _ in range(count)]
-        send_commands(cmds)
-        self.speak("An unexpected encounter! Draw your blade!")
+        cmds = [f"spawn {random.choice(game_enemies)}" for _ in range(count)]
+        self._send_commands(cmds)
+        self.speak("", event_type="encounter", context=f"{count} enemies spawned")
 
     def grant_boon(self):
         """Random helpful reward."""
+        from config import ITEMS
+        game_items = ITEMS.get(self.game, {})
         boons = [
             ("heal", "heal"),
             ("rupees 50", "rupees 50"),
-            ("give 0x5E", "give 0x5E"),  # Farore's Wind
-            ("give 0x5F", "give 0x5F"),  # Nayru's Love
         ]
+        if game_items:
+            random_item = random.choice(list(game_items.values()))
+            boons.append((f"give {random_item}", f"give {random_item}"))
+            
         cmd, desc = random.choice(boons)
-        send_command(cmd)
-        self.speak("A fairy smiles upon you. A boon is granted!")
+        self._send_command(cmd)
+        self.speak("", event_type="boon", context=desc)
 
     def curse_player(self):
         """Random harmful effect."""
         curses = [
             ("hurt 2", "hurt 2"),
             ("rupees -30", "rupees -30"),
-            ("spawn 30", "spawn 30"),  # Wallmaster
-            ("time 0", "time 0"),       # Midnight
+            ("time 0", "time 0"),
         ]
+        if self.game == "oot":
+            curses.append(("spawn 30", "spawn 30"))
+            
         cmd, desc = random.choice(curses)
-        send_command(cmd)
-        self.speak("A dark curse takes hold! Misfortune follows!")
+        self._send_command(cmd)
+        self.speak("", event_type="curse", context=desc)
 
     def get_active_challenge_info(self) -> Optional[dict]:
         if not self.active_challenge:

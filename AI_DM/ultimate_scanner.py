@@ -1,64 +1,53 @@
 #!/usr/bin/env python3
 """
-AI DUNGEON MASTER - ULTIMATE SCANNER
-Finds ALL games: N64, PS1, GameBoy, GBA, NES, SNES, Genesis, etc.
+AI DUNGEON MASTER - ULTIMATE SCANNER (N64 & 3DS Focus)
+Finds ONLY N64 and 3DS games.
 Optimizes for small hardware (Raspberry Pi, old PCs)
-Creates inter-world travel system with tasks
 """
 
 import os
 import json
 from datetime import datetime
+from rr_analyzer import RetroReversingAnalyzer
 
 class UltimateScanner:
     def __init__(self):
+        self.analyzer = RetroReversingAnalyzer()
         self.all_games = {
             "n64": [],
-            "ps1": [],
-            "gameboy": [],
-            "gba": [],
-            "nes": [],
-            "snes": [],
-            "genesis": [],
-            "other": []
+            "3ds": []
         }
         
-        self.small_hardware_limit = 50 * 1024 * 1024  # 50MB limit for small hardware
+        self.small_hardware_limit = 100 * 1024 * 1024  # 100MB limit for small hardware
         
         print("\n" + "="*60)
         print("🧠 AI DUNGEON MASTER - ULTIMATE GAME SCANNER")
-        print("   Scanning for: N64, PS1, GameBoy, GBA, NES, SNES")
-        print("   Optimizing for small hardware")
+        print("   Focusing on: N64 and 3DS")
+        print("   Powered by RetroReversing Tools")
         print("="*60 + "\n")
     
     def scan_for_roms(self, path):
-        """Scan directory for ROMs of all types"""
+        """Scan directory for N64 and 3DS ROMs"""
         rom_extensions = {
             'n64': ['.z64', '.n64', '.v64', '.rom'],
-            'ps1': ['.iso', '.bin', '.cue', '.img', '.pbp'],
-            'gameboy': ['.gb', '.gbc', '.gbx'],
-            'gba': ['.gba', '.agb'],
-            'nes': ['.nes'],
-            'snes': ['.smc', '.sfc', '.fig'],
-            'genesis': ['.md', '.gen', '.bin'],
-            'other': ['.rom', '.bin', '.img']
+            '3ds': ['.3ds', '.cia', '.app', '.cxi', '.cci']
         }
         
         found = []
         
         try:
             for root, dirs, files in os.walk(path):
-                # Skip some directories
-                dirs[:] = [d for d in dirs if not d.startswith('.') and d not in ['node_modules', 'venv']]
+                # Skip irrelevant directories
+                dirs[:] = [d for d in dirs if not d.startswith('.') and d not in ['node_modules', 'venv', 'RetroReversing']]
                 
                 for file in files:
                     ext = os.path.splitext(file)[1].lower()
                     full_path = os.path.join(root, file)
                     
-                    # Check file size (skip huge files)
+                    # Check file size (skip huge files > 4GB)
                     try:
                         size = os.path.getsize(full_path)
-                        if size > 500 * 1024 * 1024:  # Skip files > 500MB
+                        if size > 4000 * 1024 * 1024:
                             continue
                     except:
                         continue
@@ -66,29 +55,31 @@ class UltimateScanner:
                     # Categorize by extension
                     for category, exts in rom_extensions.items():
                         if ext in exts:
+                            # Deep Analysis using RetroReversing tools (for N64)
+                            metadata = self.analyzer.get_deep_metadata(category, full_path)
+                            
                             self.all_games[category].append({
                                 "path": full_path,
                                 "size": size,
-                                "name": file
+                                "name": file,
+                                "metadata": metadata
                             })
                             found.append(full_path)
                             break
         except Exception as e:
-            pass
+            print(f"Error scanning {path}: {e}")
         
         return found
     
     def scan_everything(self):
         """Scan all common locations"""
-        print("🧠 AI: Scanning entire PC for games...\n")
+        print("🧠 AI: Scanning for N64 and 3DS games...\n")
         
         scan_paths = [
             "/home/donn",
             "/home/donn/N64",
             "/home/donn/HylianModding",
-            "/home/donn/.local/share/Steam/steamapps/common",
-            "/media",
-            "/mnt"
+            "/home/donn/Downloads"
         ]
         
         total_found = 0
@@ -109,18 +100,18 @@ class UltimateScanner:
     
     def create_interworld_travel(self):
         """Create travel system between game worlds"""
-        print("\n🧠 AI: Creating INTER-WORLD TRAVEL SYSTEM...\n")
+        print("\n🧠 AI: Creating N64/3DS INTER-WORLD TRAVEL SYSTEM...\n")
         
         worlds = []
         world_id = 0
         
-        # Create worlds from each game type
+        # Create worlds
         for category, games in self.all_games.items():
             if not games:
                 continue
             
-            # Take up to 10 games per category for small hardware
-            for game in games[:10]:
+            # Take up to 20 games per category
+            for game in games[:20]:
                 world = {
                     "id": f"world_{world_id}",
                     "name": os.path.splitext(game["name"])[0],
@@ -129,66 +120,43 @@ class UltimateScanner:
                     "size_mb": game["size"] / (1024*1024),
                     "small_hardware_ok": game["size"] < self.small_hardware_limit,
                     "tasks": self.generate_tasks(category),
-                    "connections": []  # Will be filled later
+                    "connections": []
                 }
                 worlds.append(world)
                 world_id += 1
         
-        # Create connections (all worlds connected to hub)
-        hub_world = next((w for w in worlds if w["game_type"] == "n64"), worlds[0])
-        for world in worlds:
-            if world["id"] != hub_world["id"]:
-                world["connections"].append(hub_world["id"])
-        
-        print(f"✅ Created {len(worlds)} game worlds")
-        print(f"   Hub world: {hub_world['name']}")
-        print(f"   Small hardware compatible: {sum(1 for w in worlds if w['small_hardware_ok'])} worlds")
+        # Hub logic (prefer N64)
+        if worlds:
+            hub_world = next((w for w in worlds if w["game_type"] == "n64"), worlds[0])
+            for world in worlds:
+                if world["id"] != hub_world["id"]:
+                    world["connections"].append(hub_world["id"])
         
         return worlds
     
     def generate_tasks(self, game_type):
-        """Generate tasks for each game world"""
-        tasks = {
-            "n64": [
+        """Generate tasks for N64 or 3DS worlds"""
+        if game_type == "n64":
+            return [
                 {"name": "Defeat Gohma Carrier", "reward": "New Ship", "difficulty": 3},
                 {"name": "Collect 10 Triforce Shards", "reward": "Shield Upgrade", "difficulty": 2},
                 {"name": "Clear Skulltula Swarm", "reward": "AI Ally", "difficulty": 4}
-            ],
-            "ps1": [
-                {"name": "Survive the Horror", "reward": "Horror Ship Skin", "difficulty": 5},
-                {"name": "Race to Finish", "reward": "Speed Boost", "difficulty": 3},
-                {"name": "Defeat Final Boss", "reward": "Legendary Weapon", "difficulty": 5}
-            ],
-            "gameboy": [
-                {"name": "Collect 8 Items", "reward": "Pocket Ship", "difficulty": 1},
-                {"name": "Clear 4 Levels", "reward": "Mini Ally", "difficulty": 2},
-                {"name": "Beat High Score", "reward": "Retro Paint Job", "difficulty": 3}
-            ],
-            "gba": [
-                {"name": "Advance Through World", "reward": "Advanced Engine", "difficulty": 3},
-                {"name": "Collect All Coins", "reward": "Coin Multiplier", "difficulty": 2},
-                {"name": "Defeat Mini Boss", "reward": "Mini Weapon", "difficulty": 4}
             ]
-        }
-        
-        return tasks.get(game_type, [
-            {"name": "Explore World", "reward": "Exploration Badge", "difficulty": 1},
-            {"name": "Defeat Enemies", "reward": "Combat Rating", "difficulty": 2}
-        ])
+        elif game_type == "3ds":
+            return [
+                {"name": "Sync StreetPass Data", "reward": "Communication Array", "difficulty": 2},
+                {"name": "Survive 3D Dimension Shift", "reward": "Dimensional Engine", "difficulty": 5},
+                {"name": "Defeat Totem Boss", "reward": "Totem Weapon", "difficulty": 6}
+            ]
+        return []
     
     def save_ultimate_config(self, worlds):
-        """Save the ultimate open world config"""
+        """Save the refined config"""
         config = {
             "generated_at": datetime.now().isoformat(),
             "ai_dungeon_master": True,
             "total_worlds": len(worlds),
             "game_types": {k: len(v) for k, v in self.all_games.items()},
-            "small_hardware_optimized": True,
-            "interworld_travel": True,
-            "task_system": True,
-            "base_building": True,
-            "factory_system": True,
-            "modifiable_ships": True,
             "worlds": worlds,
             "hub_world": worlds[0]["id"] if worlds else None
         }
@@ -197,36 +165,13 @@ class UltimateScanner:
         with open(config_path, 'w') as f:
             json.dump(config, f, indent=2)
         
-        print(f"\n✅ ULTIMATE CONFIG SAVED: {config_path}")
-        print(f"   Total Worlds: {len(worlds)}")
-        print(f"   Ready for inter-world travel!")
-        
+        print(f"\n✅ REFINED CONFIG SAVED: {config_path}")
         return config_path
-    
+
     def run(self):
-        """Run the ultimate scanner"""
-        print("\n" + "="*60)
-        print("🧠 AI DUNGEON MASTER: ULTIMATE SCAN COMPLETE")
-        print("="*60 + "\n")
-        
         self.scan_everything()
         worlds = self.create_interworld_travel()
-        config_path = self.save_ultimate_config(worlds)
-        
-        print("\n" + "="*60)
-        print("✅ ULTIMATE OPEN WORLD READY!")
-        print("="*60)
-        print(f"   Features:")
-        print(f"   - Inter-world travel between {len(worlds)} game worlds")
-        print(f"   - Task system in each world")
-        print(f"   - Optimized for small hardware")
-        print(f"   - Base building & factory systems")
-        print(f"   - Modifiable ships")
-        print(f"   - AI Dungeon Master controls everything")
-        print("="*60)
-        print(f"\n🧠 AI: Fly to different game worlds to complete tasks!")
-        
-        return config_path
+        return self.save_ultimate_config(worlds)
 
 if __name__ == "__main__":
     scanner = UltimateScanner()
