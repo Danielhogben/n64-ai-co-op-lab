@@ -1,8 +1,82 @@
-import socket
 import subprocess
+import time
+import threading
 from pathlib import Path
+from datetime import datetime
+
+# Test suite imports
 from helpers import assert_true
 from engine_connector import EngineConnector
+
+class ServiceMonitor:
+    """Background monitor that logs service health every N seconds."""
+
+    def __init__(self, interval: int = 5, log_path: str = None):
+        self.interval = interval
+        self.log_path = Path(log_path or "/home/donn/HylianModding/AI_DM/monitor.log")
+        self._stop = threading.Event()
+        self._thread = None
+
+    def _check(self) -> dict:
+        """Return health snapshot of all services."""
+        snapshot = {
+            "timestamp": datetime.utcnow().isoformat() + "Z",
+            "services": {}
+        }
+        # Engine
+        r = subprocess.run(["pgrep", "-f", "engine/main.py"], capture_output=True, text=True)
+        snapshot["services"]["engine"] = bool(r.stdout.strip())
+        # Game
+        r1 = subprocess.run(["pgrep", "-f", "soh.appimage"], capture_output=True, text=True)
+        r2 = subprocess.run(["pgrep", "-f", "soh"], capture_output=True, text=True)
+        pids = set(r1.stdout.split() + r2.stdout.split())
+        snapshot["services"]["game"] = len(pids) > 0
+        # Sail
+        r = subprocess.run(["pgrep", "-f", "sail_server"], capture_output=True, text=True)
+        snapshot["services"]["sail"] = bool(r.stdout.strip())
+        # Anchor
+        r = subprocess.run(["pgrep", "-f", "anchor_server"], capture_output=True, text=True)
+        snapshot["services"]["anchor"] = bool(r.stdout.strip())
+        # Ports
+        ss = subprocess.run(["ss", "-tln"], capture_output=True, text=True).stdout
+        snapshot["ports"] = {
+            "anchor_43383": ":43383" in ss,
+            "sail_43384": ":43384" in ss,
+        }
+        return snapshot
+
+    def _log(self, snapshot: dict):
+        entry = f"[{snapshot['timestamp']}] "
+        svc = snapshot["services"]
+        entry += f"engine={'✓' if svc['engine'] else '✗'} game={'✓' if svc['game'] else '✗'} sail={'✓' if svc['sail'] else '✗'} anchor={'✓' if svc['anchor'] else '✗'} | ports: anchor_43383={snapshot['ports']['anchor_43383']} sail_43384={snapshot['ports']['sail_43384']}"
+        with open(self.log_path, "a") as f:
+            f.write(entry + "\n")
+
+    def _loop(self):
+        while not self._stop.is_set():
+            snap = self._check()
+            self._log(snap)
+            time.sleep(self.interval)
+
+    def start(self):
+        if self._thread and self._thread.is_alive():
+            return
+        self._stop.clear()
+        self._thread = threading.Thread(target=self._loop, daemon=True)
+        self._thread.start()
+        print(f"[Monitor] Started (interval={self.interval}s, log={self.log_path})")
+
+    def stop(self):
+        self._stop.set()
+        if self._thread:
+            self._thread.join(timeout=2)
+        print("[Monitor] Stopped")
+
+# Auto-start when imported if environment variable set
+import os
+if os.environ.get("NEXUS_MONITOR_AUTOSTART"):
+    mon = ServiceMonitor()
+    mon.start()
 
 def ensure_game_running(timeout: int = 15) -> bool:
     """Start the game via launcher if not already running."""
