@@ -1,0 +1,20 @@
+{
+  "file": "/home/donn/N64/roms/Legend of Zelda, The - Majora's Mask (USA).z64",
+  "title": "ZELDA MAJORA'S MASK",
+  "cart_id": "'S",
+  "country": " M",
+  "version": 65,
+  "cic_chip": 0,
+  "crc1": "0x0000144B",
+  "crc2": "0x5354631C"
+}
+{
+  "file": "/home/donn/N64/roms/Legend of Zelda, The - Ocarina of Time (USA) (Rev 2).z64",
+  "title": "THE LEGEND OF ZELDA",
+  "cart_id": "F ",
+  "country": "ZE",
+  "version": 76,
+  "cic_chip": 0,
+  "crc1": "0x00001449",
+  "crc2": "0x693BA2AE"
+}

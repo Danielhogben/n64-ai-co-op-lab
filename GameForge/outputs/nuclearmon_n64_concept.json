@@ -1,0 +1,126 @@
+{
+  "generated_at": "2026-05-03T17:15:25.506745",
+  "franchise": "nuclearmon",
+  "platform": "n64",
+  "title": "NuclearMon: Ashlands",
+  "subtitle": "Post-Nuclear Pok\u00e9mon War",
+  "genre": "Action RPG / Creature Collector / Survival",
+  "platform_specs": {
+    "poly_budget": 1500,
+    "texture_size": "32x32 to 64x64",
+    "color_depth": "16-bit",
+    "engine": "libdragon / OoT Decomp / ModLoader64 / Ship of Harkinian",
+    "aesthetic": "Low-poly, heavy fog, point-filtered textures, 320x240"
+  },
+  "story_hook": "Thirty years ago, the Great War scorched Kanto. The missiles fell on Cinnabar, on Saffron, on the Pok\u00e9mon League itself. When the skies burned green, the Pok\u00e9mon didn't die. They changed. Mutated. Became something new and terrible. Now, Pok\u00e9 Balls are currency. Pure-strain Pok\u00e9mon are myths. And in the crater where Viridian City once stood, something vast stirs beneath the ash.",
+  "core_loop": "1. Explore the wasteland (third-person, n64 controls)\n2. Engage mutated Pok\u00e9mon in real-time combat (Z-target + C-button moves)\n3. Weaken and capture using scarce Pok\u00e9 Balls\n4. Manage radiation exposure and Pok\u00e9mon mutation levels\n5. Scavenge, craft, and trade with factions\n6. Uncover the truth behind The Flash",
+  "environments": [
+    "Viridian Crater",
+    "Pallet Ruins",
+    "Mt. Moon Mine",
+    "Cerulean Canal",
+    "Saffron Scrapyard",
+    "Cinnabar Reactor"
+  ],
+  "factions": [
+    "Silph Remnant",
+    "Rad Cult",
+    "Oak Enclave",
+    "Rocket Reborn",
+    "Vault Dwellers"
+  ],
+  "starter_pokemon": [
+    "Mutated Bulbasaur",
+    "Nuclear Charmander",
+    "Toxic Squirtle"
+  ],
+  "legendary_boss": "Nuclear Charizard (Cinnabar Reactor)",
+  "key_items": [
+    "Scrap Pok\u00e9 Ball",
+    "RadAway",
+    "Mutagen Syringe",
+    "Geiger Counter"
+  ],
+  "controls": "Analog stick + A/B/Z + C-buttons + R/L",
+  "chapters": [
+    {
+      "title": "The Cradle",
+      "location": "Pallet Ruins",
+      "boss": "Rad-Rattata Pack Alpha",
+      "mechanic": "Basic combat & capture",
+      "summary": "You wake in Pallet Ruins. Professor Oak's AI hologram gives you your first pure-strain starter and warns you about the crater."
+    },
+    {
+      "title": "Into the Ash",
+      "location": "Viridian Crater Edge",
+      "boss": "Glowing Onix",
+      "mechanic": "Radiation zones & RadAway",
+      "summary": "Your first journey into high-rad territory. The Geiger Counter becomes essential. You discover the Rad Cult performing rituals."
+    },
+    {
+      "title": "The Silph Gate",
+      "location": "Saffron Scrapyard",
+      "boss": "Mecha-Rhydon",
+      "mechanic": "Faction reputation & trading",
+      "summary": "The Silph Remnant controls Pok\u00e9 Ball manufacturing. Help them, and gain access to Military Balls. Cross them, and face their mechs."
+    },
+    {
+      "title": "Canal of Ghosts",
+      "location": "Cerulean Canal",
+      "boss": "Toxic Gyarados",
+      "mechanic": "Underwater/aquatic combat",
+      "summary": "The flooded city hides pre-war tech. The water-types here are bioluminescent horrors. Oak Enclave needs samples."
+    },
+    {
+      "title": "Mine of Whispers",
+      "location": "Mt. Moon Mine",
+      "boss": "Glowing Onix Prime",
+      "mechanic": "Cave exploration & light management",
+      "summary": "Uranium veins run through the old caves. The deeper you go, the more mutated the Pok\u00e9mon. A Vault Dweller settlement needs rescue."
+    },
+    {
+      "title": "Meltdown",
+      "location": "Cinnabar Reactor",
+      "boss": "Nuclear Charizard",
+      "mechanic": "Final boss: mutation purging & legendary capture",
+      "summary": "The reactor core still burns. Nuclear Charizard nests here, absorbing radiation for decades. This is the end\u2014or the beginning."
+    }
+  ],
+  "mod_ideas": [
+    {
+      "name": "Hardcore Mode",
+      "description": "Permadeath. No RadAway. Pok\u00e9 Balls break after 3 uses.",
+      "complexity": "Easy"
+    },
+    {
+      "name": "New Game+",
+      "description": "Carry over mutation research. Enemies scale. New legendary spawns.",
+      "complexity": "Medium"
+    },
+    {
+      "name": "Co-op Companion",
+      "description": "Second player controls your lead Pok\u00e9mon in split-screen.",
+      "complexity": "Hard"
+    },
+    {
+      "name": "The Vaults",
+      "description": "10 underground dungeon maps with pre-war loot and pure-strain Pok\u00e9mon.",
+      "complexity": "Medium"
+    },
+    {
+      "name": "Nuka-Cherry Overhaul",
+      "description": "Add addiction system. Too much healing causes hallucination battles.",
+      "complexity": "Medium"
+    },
+    {
+      "name": "Rocket Reborn Uprising",
+      "description": "New faction war questline. Capture or destroy Rocket bases.",
+      "complexity": "Hard"
+    },
+    {
+      "name": "Ghastly Nights",
+      "description": "Night-only survival mode. Ghost/Radiation types swarm. Build defenses.",
+      "complexity": "Medium"
+    }
+  ]
+}

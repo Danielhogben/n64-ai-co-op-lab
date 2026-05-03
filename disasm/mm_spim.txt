@@ -1,0 +1,3 @@
+usage: spimdisasm [-h] [-V]
+                  {disasmdis,singleFileDisasm,elfObjDisasm,rspDisasm} ...
+spimdisasm: error: argument {disasmdis,singleFileDisasm,elfObjDisasm,rspDisasm}: invalid choice: "/home/donn/N64/roms/Legend of Zelda, The - Majora's Mask (USA).z64" (choose from disasmdis, singleFileDisasm, elfObjDisasm, rspDisasm)

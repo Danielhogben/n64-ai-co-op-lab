@@ -1,0 +1,3 @@
+Using input file: '/home/donn/N64/roms/Legend of Zelda, The - Ocarina of Time (USA) (Rev 2).z64'
+Using output directory: '-'
+                                                                                Analyzing: 0.000000%. File: -

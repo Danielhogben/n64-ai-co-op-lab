@@ -1,0 +1,69 @@
+{
+  "title": "THE BIG BANG CROSSOVER EVENT",
+  "games_involved": [
+    "nuclearmon",
+    "stellarmon"
+  ],
+  "generated_at": "2026-05-03T17:10:32.713920",
+  "premise": "In every timeline, the Moon watches. In NuclearMon's timeline, it was silent during The Flash\u2014but astronomers noted it pulsed green. In StellarMon's timeline, it cracked open. The truth: they are the SAME Moon, across divergent timelines. The Big Bang Event is the moment when a Trainer in the Ashlands discovers an ancient Silph prototype\u2014the CHRONOS BALL\u2014and catches a Pok\u00e9mon that exists outside time. The catch creates a paradox. The timelines bleed. Nuclear Charizard's radiation reaches space. Eclipse Mewtwo's psychic scream echoes backward through time. And a new legendary is born: BIG BANG ARCEUS, the Pok\u00e9mon that existed before the universe, now furious that mortals have weaponized its children.",
+  "phases": [
+    {
+      "phase": 1,
+      "name": "The Signal",
+      "description": "Players in both games receive a mysterious transmission. In NuclearMon: a radio signal from space. In StellarMon: an ancient Earth broadcast."
+    },
+    {
+      "phase": 2,
+      "name": "The Breach",
+      "description": "A portal opens. NuclearMon trainers see space Pok\u00e9mon in the wasteland. StellarMon rangers find ash-covered, mutated Pok\u00e9mon on colony ships."
+    },
+    {
+      "phase": 3,
+      "name": "The Paradox",
+      "description": "Catching a crossover Pok\u00e9mon in one game makes it appear in the other\u2014with transformed stats and types."
+    },
+    {
+      "phase": 4,
+      "name": "The Convergence",
+      "description": "Both games unlock a shared final dungeon: The Lunar Core. Requires save data from both games to enter."
+    },
+    {
+      "phase": 5,
+      "name": "The Big Bang",
+      "description": "Battle Big Bang Arceus. It uses moves from both games. Victory unlocks the CHRONOS BALL in both save files permanently."
+    }
+  ],
+  "crossover_pokemon": [
+    {
+      "name": "Void-Rad Charizard",
+      "origin": "NuclearMon \u2192 StellarMon",
+      "type": "Fire/Nuclear/Void",
+      "lore": "A Charizard that absorbed so much radiation it punched through reality and now drifts in the void between stars."
+    },
+    {
+      "name": "Lunar Mewtwo",
+      "origin": "StellarMon \u2192 NuclearMon",
+      "type": "Psychic/Cosmic",
+      "lore": "Eclipse Mewtwo's psychic projection, sent backward in time to prevent The Flash. It failed. It stayed."
+    },
+    {
+      "name": "Big Bang Arceus",
+      "origin": "Both",
+      "type": "Normal/Cosmic/Nuclear",
+      "lore": "The Original One, angered by the corruption of its creations across all timelines."
+    }
+  ],
+  "rewards": {
+    "nuclearmon": [
+      "Chronos Ball",
+      "Space Suit armor",
+      "Starbound Ranger companion skin"
+    ],
+    "stellarmon": [
+      "Chronos Ball",
+      "Wasteland Survivor suit",
+      "Ashlands Charizard mount skin"
+    ]
+  },
+  "narrative": "In every timeline, the Moon watches. In NuclearMon's timeline, it was silent during The Flash\u2014but astronomers noted it pulsed green. In StellarMon's timeline, it cracked open. The truth: they are the SAME Moon, across divergent timelines. The Big Bang Event is the moment when a Trainer in the Ashlands discovers an ancient Silph prototype\u2014the CHRONOS BALL\u2014and catches a Pok\u00e9mon that exists outside time. The catch creates a paradox. The timelines bleed. Nuclear Charizard's radiation reaches space. Eclipse Mewtwo's psychic scream echoes backward through time. And a new legendary is born: BIG BANG ARCEUS, the Pok\u00e9mon that existed before the universe, now furious that mortals have weaponized its children."
+}

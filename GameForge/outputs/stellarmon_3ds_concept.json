@@ -1,0 +1,126 @@
+{
+  "generated_at": "2026-05-03T17:10:32.662546",
+  "franchise": "stellarmon",
+  "platform": "3ds",
+  "title": "StellarMon: Moonfall",
+  "subtitle": "When the Moon Killed the World",
+  "genre": "Space Exploration RPG / Colony Sim / Creature Collector",
+  "platform_specs": {
+    "poly_budget": 4000,
+    "texture_size": "256x256",
+    "color_depth": "24-bit color",
+    "engine": "Citra / Luma3DS / Unity",
+    "aesthetic": "Stereoscopic 3D, dual screen UI, clean low-poly"
+  },
+  "story_hook": "200 years ago, the Moon fell. Not an impact\u2014a transformation. Luna cracked open like an egg, and from it poured the Cosmic Seeds: dormant Pok\u00e9mon DNA from before Earth's formation. The world was reshaped. Gravity failed in places. The oceans floated. Humanity fled to orbital colonies. Now, you are a Starbound Ranger, taming Void Pok\u00e9mon in the wreckage of old Earth and the colonies beyond. But something is waking on the dark side of the Moon. Something that remembers.",
+  "core_loop": "1. Pilot your colony ship between orbital zones (space map)\n2. Land on shattered Earth fragments or colony stations\n3. Discover and tame Cosmic Pok\u00e9mon variants (Vacuum Balls)\n4. Build colonies, manage oxygen, grow food\n5. Defend against Void Breeder raids\n6. Unlock warp gates to reach the Moon and confront Eclipse Mewtwo",
+  "environments": [
+    "Shattered Earth Orbit",
+    "Lunar Colony Alpha",
+    "Mars Terraform Zone",
+    "Asteroid Belt Gyms",
+    "Deep Space Void",
+    "The Eclipse Station"
+  ],
+  "factions": [
+    "Lunar Collective",
+    "Terran Remnant",
+    "The Void Breeders",
+    "Aether Corp",
+    "Starbound Rangers"
+  ],
+  "starter_pokemon": [
+    "Void Eevee",
+    "Lunar Cubone",
+    "Comet Clefairy"
+  ],
+  "legendary_boss": "Eclipse Mewtwo (Dark Side of the Moon base)",
+  "key_items": [
+    "Vacuum Ball",
+    "Oxygen Tank",
+    "Terraforming Seed",
+    "Warp Drive"
+  ],
+  "controls": "Circle Pad + D-Pad + A/B/X/Y + L/R + Touch Screen",
+  "chapters": [
+    {
+      "title": "Orphan of Earth",
+      "location": "Shattered Earth Orbit",
+      "boss": "Gravity-Titan Snorlax",
+      "mechanic": "Zero-G movement & Vacuum Ball capture",
+      "summary": "You were born on Colony 7. Your first mission: retrieve a drifting Pok\u00e9 Ball manufacturing satellite. Inside: a Void Eevee."
+    },
+    {
+      "title": "Lunar Shadow",
+      "location": "Lunar Colony Alpha",
+      "boss": "Lunar Marowak",
+      "mechanic": "Oxygen management & colony building",
+      "summary": "The Moon colonies are failing. Terraform the surface, establish oxygen generators, and discover why colonists are vanishing."
+    },
+    {
+      "title": "Red Dust",
+      "location": "Mars Terraform Zone",
+      "boss": "Terraform Tyranitar",
+      "mechanic": "Terraforming minigame & agriculture",
+      "summary": "Mars is halfway habitable. Plant Terraforming Seeds, defend against dust storms, and find the ancient Pok\u00e9mon buried in Olympus Mons."
+    },
+    {
+      "title": "The Belt",
+      "location": "Asteroid Belt Gyms",
+      "boss": "Asteroid Champion Machamp",
+      "mechanic": "Six-on-six space gym battles",
+      "summary": "The Asteroid Belt is lawless. Pirate gyms rule individual rocks. Earn the 8 Belt Badges to unlock the warp gate."
+    },
+    {
+      "title": "Void Breach",
+      "location": "Deep Space Void",
+      "boss": "Void Legendary Rayquaza",
+      "mechanic": "Ship combat & boarding parties",
+      "summary": "The Void Breeders attack in force. Their ships are grown, not built\u2014bio-mechanical Pok\u00e9mon hybrids. Board them. Capture them."
+    },
+    {
+      "title": "The Eclipse",
+      "location": "The Eclipse Station",
+      "boss": "Eclipse Mewtwo",
+      "mechanic": "Reality-warping final battle",
+      "summary": "On the dark side of the Moon, Eclipse Mewtwo waits. It remembers Earth. It remembers you. The Cosmic Seed must be planted\u2014or destroyed."
+    }
+  ],
+  "mod_ideas": [
+    {
+      "name": "Hardcore Mode",
+      "description": "Permadeath. No RadAway. Pok\u00e9 Balls break after 3 uses.",
+      "complexity": "Easy"
+    },
+    {
+      "name": "New Game+",
+      "description": "Carry over mutation research. Enemies scale. New legendary spawns.",
+      "complexity": "Medium"
+    },
+    {
+      "name": "Co-op Companion",
+      "description": "Second player controls your lead Pok\u00e9mon in split-screen.",
+      "complexity": "Hard"
+    },
+    {
+      "name": "Satellite Defense",
+      "description": "Tower defense mod for colony ships. Deploy Pok\u00e9mon as turrets.",
+      "complexity": "Medium"
+    },
+    {
+      "name": "The Outer Rim",
+      "description": "Procedurally generated planets beyond the Belt. Infinite exploration.",
+      "complexity": "Hard"
+    },
+    {
+      "name": "Cosmic Breeding",
+      "description": "Breed Pok\u00e9mon in zero-G for rare cosmic-type variants.",
+      "complexity": "Medium"
+    },
+    {
+      "name": "Holodeck Challenges",
+      "description": "Simulated Earth environments. Nostalgia-driven puzzle dungeons.",
+      "complexity": "Easy"
+    }
+  ]
+}
