@@ -1,0 +1,30 @@
+{
+  "services": {
+    "dm_daemon": {
+      "alive": true,
+      "last_check": 1777819343.2894065
+    },
+    "sail_server": {
+      "alive": true,
+      "last_check": 1777819343.3156102
+    },
+    "anchor_server": {
+      "alive": true,
+      "last_check": 1777819343.3421261
+    },
+    "vllm_server": {
+      "alive": true,
+      "last_check": 1777819343.3680582
+    },
+    "openclaw_gateway": {
+      "alive": true,
+      "last_check": 1777819343.3932772
+    },
+    "hermes_agent": {
+      "alive": true,
+      "last_check": 1777819343.4195387
+    }
+  },
+  "alerts": {},
+  "last_run": 1777819343.4197304
+}
